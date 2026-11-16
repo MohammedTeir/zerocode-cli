@@ -1,3 +1,5 @@
+Superseded by docs/phase0-gates.md. Evidence is from dev at d432a06b9c, not the v2.3.0 baseline.
+
 # ZeroCode CLI — Phase 0 Architecture and Fork Plan
 
 **Status:** Phase 0 inspection complete; no source-code changes made. The report was refreshed after the fork synchronized with upstream on 2026-11-16.
