@@ -1,0 +1,52 @@
+bun install v1.4.4 (38afee6c8)
+Resolving dependencies
+Resolved, downloaded and extracted [19]
+warn: patches/@standard-community%2Fstandard-openapi@0.2.9.patch no longer applies (@standard-community/standard-openapi is no longer installed)
+warn: patches/@ai-sdk%2Fmistral@3.0.51.patch no longer applies (@ai-sdk/mistral is no longer installed)
+warn: patches/gcp-metadata@8.1.2.patch no longer applies (gcp-metadata is now 8.1.4)
+warn: patches/@ai-sdk%2Fgoogle@3.0.73.patch no longer applies (@ai-sdk/google is no longer installed)
+warn: skipping @ff-labs/fff-bin-darwin-arm64@0.10.5: unsupported platform (wants os "darwin")
+
+warn: skipping @ff-labs/fff-bin-linux-x64-gnu@0.10.5: unsupported platform (wants cpu "x64")
+
+warn: skipping @ff-labs/fff-bin-win32-arm64@0.10.5: unsupported platform (wants os "win32")
+
+warn: skipping @ff-labs/fff-bin-win32-x64@0.10.5: unsupported platform (wants os "win32", cpu "x64")
+
+warn: skipping @lydell/node-pty-darwin-arm64@1.2.0-beta.12: unsupported platform (wants os "darwin")
+
+warn: skipping @lydell/node-pty-darwin-x64@1.2.0-beta.12: unsupported platform (wants os "darwin", cpu "x64")
+
+warn: skipping @lydell/node-pty-linux-x64@1.2.0-beta.12: unsupported platform (wants cpu "x64")
+
+warn: skipping @lydell/node-pty-win32-arm64@1.2.0-beta.12: unsupported platform (wants os "win32")
+
+warn: skipping @lydell/node-pty-win32-x64@1.2.0-beta.12: unsupported platform (wants os "win32", cpu "x64")
+
+warn: skipping @parcel/watcher-darwin-arm64@2.5.1: unsupported platform (wants os "darwin")
+
+warn: skipping @parcel/watcher-linux-x64-glibc@2.5.1: unsupported platform (wants cpu "x64")
+
+warn: skipping @parcel/watcher-win32-arm64@2.5.1: unsupported platform (wants os "win32")
+
+warn: skipping @parcel/watcher-win32-x64@2.5.1: unsupported platform (wants os "win32", cpu "x64")
+
+warn: skipping @yuuang/ffi-rs-darwin-arm64@1.3.2: unsupported platform (wants os "darwin")
+
+warn: skipping @yuuang/ffi-rs-linux-x64-gnu@1.3.2: unsupported platform (wants cpu "x64")
+
+warn: skipping @yuuang/ffi-rs-win32-arm64-msvc@1.3.2: unsupported platform (wants os "win32")
+
+warn: skipping @yuuang/ffi-rs-win32-x64-msvc@1.3.2: unsupported platform (wants os "win32", cpu "x64")
+
+warn: skipping @parcel/watcher-darwin-x64@2.5.1: unsupported platform (wants os "darwin", cpu "x64")
+
+warn: skipping @parcel/watcher-linux-x64-musl@2.5.1: unsupported platform (wants cpu "x64")
+
+$ bun run --cwd packages/core fix-node-pty
+$ bun run script/fix-node-pty.ts
+$ husky
+
+Checked 1672 installs across 2043 packages (no changes) [197.00ms]
+
+EXIT_CODE=0

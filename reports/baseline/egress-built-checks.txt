@@ -1,0 +1,515 @@
+
+===== upgrade --help =====
+$ upgrade --help
+DESCRIPTION
+  Upgrade OpenCode to the latest or a specific version
+
+USAGE
+  opencode upgrade [flags] [<target>]
+
+ARGUMENTS
+  target string    Version to upgrade to (with or without a leading v) (optional)
+
+FLAGS
+  --method, -m choice    Installation method to use (choices: curl, npm, pnpm, bun, yarn, vp, brew, winget)
+
+GLOBAL FLAGS
+  --help, -h                                                          Show help information
+  --version, -v                                                       Show version information
+  --wizard                                                            Start wizard mode for a command
+  --completions <bash|zsh|fish|powershell|sh|pwsh>                    Print shell completion script (choices: bash, zsh, fish, powershell, sh, pwsh)
+  --log-level <all|trace|debug|info|warn|warning|error|fatal|none>    Sets the minimum log level (choices: all, trace, debug, info, warn, warning, error, fatal, none)
+  --print-logs                                                        Print logs to stderr (server logs require --standalone)
+[exit=0]
+
+===== uninstall --help =====
+$ uninstall --help
+DESCRIPTION
+  Uninstall OpenCode, keeping session data, configuration, and state
+
+USAGE
+  opencode uninstall [flags]
+
+FLAGS
+  --dry-run      Show what would be removed without removing
+  --force, -f    Skip confirmation prompts
+
+GLOBAL FLAGS
+  --help, -h                                                          Show help information
+  --version, -v                                                       Show version information
+  --wizard                                                            Start wizard mode for a command
+  --completions <bash|zsh|fish|powershell|sh|pwsh>                    Print shell completion script (choices: bash, zsh, fish, powershell, sh, pwsh)
+  --log-level <all|trace|debug|info|warn|warning|error|fatal|none>    Sets the minimum log level (choices: all, trace, debug, info, warn, warning, error, fatal, none)
+  --print-logs                                                        Print logs to stderr (server logs require --standalone)
+[exit=0]
+
+===== acp --help =====
+$ acp --help
+DESCRIPTION
+  Start an Agent Client Protocol server
+
+USAGE
+  opencode acp [flags]
+
+FLAGS
+  --login    Run auth login instead of starting the server
+
+GLOBAL FLAGS
+  --help, -h                                                          Show help information
+  --version, -v                                                       Show version information
+  --wizard                                                            Start wizard mode for a command
+  --completions <bash|zsh|fish|powershell|sh|pwsh>                    Print shell completion script (choices: bash, zsh, fish, powershell, sh, pwsh)
+  --log-level <all|trace|debug|info|warn|warning|error|fatal|none>    Sets the minimum log level (choices: all, trace, debug, info, warn, warning, error, fatal, none)
+  --print-logs                                                        Print logs to stderr (server logs require --standalone)
+[exit=0]
+
+===== api --help =====
+$ api --help
+DESCRIPTION
+  Make a request to the running server
+
+USAGE
+  opencode api [flags] <operation | method path...>
+
+ARGUMENTS
+  operation | method path... string OpenAPI operation ID, or an HTTP method followed by a path
+
+FLAGS
+  --data, -d string      Request body
+  --header, -H string    Request header in name:value form
+  --param key=value      OpenAPI path or query parameter
+
+GLOBAL FLAGS
+  --help, -h                                                          Show help information
+  --version, -v                                                       Show version information
+  --wizard                                                            Start wizard mode for a command
+  --completions <bash|zsh|fish|powershell|sh|pwsh>                    Print shell completion script (choices: bash, zsh, fish, powershell, sh, pwsh)
+  --log-level <all|trace|debug|info|warn|warning|error|fatal|none>    Sets the minimum log level (choices: all, trace, debug, info, warn, warning, error, fatal, none)
+  --print-logs                                                        Print logs to stderr (server logs require --standalone)
+  --standalone                                                        Run with a private server instead of the background service
+  --server string                                                     Connect to a server URL instead of the background service
+[exit=0]
+
+===== debug --help =====
+$ debug --help
+DESCRIPTION
+  Debugging and troubleshooting tools
+
+USAGE
+  opencode debug <subcommand> [flags]
+
+GLOBAL FLAGS
+  --help, -h                                                          Show help information
+  --version, -v                                                       Show version information
+  --wizard                                                            Start wizard mode for a command
+  --completions <bash|zsh|fish|powershell|sh|pwsh>                    Print shell completion script (choices: bash, zsh, fish, powershell, sh, pwsh)
+  --log-level <all|trace|debug|info|warn|warning|error|fatal|none>    Sets the minimum log level (choices: all, trace, debug, info, warn, warning, error, fatal, none)
+  --print-logs                                                        Print logs to stderr (server logs require --standalone)
+
+SUBCOMMANDS
+  agents       List all agents
+  config       List configuration sources
+  heap-dump    Write a heap snapshot of the running server and print its path
+  paths        Show global paths (data, config, cache, state)
+[exit=0]
+
+===== auth --help =====
+$ auth --help
+DESCRIPTION
+  manage integrations and credentials
+
+USAGE
+  opencode auth <subcommand> [flags]
+
+GLOBAL FLAGS
+  --help, -h                                                          Show help information
+  --version, -v                                                       Show version information
+  --wizard                                                            Start wizard mode for a command
+  --completions <bash|zsh|fish|powershell|sh|pwsh>                    Print shell completion script (choices: bash, zsh, fish, powershell, sh, pwsh)
+  --log-level <all|trace|debug|info|warn|warning|error|fatal|none>    Sets the minimum log level (choices: all, trace, debug, info, warn, warning, error, fatal, none)
+  --print-logs                                                        Print logs to stderr (server logs require --standalone)
+  --standalone                                                        Run with a private server instead of the background service
+  --server string                                                     Connect to a server URL instead of the background service
+
+SUBCOMMANDS
+  list      list integrations and credentials
+  login     connect an integration
+  logout    log out of a saved account
+  export    print stored credentials, including secrets, as JSON
+  import    import credentials exported by auth export
+  switch    switch the active account for an integration
+[exit=0]
+
+===== mcp --help =====
+$ mcp --help
+DESCRIPTION
+  Manage MCP (Model Context Protocol) servers
+
+USAGE
+  opencode mcp <subcommand> [flags]
+
+GLOBAL FLAGS
+  --help, -h                                                          Show help information
+  --version, -v                                                       Show version information
+  --wizard                                                            Start wizard mode for a command
+  --completions <bash|zsh|fish|powershell|sh|pwsh>                    Print shell completion script (choices: bash, zsh, fish, powershell, sh, pwsh)
+  --log-level <all|trace|debug|info|warn|warning|error|fatal|none>    Sets the minimum log level (choices: all, trace, debug, info, warn, warning, error, fatal, none)
+  --print-logs                                                        Print logs to stderr (server logs require --standalone)
+
+SUBCOMMANDS
+  list      List configured MCP servers and their status
+  add       Add an MCP server to your configuration
+  auth      Authenticate with an OAuth-capable remote MCP server
+  logout    Remove stored OAuth credentials for an MCP server
+[exit=0]
+
+===== plugin --help =====
+$ plugin --help
+DESCRIPTION
+  Manage plugins
+
+USAGE
+  opencode plugin <subcommand> [flags]
+
+GLOBAL FLAGS
+  --help, -h                                                          Show help information
+  --version, -v                                                       Show version information
+  --wizard                                                            Start wizard mode for a command
+  --completions <bash|zsh|fish|powershell|sh|pwsh>                    Print shell completion script (choices: bash, zsh, fish, powershell, sh, pwsh)
+  --log-level <all|trace|debug|info|warn|warning|error|fatal|none>    Sets the minimum log level (choices: all, trace, debug, info, warn, warning, error, fatal, none)
+  --print-logs                                                        Print logs to stderr (server logs require --standalone)
+
+SUBCOMMANDS
+  list      List plugins
+  add       Install a plugin and add it to the global configuration
+  check     Check package plugins for updates
+  update    Update package plugins
+  remove    Remove a plugin from global configuration
+[exit=0]
+
+===== models --help =====
+$ models --help
+DESCRIPTION
+  List all available models
+
+USAGE
+  opencode models [flags]
+
+GLOBAL FLAGS
+  --help, -h                                                          Show help information
+  --version, -v                                                       Show version information
+  --wizard                                                            Start wizard mode for a command
+  --completions <bash|zsh|fish|powershell|sh|pwsh>                    Print shell completion script (choices: bash, zsh, fish, powershell, sh, pwsh)
+  --log-level <all|trace|debug|info|warn|warning|error|fatal|none>    Sets the minimum log level (choices: all, trace, debug, info, warn, warning, error, fatal, none)
+  --print-logs                                                        Print logs to stderr (server logs require --standalone)
+  --standalone                                                        Run with a private server instead of the background service
+  --server string                                                     Connect to a server URL instead of the background service
+[exit=0]
+
+===== stats --help =====
+$ stats --help
+DESCRIPTION
+  Show shareable usage statistics
+
+USAGE
+  opencode stats [flags]
+
+FLAGS
+  --days integer      Show the last N days; 0 means today
+  --year integer      Show a calendar year
+  --all               Show lifetime statistics
+  --project string    Filter by project ID, or use "." for the current project
+  --models            Show model usage
+  --tools             Show tool reliability
+  --cost              Show cost and token details
+  --full              Show every detailed section
+  --limit integer     Number of rows in detailed sections
+  --json              Output statistics as JSON
+
+GLOBAL FLAGS
+  --help, -h                                                          Show help information
+  --version, -v                                                       Show version information
+  --wizard                                                            Start wizard mode for a command
+  --completions <bash|zsh|fish|powershell|sh|pwsh>                    Print shell completion script (choices: bash, zsh, fish, powershell, sh, pwsh)
+  --log-level <all|trace|debug|info|warn|warning|error|fatal|none>    Sets the minimum log level (choices: all, trace, debug, info, warn, warning, error, fatal, none)
+  --print-logs                                                        Print logs to stderr (server logs require --standalone)
+  --standalone                                                        Run with a private server instead of the background service
+  --server string                                                     Connect to a server URL instead of the background service
+[exit=0]
+
+===== mini --help =====
+$ mini --help
+DESCRIPTION
+  Start the minimal interactive interface
+
+USAGE
+  opencode mini [flags]
+
+FLAGS
+  --continue, -c            Continue the last session
+  --session, -s string      Session ID to continue, or to create if it does not exist
+  --fork                    Fork the session when continuing
+  --replay                  Restore session history on resume and resize (disable with --no-replay)
+  --replay-limit integer    Limit replay to the newest N messages (default: 200)
+  --model, -m string        Model to use in the format provider/model
+  --agent string            Agent to use
+  --prompt string           Prompt to use
+
+GLOBAL FLAGS
+  --help, -h                                                          Show help information
+  --version, -v                                                       Show version information
+  --wizard                                                            Start wizard mode for a command
+  --completions <bash|zsh|fish|powershell|sh|pwsh>                    Print shell completion script (choices: bash, zsh, fish, powershell, sh, pwsh)
+  --log-level <all|trace|debug|info|warn|warning|error|fatal|none>    Sets the minimum log level (choices: all, trace, debug, info, warn, warning, error, fatal, none)
+  --print-logs                                                        Print logs to stderr (server logs require --standalone)
+  --standalone                                                        Run with a private server instead of the background service
+  --server string                                                     Connect to a server URL instead of the background service
+[exit=0]
+
+===== run --help =====
+$ run --help
+DESCRIPTION
+  Run OpenCode with a message
+
+USAGE
+  opencode run [flags] [<message...>]
+
+ARGUMENTS
+  message... string    Message to send (optional)
+
+FLAGS
+  --continue, -c            Continue the last session
+  --session, -s string      Session ID to continue, or to create if it does not exist
+  --fork                    Fork the session before continuing
+  --worktree, -w [=name]    Start a new session in a new git worktree, optionally with this name
+  --model, -m string        Model to use in the format provider/model#variant
+  --agent string            Agent to use
+  --format choice           Output format (choices: default, json)
+  --file, -f string         File to attach to the message
+  --title string            Session title
+  --archived                Create the session archived so it stays out of session lists (useful for scripted or CI runs)
+  --thinking                Show thinking blocks
+  --auto                    Auto-approve permissions that are not explicitly denied
+
+GLOBAL FLAGS
+  --help, -h                                                          Show help information
+  --version, -v                                                       Show version information
+  --wizard                                                            Start wizard mode for a command
+  --completions <bash|zsh|fish|powershell|sh|pwsh>                    Print shell completion script (choices: bash, zsh, fish, powershell, sh, pwsh)
+  --log-level <all|trace|debug|info|warn|warning|error|fatal|none>    Sets the minimum log level (choices: all, trace, debug, info, warn, warning, error, fatal, none)
+  --print-logs                                                        Print logs to stderr (server logs require --standalone)
+  --standalone                                                        Run with a private server instead of the background service
+  --server string                                                     Connect to a server URL instead of the background service
+[exit=0]
+
+===== pair --help =====
+$ pair --help
+DESCRIPTION
+  Print one-time links to connect a browser or app
+
+USAGE
+  opencode pair [flags]
+
+FLAGS
+  --url string    Use an external HTTP(S) server URL in pairing links
+  --remote        Pair through the OpenTunnel remote address, enabling remote access if needed (exposes the server to the internet)
+  --yes, -y       Accept exposing the server to the internet when --remote enables remote access for the first time (required without an interactive terminal)
+
+GLOBAL FLAGS
+  --help, -h                                                          Show help information
+  --version, -v                                                       Show version information
+  --wizard                                                            Start wizard mode for a command
+  --completions <bash|zsh|fish|powershell|sh|pwsh>                    Print shell completion script (choices: bash, zsh, fish, powershell, sh, pwsh)
+  --log-level <all|trace|debug|info|warn|warning|error|fatal|none>    Sets the minimum log level (choices: all, trace, debug, info, warn, warning, error, fatal, none)
+  --print-logs                                                        Print logs to stderr (server logs require --standalone)
+[exit=0]
+
+===== reload --help =====
+$ reload --help
+DESCRIPTION
+  Reload configuration
+
+USAGE
+  opencode reload [flags]
+
+GLOBAL FLAGS
+  --help, -h                                                          Show help information
+  --version, -v                                                       Show version information
+  --wizard                                                            Start wizard mode for a command
+  --completions <bash|zsh|fish|powershell|sh|pwsh>                    Print shell completion script (choices: bash, zsh, fish, powershell, sh, pwsh)
+  --log-level <all|trace|debug|info|warn|warning|error|fatal|none>    Sets the minimum log level (choices: all, trace, debug, info, warn, warning, error, fatal, none)
+  --print-logs                                                        Print logs to stderr (server logs require --standalone)
+  --standalone                                                        Run with a private server instead of the background service
+  --server string                                                     Connect to a server URL instead of the background service
+[exit=0]
+
+===== session --help =====
+$ session --help
+DESCRIPTION
+  Manage sessions
+
+USAGE
+  opencode session <subcommand> [flags]
+
+GLOBAL FLAGS
+  --help, -h                                                          Show help information
+  --version, -v                                                       Show version information
+  --wizard                                                            Start wizard mode for a command
+  --completions <bash|zsh|fish|powershell|sh|pwsh>                    Print shell completion script (choices: bash, zsh, fish, powershell, sh, pwsh)
+  --log-level <all|trace|debug|info|warn|warning|error|fatal|none>    Sets the minimum log level (choices: all, trace, debug, info, warn, warning, error, fatal, none)
+  --print-logs                                                        Print logs to stderr (server logs require --standalone)
+  --standalone                                                        Run with a private server instead of the background service
+  --server string                                                     Connect to a server URL instead of the background service
+
+SUBCOMMANDS
+  list      List top-level sessions in the current project, newest first
+  delete    Delete a session and its child sessions
+  export    Export session data as JSON
+  import    Import session data from a JSON file or URL
+[exit=0]
+
+===== service --help =====
+$ service --help
+DESCRIPTION
+  Manage the background server
+
+USAGE
+  opencode service <subcommand> [flags]
+
+GLOBAL FLAGS
+  --help, -h                                                          Show help information
+  --version, -v                                                       Show version information
+  --wizard                                                            Start wizard mode for a command
+  --completions <bash|zsh|fish|powershell|sh|pwsh>                    Print shell completion script (choices: bash, zsh, fish, powershell, sh, pwsh)
+  --log-level <all|trace|debug|info|warn|warning|error|fatal|none>    Sets the minimum log level (choices: all, trace, debug, info, warn, warning, error, fatal, none)
+  --print-logs                                                        Print logs to stderr (server logs require --standalone)
+
+SUBCOMMANDS
+  start      Start the background server
+  restart    Restart the background server
+  status     Show background server status
+  stop       Stop the background server
+  get        Get service configuration
+  set        Set service configuration
+  unset      Unset service configuration
+[exit=0]
+
+===== serve --help =====
+$ serve --help
+DESCRIPTION
+  Start the v2 API and web server
+
+USAGE
+  opencode serve [flags]
+
+FLAGS
+  --hostname string    
+  --port integer       
+  --cors string        Additional allowed CORS origin (repeat for multiple origins)
+  --service            
+  --stdio              
+
+GLOBAL FLAGS
+  --help, -h                                                          Show help information
+  --version, -v                                                       Show version information
+  --wizard                                                            Start wizard mode for a command
+  --completions <bash|zsh|fish|powershell|sh|pwsh>                    Print shell completion script (choices: bash, zsh, fish, powershell, sh, pwsh)
+  --log-level <all|trace|debug|info|warn|warning|error|fatal|none>    Sets the minimum log level (choices: all, trace, debug, info, warn, warning, error, fatal, none)
+  --print-logs                                                        Print logs to stderr (server logs require --standalone)
+[exit=0]
+
+===== default --help =====
+$ --help
+DESCRIPTION
+  OpenCode command line interface
+
+USAGE
+  opencode <subcommand> [flags] [<directory>]
+
+ARGUMENTS
+  directory string    Directory to start OpenCode in (optional)
+
+FLAGS
+  --standalone            Run with a private server instead of the background service
+  --server string         Connect to a server URL instead of the background service
+  --auto                  Auto-approve permissions that are not explicitly denied
+  --continue, -c          Continue the last session
+  --session, -s string    Session ID to continue, or to create if it does not exist
+  --prompt string         Prompt to use
+
+GLOBAL FLAGS
+  --help, -h                                                          Show help information
+  --version, -v                                                       Show version information
+  --wizard                                                            Start wizard mode for a command
+  --completions <bash|zsh|fish|powershell|sh|pwsh>                    Print shell completion script (choices: bash, zsh, fish, powershell, sh, pwsh)
+  --log-level <all|trace|debug|info|warn|warning|error|fatal|none>    Sets the minimum log level (choices: all, trace, debug, info, warn, warning, error, fatal, none)
+  --print-logs                                                        Print logs to stderr (server logs require --standalone)
+
+SUBCOMMANDS
+  upgrade, update    Upgrade OpenCode to the latest or a specific version
+  uninstall          Uninstall OpenCode, keeping session data, configuration, and state
+  acp                Start an Agent Client Protocol server
+  api                Make a request to the running server
+  debug              Debugging and troubleshooting tools
+  auth               manage integrations and credentials
+  mcp                Manage MCP (Model Context Protocol) servers
+  plugin             Manage plugins
+  models             List all available models
+  stats              Show shareable usage statistics
+  mini               Start the minimal interactive interface
+  run                Run OpenCode with a message
+  session            Manage sessions
+  service            Manage the background server
+  reload             Reload configuration
+  pair               Print one-time links to connect a browser or app
+  serve              Start the v2 API and web server
+[exit=0]
+
+===== version =====
+$ --version
+opencode v0.0.0-zerocode-baseline-202611160752
+[exit=0]
+
+===== auth list =====
+$ auth list
+OpenAI  OPENAI_API_KEY              environment
+[exit=0]
+
+===== mcp list =====
+$ mcp list
+[exit=124]
+
+===== plugin list =====
+$ plugin list
+[exit=124]
+
+===== models =====
+$ models
+[exit=124]
+
+===== stats =====
+$ stats
+[exit=124]
+
+===== session list =====
+$ session list
+[exit=124]
+
+===== service status =====
+$ service status
+stopped
+[exit=0]
+
+===== debug paths =====
+$ debug paths
+home       /tmp/tmp.o32E4KEHma
+data       /tmp/tmp.xD2cujsIgA/opencode
+cache      /tmp/tmp.8kWoMW7F8Z/opencode
+config     /tmp/tmp.5VytQda5dg/opencode
+state      /tmp/tmp.ztI9TtYb97/opencode
+tmp        /tmp/opencode
+bin        /tmp/tmp.8kWoMW7F8Z/opencode/bin
+log        /tmp/tmp.xD2cujsIgA/opencode/log
+repos      /tmp/tmp.xD2cujsIgA/opencode/repos
+db         /tmp/tmp.xD2cujsIgA/opencode/opencode-zerocode-baseline.db
+[exit=0]

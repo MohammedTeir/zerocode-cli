@@ -147,9 +147,11 @@ The compatibility roots are **not** off by default in this baseline. The report 
 
 Static inspection covered CLI/core/server/util sources for `fetch`, Effect `HttpClient`, WebSocket, updater, OAuth, model catalog, MCP, pairing, sharing, telemetry, GitHub, and hosted-service references. The static audit is not a claim that all remote behavior is disabled: model providers, remote MCP, explicitly configured instruction URLs, and explicitly selected server URLs are expected network features.
 
-For runtime checks, the built artifact `packages/cli/dist/cli-linux-arm64/bin/opencode` was run with temporary XDG/HOME directories and `HTTP_PROXY`, `HTTPS_PROXY`, and `ALL_PROXY` set to `http://127.0.0.1:9`, with `NO_PROXY` cleared. All required top-level commands received a real `--help` probe. Selected non-destructive commands were also attempted. The source-entry probe was separately attempted but could not launch because the source dependency graph reported `Cannot find module 'react/jsx-dev-runtime'`; therefore the runtime evidence below is from the already successful exact-tag build artifact, not from the source entry.
+For runtime checks, the built artifact `packages/cli/dist/cli-linux-arm64/bin/opencode` was run with temporary XDG/HOME directories and `HTTP_PROXY`, `HTTPS_PROXY`, and `ALL_PROXY` set to `http://127.0.0.1:9`, with `NO_PROXY` cleared. All required top-level commands received a real `--help` probe. Selected non-destructive commands were also attempted.
 
-The full probe log is [`reports/baseline/egress-built-checks.txt`](../reports/baseline/egress-built-checks.txt); the source-entry limitation is in [`reports/baseline/egress-command-checks.txt`](../reports/baseline/egress-command-checks.txt).
+The source entry now passes. The exact command was `bun run --cwd packages/cli src/index.ts --help`; it exited 0 and printed the real CLI usage, including `opencode <subcommand> [flags] [<directory>]`, the `--standalone`, `--server`, and `--print-logs` flags, and the full subcommand list. The complete output is [`reports/baseline/source-entry-probe.txt`](../reports/baseline/source-entry-probe.txt), ending with `source_entry_exit=0`. The earlier `Cannot find module 'react/jsx-dev-runtime'` error is not reproducible after the workspace dependency/module-linking state was restored; no product source fix was made. The earlier failure remains preserved in [`reports/baseline/egress-command-checks.txt`](../reports/baseline/egress-command-checks.txt) as historical evidence of the transient environment state.
+
+The full built-artifact probe log is [`reports/baseline/egress-built-checks.txt`](../reports/baseline/egress-built-checks.txt). Additional 20-second probes and the PTY capture are documented below and remain raw, uncommitted evidence.
 
 ### Command matrix
 
@@ -162,17 +164,17 @@ The full probe log is [`reports/baseline/egress-built-checks.txt`](../reports/ba
 | `debug` | `debug/agents` and related handlers resolve the server and call client APIs; heap/paths/config are local or local-server operations. | `debug --help` and `debug paths` passed; `debug paths` printed temporary local roots. Other subcommands were not run against a live server. |
 | `auth` | `auth/login.ts:65,140,160,177-218,242-321` calls integration/well-known, key, command, and OAuth APIs and can open a browser URL; logout/export/import/switch call credential APIs. | `auth --help` and `auth list` passed. `auth list` printed only `OpenAI OPENAI_API_KEY environment`. Login and OAuth were not run because they intentionally contact providers and may open a browser. |
 | `mcp` | `mcp/list.ts:12-14` calls the server; `mcp/auth.ts:24-71` performs OAuth-capable remote MCP authentication; `add` accepts remote URLs; `logout` removes remote credentials. | `mcp --help` passed. `mcp list` timed out (exit 124) under the blackhole proxy, so no successful network isolation result is claimed. Auth/add were not run because they can contact user-specified remote servers or mutate config. |
-| `plugin` | `plugin/list.ts:19-26,28-42` calls local server and npm resolution; `add.ts`, `check.ts`, and `update.ts` use the npm service and plugin update APIs. | `plugin --help` passed. `plugin list` timed out (exit 124), consistent with server/npm work being blocked, but the timeout is not proof of which call was waiting. Install/update/remove were not run because they mutate config/packages. |
-| `models` | `models.ts:13-19` calls the server model list; core has provider/model HTTP paths, and `packages/core/src/models-dev.ts:505` names `https://models.opencode.ai`. | `models --help` passed. `models` timed out (exit 124) behind the blackhole proxy. No claim is made that all model-catalog/provider paths are disabled. |
-| `stats` | `stats.ts:19-32` calls the server location/session stats APIs; data is local unless the resolved server/provider path is remote. | `stats --help` passed. `stats` timed out (exit 124); no live server was running and the blocked path was not isolated further. |
+| `plugin` | `plugin/list.ts:19-26,28-42` calls local server and npm resolution; `add.ts`, `check.ts`, and `update.ts` use the npm service and plugin update APIs. | `plugin --help` passed. **Unknown: command did not finish within 20s; cause not identified.** Install/update/remove were not run because they mutate config/packages. |
+| `models` | `models.ts:13-19` calls the server model list; core has provider/model HTTP paths, and `packages/core/src/models-dev.ts:505` names `https://models.opencode.ai`. | `models --help` passed. **Unknown: command did not finish within 20s; cause not identified.** |
+| `stats` | `stats.ts:19-32` calls the server location/session stats APIs; data is local unless the resolved server/provider path is remote. | `stats --help` passed. **Unknown: command did not finish within 20s; cause not identified.** |
 | `mini` | `mini.ts:4,13-18` resolves a server and launches the minimal UI; model/MCP/instruction features can egress through that server. | `mini --help` passed. Interactive execution was not attempted; no TTY/model credentials were supplied. |
 | `run` | `run.ts:4,10` resolves a server; the run then uses model providers, tools, MCP, and configured remote instructions as selected by config. | `run --help` passed. A real model run was not attempted because it would require model credentials and could execute tools. |
 | `pair` | `pair.ts:9,28-30,119-131` calls server pairing/info and `RemoteTunnel`; `remote-tunnel.ts:29` constructs `https://${route}.${connection.tunnel.hostname}`. `--remote` explicitly exposes the server through OpenTunnel. | `pair --help` passed. Pairing was not run because it can expose a service or create external links. Remote tunneling is clearly an opt-in egress path but remains present. |
 | `reload` | `reload.ts:7-15` resolves the local/resolved server and calls `client.location.reload`. | `reload --help` passed. Actual reload was not run without a server. |
-| `session` | List/delete/export call local/resolved server APIs. `session/import.ts:17` accepts a URL and `40` posts to the server; export/import can transfer session data. | `session --help` passed. `session list` timed out (exit 124) behind the proxy; import/export and delete were not run because they can transfer or mutate data. |
+| `session` | List/delete/export call local/resolved server APIs. `session/import.ts:17` accepts a URL and `40` posts to the server; export/import can transfer session data. | `session --help` passed. **Unknown: command did not finish within 20s; cause not identified.** Import/export and delete were not run because they can transfer or mutate data. |
 | `service` | Service start/restart/status/stop/get/set/unset are local process/config operations. Starting the service launches the local API; its configured remote/tunnel behavior is a separate server-process concern. | `service --help` and `service status` passed. Status printed `stopped`; no service was started. |
 | `serve` | `serve.ts` starts the local HTTP/API/web server. `packages/cli/src/server-process.ts:198-220` can run `RemoteTunnel` and constructs local HTTP URLs. | `serve --help` passed. The server was not started; real listening/remote-tunnel behavior remains unverified. |
-| Default `zerocode` / TUI | Default handler launches TUI/server; model providers, MCP, remote instructions, and explicit server URL are the egress-capable paths. Observability is configured in `packages/cli/src/index.ts:150-157` from `OTEL_EXPORTER_OTLP_ENDPOINT`; no endpoint is supplied by default in the probe. | `--help` and `--version` passed. Default interactive TUI startup was not verified because this report used non-interactive probes and did not start a long-lived TTY process. |
+| Default `zerocode` / TUI | Default handler launches TUI/server; model providers, MCP, remote instructions, and explicit server URL are the egress-capable paths. Observability is configured in `packages/cli/src/index.ts:150-157` from `OTEL_EXPORTER_OTLP_ENDPOINT`; no endpoint is supplied by default in the probe. | The TUI source/test documentation identifies `Ctrl+C` twice as the exit action (`Press ctrl+c again to exit`). A standalone PTY run rendered the first screen, sent `Ctrl+C` twice, and exited on its own with code 0. Raw capture: [`reports/baseline/tui-pty-clean-quit.txt`](../reports/baseline/tui-pty-clean-quit.txt) and [`reports/baseline/tui-pty-clean-quit.raw`](../reports/baseline/tui-pty-clean-quit.raw). |
 
 Additional static egress surfaces include:
 
@@ -184,7 +186,27 @@ Additional static egress surfaces include:
 - `packages/util/src/observability.ts` and `packages/cli/src/index.ts:150-157`: telemetry/OTLP is environment-configurable. It is not proven absent if a user supplies an OTLP endpoint.
 - Provider implementations and `packages/core/src/models-dev/snapshot.txt` contain many provider URLs. These are not contacted merely by displaying help, but they are reachable when the user configures or selects a provider.
 
+### 20-second blackhole probe record
+
+The selected built-binary commands were rerun with temporary HOME/XDG roots, the blackhole proxy configuration, cleared `NO_PROXY`, and `timeout 20s`. Exact results were:
+
+```text
+models         exit=124
+stats          exit=124
+plugin list    exit=124
+session list   exit=124
+```
+
+The raw record is [`reports/baseline/egress-timeouts-20s.txt`](../reports/baseline/egress-timeouts-20s.txt). The four results are **unknown: command did not finish within 20s; cause not identified.** No conclusion about network isolation or contacted destinations is drawn from these timeouts.
+
 **Phase 0 conclusion:** the audit covers every required command and identifies where egress can occur. It does **not** establish M2 privacy lockdown. Auto-update, hosted OpenCode endpoints, sharing/remote tunnel, telemetry, web fetch, model providers, remote MCP, and remote instruction URLs need explicit policy decisions and M2 tests.
+
+### Remaining unverified items before Part B
+
+- The four 20-second commands remain unknown: each command did not finish within 20s; cause not identified.
+- Actual successful or failed model/provider, MCP, OAuth, updater, telemetry, remote-tunnel, web-fetch, and remote-instruction behavior remains policy-dependent and was not exercised beyond the bounded probes and static audit.
+- Docker/Podman-backed isolation remains unavailable in this environment.
+- The `~root/secret` shell-parser defect remains open and is tracked in [`docs/upstream-sync.md`](upstream-sync.md); it was not fixed in Part A.
 
 ## 5. Docker/Podman gate
 
@@ -212,6 +234,15 @@ No container runtime is installed or usable in this environment. M10 must theref
 6. **Egress policy.** Confirm that M2 will disable default updater checks, OpenCode-hosted catalog/auth endpoints, telemetry, sharing/remote tunnel, and other hosted-service calls, while preserving only explicitly selected model-provider, MCP, web-fetch, and remote-server calls.
 7. **Container policy.** Confirm that the absence of Docker/Podman is acceptable for the mock runtime path in M10.
 
-## 7. Part A boundary
+## 7. Approved defaults
+
+- Rename: keep internal @opencode/* workspace scopes; rename all user-visible and dependent surfaces.
+- Scope cut: keep @opencode/app, @opencode/ui, @opencode/session-ui, and @opencode/gui-plugins as build inputs for M1.
+- Baseline: accept the 13 color-contaminated failures with color disabled in the test harness. Track the shell-parser `~root/secret` defect in docs/upstream-sync.md as an open upstream defect that does not block M1.
+- Compatibility roots: .claude and .agents are off by default; explicit opt-in only.
+- Egress: M2 disables updater checks, hosted catalog/auth endpoints, telemetry, and sharing/remote tunnel by default. Startup egress to models.opencode.ai and GitHub is the first M2 target. Explicit user-selected model-provider, MCP, web-fetch, and remote-server calls are preserved.
+- Containers: the mock runtime path is accepted for M10 until Docker or Podman is available.
+
+## 8. Part A boundary
 
 This document is the requested Part A deliverable. No Part B/M1 rename, branding, license, product-source, NOTICE, or migration work was started. No push or force-push was performed. The working tree should be reviewed before any next milestone is approved.

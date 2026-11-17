@@ -1,0 +1,5 @@
+pty_child_exit=143
+bytes=33
+--- first 12000 bytes decoded ---
+Starting background server...
+^C

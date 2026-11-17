@@ -1,0 +1,16 @@
+
+===== models =====
+$ models
+exit=124
+
+===== stats =====
+$ stats
+exit=124
+
+===== plugin list =====
+$ plugin list
+exit=124
+
+===== session list =====
+$ session list
+exit=124

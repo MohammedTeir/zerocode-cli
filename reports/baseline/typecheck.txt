@@ -1,0 +1,121 @@
+$ bun turbo typecheck --concurrency=3
+[2m• turbo 2.10.2[0m
+
+   • Packages in scope: @opencode/ai, @opencode/app, @opencode/cli, @opencode/client, @opencode/codemode, @opencode/core, @opencode/data, @opencode/data-app, @opencode/data-core, @opencode/data-server, @opencode/desktop, @opencode/files, @opencode/gui-plugins, @opencode/http-recorder, @opencode/httpapi-codegen, @opencode/latex, @opencode/legacy, @opencode/merman, @opencode/nav-menus, @opencode/patchmark, @opencode/plugin, @opencode/plugin-browser, @opencode/plugin-figma, @opencode/protocol, @opencode/schema, @opencode/script, @opencode/sdk, @opencode/server, @opencode/session-ui, @opencode/simulation, @opencode/site, @opencode/stories, @opencode/theme, @opencode/tui, @opencode/ui, @opencode/update, @opencode/util
+   • Running typecheck in 37 packages
+   • Remote caching disabled
+
+@opencode/nav-menus:typecheck: cache miss, executing ae4e21295e7fc81a
+@opencode/codemode:typecheck: cache miss, executing d3a0349938be28db
+@opencode/schema:typecheck: cache miss, executing 0e9d08117b049c4b
+@opencode/nav-menus:typecheck: $ bun check --no-script
+@opencode/codemode:typecheck: $ bun check --no-script
+@opencode/schema:typecheck: $ bun check --no-script
+@opencode/nav-menus:typecheck: ✓ No type errors in 5 files [259.60ms]
+@opencode/data-core:typecheck: cache miss, executing 4e0b976ac9a63ae8
+@opencode/data-core:typecheck: $ bun check --no-script
+@opencode/codemode:typecheck: ✓ No type errors in 128 files [461.84ms]
+@opencode/legacy:typecheck: cache miss, executing 30c8fba130d4b2b6
+@opencode/legacy:typecheck: $ bun check --no-script
+@opencode/schema:typecheck: ✓ No type errors in 129 files [516.85ms]
+@opencode/update:typecheck: cache miss, executing 591370c72cec867b
+@opencode/update:typecheck: $ bun check --no-script
+@opencode/data-core:typecheck: ✓ No type errors in 29 files [291.84ms]
+@opencode/http-recorder:typecheck: cache miss, executing 125a3a4cea6021e0
+@opencode/http-recorder:typecheck: $ bun check --no-script && bun check --no-script -p test/tsconfig.json
+@opencode/update:typecheck: ✓ No type errors in 1 file [90.33ms]
+@opencode/plugin-figma:typecheck: cache miss, executing 51e6c1bc2e7aa1cb
+@opencode/plugin-figma:typecheck: $ bun check --no-script
+@opencode/legacy:typecheck: ✓ No type errors in 5 files [156.00ms]
+@opencode/httpapi-codegen:typecheck: cache miss, executing c232b8cc52576f8c
+@opencode/httpapi-codegen:typecheck: $ bun check --no-script
+@opencode/http-recorder:typecheck: ✓ No type errors in 14 files [135.92ms]
+@opencode/plugin-figma:typecheck: ✓ No type errors in 174 files [339.11ms]
+@opencode/http-recorder:typecheck: ✓ No type errors in 19 files [223.33ms]
+@opencode/util:typecheck: cache miss, executing 76c116c9d4060482
+@opencode/theme:typecheck: cache miss, executing 6a277e50b90ef81f
+@opencode/util:typecheck: $ bun check --no-script
+@opencode/theme:typecheck: $ bun check --no-script
+@opencode/theme:typecheck: ✓ No type errors in 15 files [128.10ms]
+@opencode/patchmark:typecheck: cache miss, executing 4a756d04eb13ebbb
+@opencode/patchmark:typecheck: $ tsc --noEmit
+@opencode/httpapi-codegen:typecheck: ✓ No type errors in 12 files [496.73ms]
+@opencode/protocol:typecheck: cache miss, executing b4ebc64e60c13ba9
+@opencode/protocol:typecheck: $ bun check --no-script
+@opencode/util:typecheck: ✓ No type errors in 70 files [219.11ms]
+@opencode/data-server:typecheck: cache miss, executing 9808963bd8bf4ef8
+@opencode/data-server:typecheck: $ bun check --no-script
+@opencode/data-server:typecheck: ✓ No type errors in 21 files [185.91ms]
+@opencode/files:typecheck: cache miss, executing bb44e005a4e1134e
+@opencode/files:typecheck: $ bun check --no-script
+@opencode/files:typecheck: ✓ No type errors in 1 file [38.58ms]
+@opencode/ai:typecheck: cache miss, executing 2709468009df71b5
+@opencode/ai:typecheck: $ bun check --no-script && bun check --no-script -p tsconfig.types.json
+@opencode/ui:typecheck: cache miss, executing 5c4f116fd2adfac7
+@opencode/ui:typecheck: $ bun check --no-script
+@opencode/ui:typecheck: ✓ No type errors in 264 files [676.25ms]
+@opencode/client:typecheck: cache miss, executing d9d86061f52ece0b
+@opencode/client:typecheck: $ bun check --no-script
+@opencode/ai:typecheck: ✓ No type errors in 353 files [988.74ms]
+@opencode/protocol:typecheck: ✓ No type errors in 151 files [2.11s]
+@opencode/data-app:typecheck: cache miss, executing 1505b955b4eaed46
+@opencode/data-app:typecheck: $ bun check --no-script
+@opencode/ai:typecheck: ✓ No type errors in 319 files [1104.26ms]
+@opencode/site:typecheck: cache miss, executing 067402278c376361
+@opencode/site:typecheck: $ bun check --no-script && bun --cwd textjs check --no-script
+@opencode/data-app:typecheck: ✓ No type errors in 98 files [437.20ms]
+@opencode/plugin:typecheck: cache miss, executing 9c2569f01e5ef63a
+@opencode/plugin:typecheck: $ bun check --no-script
+@opencode/client:typecheck: ✓ No type errors in 178 files [2.06s]
+@opencode/session-ui:typecheck: cache miss, executing 33c39f83abb23033
+@opencode/session-ui:typecheck: $ bun check --no-script -b
+@opencode/site:typecheck: ✓ No type errors in 556 files [1.50s]
+@opencode/session-ui:typecheck: ✓ No type errors in 373 files across 1 project [856.85ms]
+@opencode/data:typecheck: cache miss, executing ba4d53c6eb3e8ab7
+@opencode/data:typecheck: $ bun check --no-script
+@opencode/site:typecheck: ✓ No type errors in 2 files [122.52ms]
+@opencode/latex:typecheck: cache miss, executing 9d99ed832ebe18c9
+@opencode/latex:typecheck: $ bun check --no-script
+@opencode/data:typecheck: ✓ No type errors in 8 files [86.85ms]
+@opencode/plugin-browser:typecheck: cache miss, executing 59e59d82b57e49ba
+@opencode/plugin-browser:typecheck: $ bun check --no-script -p tsconfig.test.json
+@opencode/latex:typecheck: ✓ No type errors in 77 files [268.70ms]
+@opencode/merman:typecheck: cache miss, executing 1ec62067e431040c
+@opencode/merman:typecheck: $ bun check --no-script
+@opencode/plugin-browser:typecheck: ✓ No type errors in 218 files [471.37ms]
+@opencode/gui-plugins:typecheck: cache miss, executing 86668b81045f1e99
+@opencode/gui-plugins:typecheck: $ bun check --no-script -b
+@opencode/plugin:typecheck: ✓ No type errors in 325 files [2.16s]
+@opencode/core:typecheck: cache miss, executing 38da011ba6729a57
+@opencode/core:typecheck: $ bun check --no-script -b -p tsconfig.tests.json
+@opencode/merman:typecheck: ✓ No type errors in 152 files [384.81ms]
+@opencode/app:typecheck: cache miss, executing c68493a0e697265a
+@opencode/app:typecheck: $ bun check --no-script -b
+@opencode/gui-plugins:typecheck: ✓ No type errors in 1,422 files across 1 project [4.03s]
+@opencode/simulation:typecheck: cache miss, executing 08ffeacce8f45caf
+@opencode/simulation:typecheck: $ bun check --no-script -b
+@opencode/app:typecheck: ✓ No type errors in 2,390 files across 1 project [4.80s]
+@opencode/desktop:typecheck: cache miss, executing cb1030da0f6c39f5
+@opencode/desktop:typecheck: $ bun check --no-script -b
+@opencode/core:typecheck: ✓ No type errors in 1,979 files across 2 projects [9.73s]
+@opencode/server:typecheck: cache miss, executing 14d8da21ca5583b9
+@opencode/server:typecheck: $ bun check --no-script -b
+@opencode/simulation:typecheck: ✓ No type errors in 1,389 files across 2 projects [5.79s]
+@opencode/tui:typecheck: cache miss, executing 59681d256944982f
+@opencode/tui:typecheck: $ bun check --no-script -b
+@opencode/desktop:typecheck: ✓ No type errors in 3,501 files across 2 projects [8.64s]
+@opencode/sdk:typecheck: cache miss, executing 31dcf2b42ac15acb
+@opencode/sdk:typecheck: $ bun check --no-script -b
+@opencode/tui:typecheck: ✓ No type errors in 1,908 files across 2 projects [7.10s]
+@opencode/cli:typecheck: cache miss, executing 2b08f9efa8da3e3a
+@opencode/cli:typecheck: $ bun check --no-script -b
+@opencode/server:typecheck: ✓ No type errors in 1,568 files across 2 projects [8.06s]
+@opencode/sdk:typecheck: ✓ No type errors in 1,572 files across 2 projects [7.22s]
+@opencode/cli:typecheck: ✓ No type errors in 2,136 files across 2 projects [5.77s]
+
+ Tasks:    35 successful, 35 total
+Cached:    0 cached, 35 total
+  Time:    29.946s 
+
+
+EXIT_CODE=0
