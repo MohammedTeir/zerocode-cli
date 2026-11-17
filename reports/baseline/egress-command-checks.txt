@@ -1,0 +1,191 @@
+
+===== upgrade --help =====
+$ upgrade --help
+error: Cannot find module 'react/jsx-dev-runtime' from '/home/ubuntu/zerocode-cli/packages/tui/src/config/index.tsx'
+
+Bun v1.4.4 (Linux arm64)
+[exit=1]
+
+===== uninstall --help =====
+$ uninstall --help
+error: Cannot find module 'react/jsx-dev-runtime' from '/home/ubuntu/zerocode-cli/packages/tui/src/config/index.tsx'
+
+Bun v1.4.4 (Linux arm64)
+[exit=1]
+
+===== acp --help =====
+$ acp --help
+error: Cannot find module 'react/jsx-dev-runtime' from '/home/ubuntu/zerocode-cli/packages/tui/src/config/index.tsx'
+
+Bun v1.4.4 (Linux arm64)
+[exit=1]
+
+===== api --help =====
+$ api --help
+error: Cannot find module 'react/jsx-dev-runtime' from '/home/ubuntu/zerocode-cli/packages/tui/src/config/index.tsx'
+
+Bun v1.4.4 (Linux arm64)
+[exit=1]
+
+===== debug --help =====
+$ debug --help
+error: Cannot find module 'react/jsx-dev-runtime' from '/home/ubuntu/zerocode-cli/packages/tui/src/config/index.tsx'
+
+Bun v1.4.4 (Linux arm64)
+[exit=1]
+
+===== auth --help =====
+$ auth --help
+error: Cannot find module 'react/jsx-dev-runtime' from '/home/ubuntu/zerocode-cli/packages/tui/src/config/index.tsx'
+
+Bun v1.4.4 (Linux arm64)
+[exit=1]
+
+===== mcp --help =====
+$ mcp --help
+error: Cannot find module 'react/jsx-dev-runtime' from '/home/ubuntu/zerocode-cli/packages/tui/src/config/index.tsx'
+
+Bun v1.4.4 (Linux arm64)
+[exit=1]
+
+===== plugin --help =====
+$ plugin --help
+error: Cannot find module 'react/jsx-dev-runtime' from '/home/ubuntu/zerocode-cli/packages/tui/src/config/index.tsx'
+
+Bun v1.4.4 (Linux arm64)
+[exit=1]
+
+===== models --help =====
+$ models --help
+error: Cannot find module 'react/jsx-dev-runtime' from '/home/ubuntu/zerocode-cli/packages/tui/src/config/index.tsx'
+
+Bun v1.4.4 (Linux arm64)
+[exit=1]
+
+===== stats --help =====
+$ stats --help
+error: Cannot find module 'react/jsx-dev-runtime' from '/home/ubuntu/zerocode-cli/packages/tui/src/config/index.tsx'
+
+Bun v1.4.4 (Linux arm64)
+[exit=1]
+
+===== mini --help =====
+$ mini --help
+error: Cannot find module 'react/jsx-dev-runtime' from '/home/ubuntu/zerocode-cli/packages/tui/src/config/index.tsx'
+
+Bun v1.4.4 (Linux arm64)
+[exit=1]
+
+===== run --help =====
+$ run --help
+error: Cannot find module 'react/jsx-dev-runtime' from '/home/ubuntu/zerocode-cli/packages/tui/src/config/index.tsx'
+
+Bun v1.4.4 (Linux arm64)
+[exit=1]
+
+===== pair --help =====
+$ pair --help
+error: Cannot find module 'react/jsx-dev-runtime' from '/home/ubuntu/zerocode-cli/packages/tui/src/config/index.tsx'
+
+Bun v1.4.4 (Linux arm64)
+[exit=1]
+
+===== reload --help =====
+$ reload --help
+error: Cannot find module 'react/jsx-dev-runtime' from '/home/ubuntu/zerocode-cli/packages/tui/src/config/index.tsx'
+
+Bun v1.4.4 (Linux arm64)
+[exit=1]
+
+===== session --help =====
+$ session --help
+error: Cannot find module 'react/jsx-dev-runtime' from '/home/ubuntu/zerocode-cli/packages/tui/src/config/index.tsx'
+
+Bun v1.4.4 (Linux arm64)
+[exit=1]
+
+===== service --help =====
+$ service --help
+error: Cannot find module 'react/jsx-dev-runtime' from '/home/ubuntu/zerocode-cli/packages/tui/src/config/index.tsx'
+
+Bun v1.4.4 (Linux arm64)
+[exit=1]
+
+===== serve --help =====
+$ serve --help
+error: Cannot find module 'react/jsx-dev-runtime' from '/home/ubuntu/zerocode-cli/packages/tui/src/config/index.tsx'
+
+Bun v1.4.4 (Linux arm64)
+[exit=1]
+
+===== default --help =====
+$ --help
+error: Cannot find module 'react/jsx-dev-runtime' from '/home/ubuntu/zerocode-cli/packages/tui/src/config/index.tsx'
+
+Bun v1.4.4 (Linux arm64)
+[exit=1]
+
+===== version =====
+$ --version
+error: Cannot find module 'react/jsx-dev-runtime' from '/home/ubuntu/zerocode-cli/packages/tui/src/config/index.tsx'
+
+Bun v1.4.4 (Linux arm64)
+[exit=1]
+
+===== selected non-help safe probes =====
+
+===== auth list =====
+$ auth list
+error: Cannot find module 'react/jsx-dev-runtime' from '/home/ubuntu/zerocode-cli/packages/tui/src/config/index.tsx'
+
+Bun v1.4.4 (Linux arm64)
+[exit=1]
+
+===== mcp list =====
+$ mcp list
+error: Cannot find module 'react/jsx-dev-runtime' from '/home/ubuntu/zerocode-cli/packages/tui/src/config/index.tsx'
+
+Bun v1.4.4 (Linux arm64)
+[exit=1]
+
+===== plugin list =====
+$ plugin list
+error: Cannot find module 'react/jsx-dev-runtime' from '/home/ubuntu/zerocode-cli/packages/tui/src/config/index.tsx'
+
+Bun v1.4.4 (Linux arm64)
+[exit=1]
+
+===== models =====
+$ models
+error: Cannot find module 'react/jsx-dev-runtime' from '/home/ubuntu/zerocode-cli/packages/tui/src/config/index.tsx'
+
+Bun v1.4.4 (Linux arm64)
+[exit=1]
+
+===== stats =====
+$ stats
+error: Cannot find module 'react/jsx-dev-runtime' from '/home/ubuntu/zerocode-cli/packages/tui/src/config/index.tsx'
+
+Bun v1.4.4 (Linux arm64)
+[exit=1]
+
+===== session list =====
+$ session list
+error: Cannot find module 'react/jsx-dev-runtime' from '/home/ubuntu/zerocode-cli/packages/tui/src/config/index.tsx'
+
+Bun v1.4.4 (Linux arm64)
+[exit=1]
+
+===== service status =====
+$ service status
+error: Cannot find module 'react/jsx-dev-runtime' from '/home/ubuntu/zerocode-cli/packages/tui/src/config/index.tsx'
+
+Bun v1.4.4 (Linux arm64)
+[exit=1]
+
+===== debug paths =====
+$ debug paths
+error: Cannot find module 'react/jsx-dev-runtime' from '/home/ubuntu/zerocode-cli/packages/tui/src/config/index.tsx'
+
+Bun v1.4.4 (Linux arm64)
+[exit=1]

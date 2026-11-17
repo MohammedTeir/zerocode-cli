@@ -1,0 +1,178 @@
+$ bun test --timeout 30000 --only-failures
+bun test v1.4.4 (38afee6c8)
+
+test/config.test.ts:
+[08:03:06.743] INFO (#31): migrated cli config {
+  from: [ "/tmp/opencode-cli-test-bKaia9/tui.json", "/tmp/opencode-cli-test-bKaia9/kv.json" ],
+  to: "/tmp/opencode-cli-test-bKaia9/cli.json",
+}
+[08:03:06.756] INFO (#32): migrated cli config {
+  from: [ "/tmp/opencode-cli-test-Ipx2Er/tui.json" ],
+  to: "/tmp/opencode-cli-test-Ipx2Er/cli.json",
+}
+[08:03:06.762] INFO (#33): migrated cli config {
+  from: [ "/tmp/opencode-cli-test-CeNHuT/tui.json" ],
+  to: "/tmp/opencode-cli-test-CeNHuT/cli.json",
+}
+[08:03:06.780] WARN (#39): failed to persist migrated cli config {
+  cause: {
+    _id: "Cause",
+    reasons: [
+      [Object ...]
+    ],
+  },
+}
+
+test/cors.test.ts:
+DESCRIPTION
+  Start the v2 API and web server
+
+USAGE
+  serve [flags]
+
+FLAGS
+  --hostname string    
+  --port integer       
+  --cors string        Additional allowed CORS origin (repeat for multiple origins)
+  --service            
+  --stdio              
+
+GLOBAL FLAGS
+  --help, -h                                                          Show help information
+  --version, -v                                                       Show version information
+  --wizard                                                            Start wizard mode for a command
+  --completions <bash|zsh|fish|powershell|sh|pwsh>                    Print shell completion script (choices: bash, zsh, fish, powershell, sh, pwsh)
+  --log-level <all|trace|debug|info|warn|warning|error|fatal|none>    Sets the minimum log level (choices: all, trace, debug, info, warn, warning, error, fatal, none)
+DESCRIPTION
+  Start the v2 API and web server
+
+USAGE
+  serve [flags]
+
+FLAGS
+  --hostname string    
+  --port integer       
+  --cors string        Additional allowed CORS origin (repeat for multiple origins)
+  --service            
+  --stdio              
+
+GLOBAL FLAGS
+  --help, -h                                                          Show help information
+  --version, -v                                                       Show version information
+  --wizard                                                            Start wizard mode for a command
+  --completions <bash|zsh|fish|powershell|sh|pwsh>                    Print shell completion script (choices: bash, zsh, fish, powershell, sh, pwsh)
+  --log-level <all|trace|debug|info|warn|warning|error|fatal|none>    Sets the minimum log level (choices: all, trace, debug, info, warn, warning, error, fatal, none)
+
+test/flag.test.ts:
+USAGE
+  run [flags] [<message...>]
+
+ARGUMENTS
+  message... string     (optional)
+
+FLAGS
+  --worktree, -w [=name]    Start in a new git worktree
+  --model, -m string        
+  --fork                    
+
+GLOBAL FLAGS
+  --help, -h                                                          Show help information
+  --version, -v                                                       Show version information
+  --wizard                                                            Start wizard mode for a command
+  --completions <bash|zsh|fish|powershell|sh|pwsh>                    Print shell completion script (choices: bash, zsh, fish, powershell, sh, pwsh)
+  --log-level <all|trace|debug|info|warn|warning|error|fatal|none>    Sets the minimum log level (choices: all, trace, debug, info, warn, warning, error, fatal, none)
+USAGE
+  run [flags] [<message...>]
+
+ARGUMENTS
+  message... string     (optional)
+
+FLAGS
+  --worktree, -w [=name]    Start in a new git worktree
+  --model, -m string        
+  --fork                    
+
+GLOBAL FLAGS
+  --help, -h                                                          Show help information
+  --version, -v                                                       Show version information
+  --wizard                                                            Start wizard mode for a command
+  --completions <bash|zsh|fish|powershell|sh|pwsh>                    Print shell completion script (choices: bash, zsh, fish, powershell, sh, pwsh)
+  --log-level <all|trace|debug|info|warn|warning|error|fatal|none>    Sets the minimum log level (choices: all, trace, debug, info, warn, warning, error, fatal, none)
+USAGE
+  run [flags] [<message...>]
+
+ARGUMENTS
+  message... string     (optional)
+
+FLAGS
+  --worktree, -w [=name]    Start in a new git worktree
+  --model, -m string        
+  --fork                    
+
+GLOBAL FLAGS
+  --help, -h                                                          Show help information
+  --version, -v                                                       Show version information
+  --wizard                                                            Start wizard mode for a command
+  --completions <bash|zsh|fish|powershell|sh|pwsh>                    Print shell completion script (choices: bash, zsh, fish, powershell, sh, pwsh)
+  --log-level <all|trace|debug|info|warn|warning|error|fatal|none>    Sets the minimum log level (choices: all, trace, debug, info, warn, warning, error, fatal, none)
+USAGE
+  run [flags] [<message...>]
+
+ARGUMENTS
+  message... string     (optional)
+
+FLAGS
+  --worktree, -w [=name]    Start in a new git worktree
+  --model, -m string        
+  --fork                    
+
+GLOBAL FLAGS
+  --help, -h                                                          Show help information
+  --version, -v                                                       Show version information
+  --wizard                                                            Start wizard mode for a command
+  --completions <bash|zsh|fish|powershell|sh|pwsh>                    Print shell completion script (choices: bash, zsh, fish, powershell, sh, pwsh)
+  --log-level <all|trace|debug|info|warn|warning|error|fatal|none>    Sets the minimum log level (choices: all, trace, debug, info, warn, warning, error, fatal, none)
+│
+▲  This will expose your OpenCode server to the internet.
+│  Traffic is end-to-end encrypted, and access requires your server password.
+│  To pair locally instead, run `opencode pair` without the --remote flag.
+│
+▲  This will expose your OpenCode server to the internet.
+│  Traffic is end-to-end encrypted, and access requires your server password.
+│  To pair locally instead, run `opencode pair` without the --remote flag.
+│
+●  Remote access was not enabled. To pair locally, run `opencode pair`.
+│
+▲  This will expose your OpenCode server to the internet.
+│  Traffic is end-to-end encrypted, and access requires your server password.
+│  To pair locally instead, run `opencode pair` without the --remote flag.
+│
+●  Remote access was not enabled. To pair locally, run `opencode pair`.
+This will expose your OpenCode server to the internet.
+Traffic is end-to-end encrypted, and access requires your server password.
+To pair locally instead, run `opencode pair` without the --remote flag.
+Run interactively or pass --yes to continue.
+│
+▲  This will expose your OpenCode server to the internet.
+│  Traffic is end-to-end encrypted, and access requires your server password.
+│  To pair locally instead, run `opencode pair` without the --remote flag.
+
+test/service-lifecycle.test.ts:
+Background service cannot hand off persistent terminals; shutting them down before replacement ClientError: UnexpectedStatus: 404
+ reason: "UnexpectedStatus",
+
+      at <anonymous> (/home/ubuntu/zerocode-cli/packages/client/src/promise/generated/client.ts:401:11)
+
+
+test/vite-refresh.test.ts:
+To use solid-refresh, you need to use the dev build of SolidJS. Make sure your build system supports package.json conditional exports and has the 'development' condition turned on.
+[90mwaiting for 1 background job[0m
+[90mwaiting for 2 background jobs[0m
+
+ 399 pass
+ 9 skip
+ 0 fail
+ 1482 expect() calls
+Ran 408 tests across 58 files. [272.22s]
+
+EXIT_CODE=0

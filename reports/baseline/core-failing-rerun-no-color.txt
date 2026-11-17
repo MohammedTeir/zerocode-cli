@@ -1,0 +1,70 @@
+$ bun run script/test.ts test/git.test.ts test/vcs.test.ts test/session-diff.test.ts test/shell-parse.test.ts test/snapshot.test.ts
+bun test v1.4.4 (38afee6c8)
+
+test/session-diff.test.ts:
+[08:08:17.435] INFO (#8977): watcher subscribe {
+  path: "/tmp/oc-3I2GqA/tmp/opencode-core-test-JFqIsk/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:08:17.435] INFO (#8977): watcher subscribe {
+  path: "/tmp/oc-3I2GqA/tmp/opencode-core-test-fqWBWr/project/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:08:17.436] INFO (#8977): watcher subscribe {
+  path: "/tmp/oc-3I2GqA/tmp/opencode-core-test-fqWBWr/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:08:17.436] INFO (#8977): watcher subscribe {
+  path: "/tmp/oc-3I2GqA/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:08:17.436] INFO (#8977): watcher subscribe {
+  path: "/tmp/oc-3I2GqA/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:08:17.495] INFO (#8977): watcher subscribe {
+  path: "/tmp/oc-3I2GqA/tmp/opencode-core-test-JFqIsk/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:08:17.497] INFO (#8977): watcher subscribe {
+  path: "/tmp/oc-3I2GqA/tmp/opencode-core-test-JFqIsk/config/skills",
+  type: "file",
+  ignores: 0,
+}
+
+test/shell-parse.test.ts:
+159 | 
+160 |     if (process.platform !== "win32") {
+161 |       const rootHome = await Effect.runPromise(
+162 |         ShellParse.scan("cd ~root/secret && cd '~root'", "/bin/bash", "/workspace"),
+163 |       )
+164 |       expect(rootHome.directories).toEqual([
+                                         ^
+error: expect(received).toEqual(expected)
+
+  [
+-   "/root/secret",
++   "/tmp/oc-3I2GqA/secret",
+    "~root",
+  ]
+
+- Expected  - 1
++ Received  + 1
+
+      at <anonymous> (/home/ubuntu/zerocode-cli/packages/core/test/shell-parse.test.ts:164:36)
+(fail) ShellParse > extracts static directory targets across escapes, end-of-options, literal dollars, and precommands [1.32ms]
+
+ 95 pass
+ 1 skip
+ 1 fail
+ 410 expect() calls
+Ran 97 tests across 5 files. [10.24s]
+error: script "test" exited with code 1
+
+EXIT_CODE=1

@@ -1,0 +1,566 @@
+$ bun run script/test.ts test/git.test.ts test/vcs.test.ts test/session-diff.test.ts test/shell-parse.test.ts test/snapshot.test.ts
+bun test v1.4.4 (38afee6c8)
+
+test/git.test.ts:
+[08:07:48.177] ERROR (#1176): 250 |         ["a-small.txt", "added", 1, 0],
+251 |         ["b-large.txt", "added", lines, 0],
+252 |         ["c-binary.bin", "added", 0, 0],
+253 |       ])
+254 |       // Patch headers are not NUL-delimited; a quoted (octal-escaped) header would orphan this chunk.
+255 |       expect(diffs[0]?.patch).toContain("+caf\u00e9\n")
+      ^
+error: expect(received).toContain(expected)
+
+Expected to contain: "+café\n"
+Received: "Index: a-café.txt\n===================================================================\n--- a-café.txt\t\n+++ a-café.txt\t\n"
+
+      at toContain (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/git.test.ts:255:31
+
+250 |         ["a-small.txt", "added", 1, 0],
+251 |         ["b-large.txt", "added", lines, 0],
+252 |         ["c-binary.bin", "added", 0, 0],
+253 |       ])
+254 |       // Patch headers are not NUL-delimited; a quoted (octal-escaped) header would orphan this chunk.
+255 |       expect(diffs[0]?.patch).toContain("+caf\u00e9\n")
+      ^
+error: expect(received).toContain(expected)
+
+Expected to contain: "+café\n"
+Received: "Index: a-café.txt\n===================================================================\n--- a-café.txt\t\n+++ a-café.txt\t\n"
+
+      at toContain (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/git.test.ts:255:31
+      at ~effect/Effect/successCont (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:1017:28)
+      at runLoop (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:476:88)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:425:23)
+      at runInAsyncScope (node:async_hooks:207:23)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:414:29)
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:836:17
+      at go (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:2364:11)
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:2335:29
+(fail) Git trees > caps batched tree patches, keeps per-file stats past the cap, and matches non-ASCII names [255.51ms]
+[08:07:48.582] ERROR (#1337): 298 |           ["dir/nested/file.txt", "modified", 1, 1],
+299 |           ["first.txt", "added", 1, 0],
+300 |           ["last.txt", "added", 1, 0],
+301 |           ["removed.txt", "deleted", 0, 1],
+302 |         ])
+303 |         expect(diffs[0]?.patch).toContain("-before\n+after\n")
+      ^
+error: expect(received).toContain(expected)
+
+Expected to contain: "-before\n+after\n"
+Received: "Index: changed.txt\n===================================================================\n--- changed.txt\t\n+++ changed.txt\t\n"
+
+      at toContain (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/git.test.ts:303:33
+
+298 |           ["dir/nested/file.txt", "modified", 1, 1],
+299 |           ["first.txt", "added", 1, 0],
+300 |           ["last.txt", "added", 1, 0],
+301 |           ["removed.txt", "deleted", 0, 1],
+302 |         ])
+303 |         expect(diffs[0]?.patch).toContain("-before\n+after\n")
+      ^
+error: expect(received).toContain(expected)
+
+Expected to contain: "-before\n+after\n"
+Received: "Index: changed.txt\n===================================================================\n--- changed.txt\t\n+++ changed.txt\t\n"
+
+      at toContain (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/git.test.ts:303:33
+      at ~effect/Effect/successCont (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:1017:28)
+      at runLoop (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:476:88)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:425:23)
+      at runInAsyncScope (node:async_hooks:207:23)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:414:29)
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:836:17
+      at go (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:2364:11)
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:2335:29
+(fail) Git trees > diffs a path selection longer than any platform command line [397.13ms]
+
+test/session-diff.test.ts:
+[08:07:51.811] INFO (#8021): watcher subscribe {
+  path: "/tmp/oc-m9tfdr/tmp/opencode-core-test-vMcGn5/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:07:51.812] INFO (#8021): watcher subscribe {
+  path: "/tmp/oc-m9tfdr/tmp/opencode-core-test-qJcs0w/project/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:07:51.812] INFO (#8021): watcher subscribe {
+  path: "/tmp/oc-m9tfdr/tmp/opencode-core-test-qJcs0w/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:07:51.812] INFO (#8021): watcher subscribe {
+  path: "/tmp/oc-m9tfdr/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:07:51.813] INFO (#8021): watcher subscribe {
+  path: "/tmp/oc-m9tfdr/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:07:51.852] INFO (#8021): watcher subscribe {
+  path: "/tmp/oc-m9tfdr/tmp/opencode-core-test-vMcGn5/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:07:51.854] INFO (#8021): watcher subscribe {
+  path: "/tmp/oc-m9tfdr/tmp/opencode-core-test-vMcGn5/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:07:52.304] ERROR (#7480): 150 |             ["manual.txt", "modified", 1, 1],
+151 |             ["second.txt", "modified", 1, 1],
+152 |             ["third.txt", "added", 1, 0],
+153 |           ])
+154 |           const full = yield* sessions.diff({ sessionID: created.id, from: first })
+155 |           expect(full[0]?.patch).toContain("-first\n+first edited\n")
+      ^
+error: expect(received).toContain(expected)
+
+Expected to contain: "-first\n+first edited\n"
+Received: "Index: first.txt\n===================================================================\n--- first.txt\t\n+++ first.txt\t\n"
+
+      at toContain (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/session-diff.test.ts:155:34
+
+150 |             ["manual.txt", "modified", 1, 1],
+151 |             ["second.txt", "modified", 1, 1],
+152 |             ["third.txt", "added", 1, 0],
+153 |           ])
+154 |           const full = yield* sessions.diff({ sessionID: created.id, from: first })
+155 |           expect(full[0]?.patch).toContain("-first\n+first edited\n")
+      ^
+error: expect(received).toContain(expected)
+
+Expected to contain: "-first\n+first edited\n"
+Received: "Index: first.txt\n===================================================================\n--- first.txt\t\n+++ first.txt\t\n"
+
+      at toContain (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/session-diff.test.ts:155:34
+      at ~effect/Effect/successCont (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:1017:28)
+      at runLoop (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:476:88)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:425:23)
+      at runInAsyncScope (node:async_hooks:207:23)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:414:29)
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:836:17
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:2338:17
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:446:19)
+(fail) Session.diff > diffs the busy period containing a user message and ranges across later turns [1519.49ms]
+
+test/shell-parse.test.ts:
+159 | 
+160 |     if (process.platform !== "win32") {
+161 |       const rootHome = await Effect.runPromise(
+162 |         ShellParse.scan("cd ~root/secret && cd '~root'", "/bin/bash", "/workspace"),
+163 |       )
+164 |       expect(rootHome.directories).toEqual([
+                                         ^
+error: expect(received).toEqual(expected)
+
+  [
+-   "/root/secret",
++   "/tmp/oc-m9tfdr/secret",
+    "~root",
+  ]
+
+- Expected  - 1
++ Received  + 1
+
+      at <anonymous> (/home/ubuntu/zerocode-cli/packages/core/test/shell-parse.test.ts:164:36)
+(fail) ShellParse > extracts static directory targets across escapes, end-of-options, literal dollars, and precommands [4.58ms]
+
+test/snapshot.test.ts:
+[08:07:53.238] ERROR (#13694): 333 |             paths: names.map((name) => RelativePath.make(name)),
+334 |           })
+335 |           expect(diffs.map((diff) => diff.file).toSorted()).toEqual(names.toSorted())
+336 |           expect(
+337 |             diffs.every((diff) => diff.additions === 1 && diff.deletions === 1 && diff.patch.includes("+two")),
+338 |           ).toBe(true)
+      ^
+error: expect(received).toBe(expected)
+
+Expected: true
+Received: false
+
+      at toBe (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/snapshot.test.ts:338:13
+
+333 |             paths: names.map((name) => RelativePath.make(name)),
+334 |           })
+335 |           expect(diffs.map((diff) => diff.file).toSorted()).toEqual(names.toSorted())
+336 |           expect(
+337 |             diffs.every((diff) => diff.additions === 1 && diff.deletions === 1 && diff.patch.includes("+two")),
+338 |           ).toBe(true)
+      ^
+error: expect(received).toBe(expected)
+
+Expected: true
+Received: false
+
+      at toBe (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/snapshot.test.ts:338:13
+      at ~effect/Effect/successCont (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:1017:28)
+      at runLoop (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:476:88)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:425:23)
+      at runInAsyncScope (node:async_hooks:207:23)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:414:29)
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:836:17
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:2338:17
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:446:19)
+(fail) Snapshot > restores and diffs a selection too long for one command line [148.48ms]
+
+test/vcs.test.ts:
+[08:07:54.018] ERROR (#16186): 634 |           ),
+635 |         )
+636 | 
+637 |         const diff = yield* vcs.diff("working")
+638 |         const status = yield* vcs.status()
+639 |         expect(spawned).toBeLessThan(count)
+      ^
+error: expect(received).toBeLessThan(expected)
+
+Expected: < 40
+Received: 58
+
+      at toBeLessThan (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/vcs.test.ts:639:25
+
+634 |           ),
+635 |         )
+636 | 
+637 |         const diff = yield* vcs.diff("working")
+638 |         const status = yield* vcs.status()
+639 |         expect(spawned).toBeLessThan(count)
+      ^
+error: expect(received).toBeLessThan(expected)
+
+Expected: < 40
+Received: 58
+
+      at toBeLessThan (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/vcs.test.ts:639:25
+      at ~effect/Effect/successCont (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:1017:28)
+      at runLoop (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:476:88)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:425:23)
+      at runInAsyncScope (node:async_hooks:207:23)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:414:29)
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:836:17
+(fail) Vcs > batches untracked files without spawning Git per file or touching the index [171.20ms]
+[08:07:56.877] ERROR (#16928): 711 |         expect(folder.diff).toHaveLength(53)
+712 |         expect(folder.diff.find((row) => row.file === "research/7.md")).toMatchObject({
+713 |           status: "added",
+714 |           additions: 1,
+715 |         })
+716 |         expect(folder.diff.find((row) => row.file === "research/7.md")?.patch).toContain("+line 7")
+      ^
+error: expect(received).toContain(expected)
+
+Expected to contain: "+line 7"
+Received: "\u001B[1mdiff --git a/research/7.md b/research/7.md\u001B[m\n\u001B[1mnew file mode 100644\u001B[m\n\u001B[1mindex 0000000..b022db6\u001B[m\n\u001B[1m--- /dev/null\u001B[m\n\u001B[1m+++ b/research/7.md\u001B[m\n\u001B[36m@@ -0,0 +1 @@\u001B[m\n\u001B[32m+\u001B[m\u001B[32mline 7\u001B[m\n"
+
+      at toContain (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/vcs.test.ts:716:80
+
+711 |         expect(folder.diff).toHaveLength(53)
+712 |         expect(folder.diff.find((row) => row.file === "research/7.md")).toMatchObject({
+713 |           status: "added",
+714 |           additions: 1,
+715 |         })
+716 |         expect(folder.diff.find((row) => row.file === "research/7.md")?.patch).toContain("+line 7")
+      ^
+error: expect(received).toContain(expected)
+
+Expected to contain: "+line 7"
+Received: "\u001B[1mdiff --git a/research/7.md b/research/7.md\u001B[m\n\u001B[1mnew file mode 100644\u001B[m\n\u001B[1mindex 0000000..b022db6\u001B[m\n\u001B[1m--- /dev/null\u001B[m\n\u001B[1m+++ b/research/7.md\u001B[m\n\u001B[36m@@ -0,0 +1 @@\u001B[m\n\u001B[32m+\u001B[m\u001B[32mline 7\u001B[m\n"
+
+      at toContain (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/vcs.test.ts:716:80
+      at ~effect/Effect/successCont (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:1017:28)
+      at runLoop (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:476:88)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:425:23)
+      at runInAsyncScope (node:async_hooks:207:23)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:414:29)
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:836:17
+(fail) Vcs > lists an untracked folder as one entry and its entries from inside it when asked for folders [2859.07ms]
+[08:07:57.600] ERROR (#31965): 822 |         expect(diff.map((item) => ({ file: item.file, status: item.status }))).toEqual([
+823 |           { file: "keep.txt", status: "modified" },
+824 |           { file: "spaced name.txt", status: "added" },
+825 |         ])
+826 |         expect(diff[0].patch).toContain("-two")
+827 |         expect(diff[0].patch).toContain("+three")
+      ^
+error: expect(received).toContain(expected)
+
+Expected to contain: "+three"
+Received: "\u001B[1mdiff --git a/keep.txt b/keep.txt\u001B[m\n\u001B[1mindex 814f4a4..4c7442b 100644\u001B[m\n\u001B[1m--- a/keep.txt\u001B[m\n\u001B[1m+++ b/keep.txt\u001B[m\n\u001B[36m@@ -1,2 +1,2 @@\u001B[m\n one\u001B[m\n\u001B[31m-two\u001B[m\n\u001B[32m+\u001B[m\u001B[32mthree\u001B[m\n"
+
+      at toContain (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/vcs.test.ts:827:31
+
+822 |         expect(diff.map((item) => ({ file: item.file, status: item.status }))).toEqual([
+823 |           { file: "keep.txt", status: "modified" },
+824 |           { file: "spaced name.txt", status: "added" },
+825 |         ])
+826 |         expect(diff[0].patch).toContain("-two")
+827 |         expect(diff[0].patch).toContain("+three")
+      ^
+error: expect(received).toContain(expected)
+
+Expected to contain: "+three"
+Received: "\u001B[1mdiff --git a/keep.txt b/keep.txt\u001B[m\n\u001B[1mindex 814f4a4..4c7442b 100644\u001B[m\n\u001B[1m--- a/keep.txt\u001B[m\n\u001B[1m+++ b/keep.txt\u001B[m\n\u001B[36m@@ -1,2 +1,2 @@\u001B[m\n one\u001B[m\n\u001B[31m-two\u001B[m\n\u001B[32m+\u001B[m\u001B[32mthree\u001B[m\n"
+
+      at toContain (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/vcs.test.ts:827:31
+      at ~effect/Effect/successCont (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:1017:28)
+      at runLoop (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:476:88)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:425:23)
+      at runInAsyncScope (node:async_hooks:207:23)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:414:29)
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:836:17
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:2338:17
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:446:19)
+(fail) Vcs > diffs the working copy against HEAD with patches [44.37ms]
+[08:07:57.688] ERROR (#32386): 861 |         })
+862 |         const vcs = yield* Vcs.Service
+863 |         expect(yield* vcs.status()).toEqual([{ file: "new.txt", additions: 1, deletions: 0, status: "added" }])
+864 |         const diff = yield* vcs.diff("working")
+865 |         expect(diff).toHaveLength(1)
+866 |         expect(diff[0].patch).toContain("+hello")
+      ^
+error: expect(received).toContain(expected)
+
+Expected to contain: "+hello"
+Received: "\u001B[1mdiff --git a/new.txt b/new.txt\u001B[m\n\u001B[1mnew file mode 100644\u001B[m\n\u001B[1mindex 0000000..ce01362\u001B[m\n\u001B[1m--- /dev/null\u001B[m\n\u001B[1m+++ b/new.txt\u001B[m\n\u001B[36m@@ -0,0 +1 @@\u001B[m\n\u001B[32m+\u001B[m\u001B[32mhello\u001B[m\n"
+
+      at toContain (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/vcs.test.ts:866:31
+
+861 |         })
+862 |         const vcs = yield* Vcs.Service
+863 |         expect(yield* vcs.status()).toEqual([{ file: "new.txt", additions: 1, deletions: 0, status: "added" }])
+864 |         const diff = yield* vcs.diff("working")
+865 |         expect(diff).toHaveLength(1)
+866 |         expect(diff[0].patch).toContain("+hello")
+      ^
+error: expect(received).toContain(expected)
+
+Expected to contain: "+hello"
+Received: "\u001B[1mdiff --git a/new.txt b/new.txt\u001B[m\n\u001B[1mnew file mode 100644\u001B[m\n\u001B[1mindex 0000000..ce01362\u001B[m\n\u001B[1m--- /dev/null\u001B[m\n\u001B[1m+++ b/new.txt\u001B[m\n\u001B[36m@@ -0,0 +1 @@\u001B[m\n\u001B[32m+\u001B[m\u001B[32mhello\u001B[m\n"
+
+      at toContain (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/vcs.test.ts:866:31
+      at ~effect/Effect/successCont (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:1017:28)
+      at runLoop (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:476:88)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:425:23)
+      at runInAsyncScope (node:async_hooks:207:23)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:414:29)
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:836:17
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:2338:17
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:446:19)
+(fail) Vcs > diffs before the first commit [37.51ms]
+[08:07:57.799] ERROR (#32557): 888 |         })
+889 |         const diff = yield* vcs.diff("branch")
+890 |         expect(diff.map((item) => ({ file: item.file, status: item.status }))).toEqual([
+891 |           { file: "file.txt", status: "modified" },
+892 |         ])
+893 |         expect(diff[0].patch).toContain("+two")
+      ^
+error: expect(received).toContain(expected)
+
+Expected to contain: "+two"
+Received: "\u001B[1mdiff --git a/file.txt b/file.txt\u001B[m\n\u001B[1mindex 5626abf..814f4a4 100644\u001B[m\n\u001B[1m--- a/file.txt\u001B[m\n\u001B[1m+++ b/file.txt\u001B[m\n\u001B[36m@@ -1 +1,2 @@\u001B[m\n one\u001B[m\n\u001B[32m+\u001B[m\u001B[32mtwo\u001B[m\n"
+
+      at toContain (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/vcs.test.ts:893:31
+
+888 |         })
+889 |         const diff = yield* vcs.diff("branch")
+890 |         expect(diff.map((item) => ({ file: item.file, status: item.status }))).toEqual([
+891 |           { file: "file.txt", status: "modified" },
+892 |         ])
+893 |         expect(diff[0].patch).toContain("+two")
+      ^
+error: expect(received).toContain(expected)
+
+Expected to contain: "+two"
+Received: "\u001B[1mdiff --git a/file.txt b/file.txt\u001B[m\n\u001B[1mindex 5626abf..814f4a4 100644\u001B[m\n\u001B[1m--- a/file.txt\u001B[m\n\u001B[1m+++ b/file.txt\u001B[m\n\u001B[36m@@ -1 +1,2 @@\u001B[m\n one\u001B[m\n\u001B[32m+\u001B[m\u001B[32mtwo\u001B[m\n"
+
+      at toContain (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/vcs.test.ts:893:31
+      at ~effect/Effect/successCont (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:1017:28)
+      at runLoop (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:476:88)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:425:23)
+      at runInAsyncScope (node:async_hooks:207:23)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:414:29)
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:836:17
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:2338:17
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:446:19)
+(fail) Vcs > diffs a feature branch against the default branch [111.28ms]
+[08:07:57.868] ERROR (#32889): 910 |           await fs.writeFile(path.join(directory, "untracked.txt"), "untracked\n")
+911 |         })
+912 |         const vcs = yield* Vcs.Service
+913 |         const committed = yield* vcs.diff("committed")
+914 |         expect(committed.map((row) => row.file)).toEqual(["file.txt"])
+915 |         expect(committed[0].patch).toContain("-base\n+committed")
+      ^
+error: expect(received).toContain(expected)
+
+Expected to contain: "-base\n+committed"
+Received: "\u001B[1mdiff --git a/file.txt b/file.txt\u001B[m\n\u001B[1mindex df967b9..d0fe822 100644\u001B[m\n\u001B[1m--- a/file.txt\u001B[m\n\u001B[1m+++ b/file.txt\u001B[m\n\u001B[36m@@ -1 +1 @@\u001B[m\n\u001B[31m-base\u001B[m\n\u001B[32m+\u001B[m\u001B[32mcommitted\u001B[m\n"
+
+      at toContain (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/vcs.test.ts:915:36
+
+910 |           await fs.writeFile(path.join(directory, "untracked.txt"), "untracked\n")
+911 |         })
+912 |         const vcs = yield* Vcs.Service
+913 |         const committed = yield* vcs.diff("committed")
+914 |         expect(committed.map((row) => row.file)).toEqual(["file.txt"])
+915 |         expect(committed[0].patch).toContain("-base\n+committed")
+      ^
+error: expect(received).toContain(expected)
+
+Expected to contain: "-base\n+committed"
+Received: "\u001B[1mdiff --git a/file.txt b/file.txt\u001B[m\n\u001B[1mindex df967b9..d0fe822 100644\u001B[m\n\u001B[1m--- a/file.txt\u001B[m\n\u001B[1m+++ b/file.txt\u001B[m\n\u001B[36m@@ -1 +1 @@\u001B[m\n\u001B[31m-base\u001B[m\n\u001B[32m+\u001B[m\u001B[32mcommitted\u001B[m\n"
+
+      at toContain (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/vcs.test.ts:915:36
+      at ~effect/Effect/successCont (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:1017:28)
+      at runLoop (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:476:88)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:425:23)
+      at runInAsyncScope (node:async_hooks:207:23)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:414:29)
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:836:17
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:2338:17
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:446:19)
+(fail) Vcs > separates committed, combined, and staged/unstaged/untracked working changes [69.21ms]
+[08:07:57.948] ERROR (#33097): 935 |           await commitAll(directory, "feature")
+936 |           await fs.writeFile(path.join(directory, "file.txt"), "base\n")
+937 |         })
+938 |         const vcs = yield* Vcs.Service
+939 |         expect(yield* vcs.diff("branch")).toEqual([])
+940 |         expect((yield* vcs.diff("committed"))[0].patch).toContain("-base\n+committed")
+      ^
+error: expect(received).toContain(expected)
+
+Expected to contain: "-base\n+committed"
+Received: "\u001B[1mdiff --git a/file.txt b/file.txt\u001B[m\n\u001B[1mindex df967b9..d0fe822 100644\u001B[m\n\u001B[1m--- a/file.txt\u001B[m\n\u001B[1m+++ b/file.txt\u001B[m\n\u001B[36m@@ -1 +1 @@\u001B[m\n\u001B[31m-base\u001B[m\n\u001B[32m+\u001B[m\u001B[32mcommitted\u001B[m\n"
+
+      at toContain (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/vcs.test.ts:940:57
+
+935 |           await commitAll(directory, "feature")
+936 |           await fs.writeFile(path.join(directory, "file.txt"), "base\n")
+937 |         })
+938 |         const vcs = yield* Vcs.Service
+939 |         expect(yield* vcs.diff("branch")).toEqual([])
+940 |         expect((yield* vcs.diff("committed"))[0].patch).toContain("-base\n+committed")
+      ^
+error: expect(received).toContain(expected)
+
+Expected to contain: "-base\n+committed"
+Received: "\u001B[1mdiff --git a/file.txt b/file.txt\u001B[m\n\u001B[1mindex df967b9..d0fe822 100644\u001B[m\n\u001B[1m--- a/file.txt\u001B[m\n\u001B[1m+++ b/file.txt\u001B[m\n\u001B[36m@@ -1 +1 @@\u001B[m\n\u001B[31m-base\u001B[m\n\u001B[32m+\u001B[m\u001B[32mcommitted\u001B[m\n"
+
+      at toContain (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/vcs.test.ts:940:57
+      at ~effect/Effect/successCont (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:1017:28)
+      at runLoop (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:476:88)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:425:23)
+      at runInAsyncScope (node:async_hooks:207:23)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:414:29)
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:836:17
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:2338:17
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:446:19)
+(fail) Vcs > keeps a locally undone commit visible only in committed and working modes [79.55ms]
+[08:07:58.110] ERROR (#33906): 973 |           await fs.writeFile(path.join(directory, "file.txt"), "dirty\n")
+974 |         })
+975 |         const vcs = yield* Vcs.Service
+976 |         const base = yield* vcs.base()
+977 |         expect(base).toEqual({ name: "main", ref: "refs/remotes/origin/main", source: "default" })
+978 |         expect((yield* vcs.diff("committed", { base: base?.ref }))[0].patch).toContain("-base\n+committed")
+      ^
+error: expect(received).toContain(expected)
+
+Expected to contain: "-base\n+committed"
+Received: "\u001B[1mdiff --git a/file.txt b/file.txt\u001B[m\n\u001B[1mindex df967b9..d0fe822 100644\u001B[m\n\u001B[1m--- a/file.txt\u001B[m\n\u001B[1m+++ b/file.txt\u001B[m\n\u001B[36m@@ -1 +1 @@\u001B[m\n\u001B[31m-base\u001B[m\n\u001B[32m+\u001B[m\u001B[32mcommitted\u001B[m\n"
+
+      at toContain (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/vcs.test.ts:978:78
+
+973 |           await fs.writeFile(path.join(directory, "file.txt"), "dirty\n")
+974 |         })
+975 |         const vcs = yield* Vcs.Service
+976 |         const base = yield* vcs.base()
+977 |         expect(base).toEqual({ name: "main", ref: "refs/remotes/origin/main", source: "default" })
+978 |         expect((yield* vcs.diff("committed", { base: base?.ref }))[0].patch).toContain("-base\n+committed")
+      ^
+error: expect(received).toContain(expected)
+
+Expected to contain: "-base\n+committed"
+Received: "\u001B[1mdiff --git a/file.txt b/file.txt\u001B[m\n\u001B[1mindex df967b9..d0fe822 100644\u001B[m\n\u001B[1m--- a/file.txt\u001B[m\n\u001B[1m+++ b/file.txt\u001B[m\n\u001B[36m@@ -1 +1 @@\u001B[m\n\u001B[31m-base\u001B[m\n\u001B[32m+\u001B[m\u001B[32mcommitted\u001B[m\n"
+
+      at toContain (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/vcs.test.ts:978:78
+      at ~effect/Effect/successCont (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:1017:28)
+      at runLoop (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:476:88)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:425:23)
+      at runInAsyncScope (node:async_hooks:207:23)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:414:29)
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:836:17
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:2338:17
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:446:19)
+(fail) Vcs > keeps unpushed default-branch commits in the resolved review [68.39ms]
+[08:07:58.178] ERROR (#34162): 1008 |             { file: "nested/old.txt", status: "deleted" },
+1009 |           ])
+1010 |           expect(committed[0].patch).toContain("-delete me")
+1011 |           expect(committed[1]).toMatchObject({ additions: 0, deletions: 0 })
+1012 |           expect(committed[1].patch).toContain("Binary files")
+1013 |           expect(committed[2].patch).toContain("+rename me")
+       ^
+error: expect(received).toContain(expected)
+
+Expected to contain: "+rename me"
+Received: "\u001B[1mdiff --git a/nested/new.txt b/nested/new.txt\u001B[m\n\u001B[1mnew file mode 100644\u001B[m\n\u001B[1mindex 0000000..43372ed\u001B[m\n\u001B[1m--- /dev/null\u001B[m\n\u001B[1m+++ b/nested/new.txt\u001B[m\n\u001B[36m@@ -0,0 +1 @@\u001B[m\n\u001B[32m+\u001B[m\u001B[32mrename me\u001B[m\n"
+
+      at toContain (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/vcs.test.ts:1013:38
+
+1008 |             { file: "nested/old.txt", status: "deleted" },
+1009 |           ])
+1010 |           expect(committed[0].patch).toContain("-delete me")
+1011 |           expect(committed[1]).toMatchObject({ additions: 0, deletions: 0 })
+1012 |           expect(committed[1].patch).toContain("Binary files")
+1013 |           expect(committed[2].patch).toContain("+rename me")
+       ^
+error: expect(received).toContain(expected)
+
+Expected to contain: "+rename me"
+Received: "\u001B[1mdiff --git a/nested/new.txt b/nested/new.txt\u001B[m\n\u001B[1mnew file mode 100644\u001B[m\n\u001B[1mindex 0000000..43372ed\u001B[m\n\u001B[1m--- /dev/null\u001B[m\n\u001B[1m+++ b/nested/new.txt\u001B[m\n\u001B[36m@@ -0,0 +1 @@\u001B[m\n\u001B[32m+\u001B[m\u001B[32mrename me\u001B[m\n"
+
+      at toContain (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/vcs.test.ts:1013:38
+      at ~effect/Effect/successCont (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:1017:28)
+      at runLoop (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:476:88)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:425:23)
+      at runInAsyncScope (node:async_hooks:207:23)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:414:29)
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:836:17
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:2338:17
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:446:19)
+(fail) Vcs > scopes committed diffs to nested paths and retains binary, rename, and deletion metadata [67.55ms]
+
+ 82 pass
+ 1 skip
+ 14 fail
+ 359 expect() calls
+Ran 97 tests across 5 files. [12.19s]
+error: script "test" exited with code 1
+
+EXIT_CODE=1

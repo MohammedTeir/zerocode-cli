@@ -1,0 +1,5760 @@
+$ bun run script/test.ts
+bun test v1.4.4 (38afee6c8)
+
+test/browser-attach.test.ts:
+[07:58:13.405] INFO (#2795): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-ZjMAW8/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:13.406] INFO (#2795): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-qh7F6V/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:13.406] INFO (#2795): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:13.407] INFO (#2795): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:13.422] INFO (#2795): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-ZjMAW8/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:13.423] INFO (#2795): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-ZjMAW8/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:58:13.763] INFO (#4066): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-r50wyF/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:13.764] INFO (#4066): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-vyMRXq/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:13.764] INFO (#4066): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:13.764] INFO (#4066): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:13.776] INFO (#4066): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-r50wyF/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:13.777] INFO (#4066): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-r50wyF/config/skills",
+  type: "file",
+  ignores: 0,
+}
+
+test/browser-idle.test.ts:
+[07:58:14.122] INFO (#5328): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-gkEoth/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:14.122] INFO (#5328): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-H07OUH/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:14.123] INFO (#5328): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:14.123] INFO (#5328): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:14.135] INFO (#5328): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-gkEoth/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:14.136] INFO (#5328): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-gkEoth/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:58:14.562] INFO (#6453): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-gkEoth/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:14.563] INFO (#6453): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-H07OUH/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:14.563] INFO (#6453): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:14.563] INFO (#6453): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:14.576] INFO (#6453): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-gkEoth/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:14.577] INFO (#6453): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-gkEoth/config/skills",
+  type: "file",
+  ignores: 0,
+}
+
+test/database-migration.test.ts:
+[07:58:16.266] INFO (#10821): database migration started {
+  migration: "20260410174513_workspace-name",
+}
+[07:58:16.268] INFO (#10821): database migration completed {
+  migration: "20260410174513_workspace-name",
+  durationMs: 2,
+}
+[07:58:16.275] INFO (#10837): database schema bootstrap started {
+  migrations: 59,
+}
+[07:58:16.283] INFO (#10837): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 8,
+}
+[07:58:16.289] INFO (#10853): database schema bootstrap started {
+  migrations: 59,
+}
+[07:58:16.295] INFO (#10853): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 6,
+}
+[07:58:16.296] INFO (#10848): database schema bootstrap started {
+  migrations: 59,
+}
+[07:58:16.304] INFO (#10848): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 8,
+}
+[07:58:20.607] INFO (#10859): database schema bootstrap started {
+  migrations: 59,
+}
+[07:58:20.615] INFO (#10859): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 8,
+}
+[07:58:20.618] INFO (#10864): database migration started {
+  migration: "20260819222447_session_viewed_state",
+}
+[07:58:20.618] INFO (#10864): database migration completed {
+  migration: "20260819222447_session_viewed_state",
+  durationMs: 1,
+}
+[07:58:20.621] INFO (#10869): database migration started {
+  migration: "20261025154125_drop_session_pending",
+}
+[07:58:20.622] INFO (#10869): database migration completed {
+  migration: "20261025154125_drop_session_pending",
+  durationMs: 1,
+}
+[07:58:20.625] INFO (#10879): database schema bootstrap started {
+  migrations: 59,
+}
+[07:58:20.632] INFO (#10879): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 7,
+}
+[07:58:20.634] INFO (#10884): database migration started {
+  migration: "first",
+}
+[07:58:20.635] INFO (#10884): database migration completed {
+  migration: "first",
+  durationMs: 1,
+}
+[07:58:20.635] INFO (#10884): database migration started {
+  migration: "second",
+}
+[07:58:20.635] INFO (#10884): database migration completed {
+  migration: "second",
+  durationMs: 0,
+}
+[07:58:20.640] INFO (#10889): database migration started {
+  migration: "20260804233008_loose_psylocke",
+}
+[07:58:20.644] INFO (#10889): database migration completed {
+  migration: "20260804233008_loose_psylocke",
+  durationMs: 4,
+}
+[07:58:20.644] INFO (#10889): database migration started {
+  migration: "20260808023530_workspace_domain",
+}
+[07:58:20.645] INFO (#10889): database migration completed {
+  migration: "20260808023530_workspace_domain",
+  durationMs: 1,
+}
+[07:58:20.645] INFO (#10889): database migration started {
+  migration: "20260811161259_execution_claim_attempts",
+}
+[07:58:20.646] INFO (#10889): database migration completed {
+  migration: "20260811161259_execution_claim_attempts",
+  durationMs: 1,
+}
+[07:58:20.646] INFO (#10889): database migration started {
+  migration: "20260812181746_session_inbox",
+}
+[07:58:20.646] INFO (#10889): database migration completed {
+  migration: "20260812181746_session_inbox",
+  durationMs: 0,
+}
+[07:58:20.646] INFO (#10889): database migration started {
+  migration: "20260812213948_worktree",
+}
+[07:58:20.647] INFO (#10889): database migration completed {
+  migration: "20260812213948_worktree",
+  durationMs: 1,
+}
+[07:58:20.650] INFO (#10894): database migration started {
+  migration: "20260804233008_loose_psylocke",
+}
+[07:58:20.652] INFO (#10899): database migration started {
+  migration: "20260812213948_worktree",
+}
+[07:58:20.652] INFO (#10899): database migration completed {
+  migration: "20260812213948_worktree",
+  durationMs: 0,
+}
+[07:58:20.654] INFO (#10904): database schema bootstrap started {
+  migrations: 59,
+}
+[07:58:20.661] INFO (#10904): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 7,
+}
+[07:58:20.662] INFO (#10904): database migration started {
+  migration: "20260805200742_import_legacy_credentials",
+}
+[07:58:20.664] INFO (#10904): database migration completed {
+  migration: "20260805200742_import_legacy_credentials",
+  durationMs: 2,
+}
+[07:58:20.666] INFO (#10910): database schema bootstrap started {
+  migrations: 59,
+}
+[07:58:20.673] INFO (#10910): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 7,
+}
+[07:58:20.674] INFO (#10916): database schema bootstrap started {
+  migrations: 59,
+}
+[07:58:20.679] WARN (#10916): Skipped legacy credential file that is not a JSON object {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-8wT13A/auth.json",
+}
+[07:58:20.681] INFO (#10916): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 7,
+}
+[07:58:20.682] INFO (#10922): database schema bootstrap started {
+  migrations: 59,
+}
+[07:58:20.689] INFO (#10922): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 7,
+}
+[07:58:20.689] INFO (#10922): database migration started {
+  migration: "20260805200742_import_legacy_credentials",
+}
+[07:58:20.689] INFO (#10922): database migration completed {
+  migration: "20260805200742_import_legacy_credentials",
+  durationMs: 0,
+}
+[07:58:20.691] INFO (#10927): database schema bootstrap started {
+  migrations: 59,
+}
+[07:58:20.697] INFO (#10927): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 6,
+}
+[07:58:20.698] INFO (#10927): database migration started {
+  migration: "20261007190000_azure_cli_external_credential",
+}
+[07:58:20.698] INFO (#10927): database migration completed {
+  migration: "20261007190000_azure_cli_external_credential",
+  durationMs: 0,
+}
+[07:58:20.700] INFO (#10932): database migration started {
+  migration: "failing",
+}
+[07:58:20.700] ERROR (#10932): database migration failed {
+  migration: "failing",
+  durationMs: 0,
+  error: 623 |         const migration = {
+624 |           id: "failing",
+625 |           up: (tx: Parameters<Parameters<typeof db.transaction>[0]>[0]) =>
+626 |             Effect.gen(function* () {
+627 |               yield* tx.run(sql`CREATE TABLE rolled_back (id text PRIMARY KEY)`)
+628 |               yield* Effect.fail(new Error("stop"))
+                                           ^
+error: stop
+      at <anonymous> (/home/ubuntu/zerocode-cli/packages/core/test/database-migration.test.ts:628:38)
+      at ~effect/Effect/successCont (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:1017:28)
+      at runLoop (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:476:88)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:425:23)
+      at <anonymous> (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:2504:9)
+      at <anonymous> (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:2556:19)
+      at <anonymous> (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:2567:31)
+      at <anonymous> (/home/ubuntu/zerocode-cli/packages/core/test/database-migration.test.ts:619:11)
+,
+}
+[07:58:20.702] INFO (#10937): database migration started {
+  migration: "rebuild",
+}
+[07:58:20.704] INFO (#10937): database migration completed {
+  migration: "rebuild",
+  durationMs: 2,
+}
+
+test/database.test.ts:
+[07:58:20.710] INFO (#10947): database schema bootstrap started {
+  migrations: 59,
+}
+[07:58:20.718] INFO (#10947): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 8,
+}
+[07:58:20.723] INFO (#10952): database schema bootstrap started {
+  migrations: 59,
+}
+[07:58:20.730] INFO (#10952): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 7,
+}
+
+test/formatter.test.ts:
+[07:58:21.531] INFO (#13593): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-2Tk2Ks/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:21.531] INFO (#13593): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-xXKd5S/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:21.531] INFO (#13593): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:21.531] INFO (#13593): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:21.552] INFO (#13593): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-2Tk2Ks/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:21.574] INFO (#13593): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-2Tk2Ks/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:58:21.576] INFO (#13593): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-xXKd5S/.opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:21.577] INFO (#13593): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-xXKd5S/.opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:58:21.883] INFO (#14757): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-YqfLQa/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:21.883] INFO (#14757): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-aHolyo/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:21.883] INFO (#14757): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:21.884] INFO (#14757): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:21.902] INFO (#14757): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-YqfLQa/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:21.903] INFO (#14757): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-YqfLQa/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:58:21.903] INFO (#14757): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-aHolyo/.opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:21.904] INFO (#14757): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-aHolyo/.opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:58:22.182] INFO (#15907): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-qyIlar/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:22.182] INFO (#15907): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-bB3EOz/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:22.182] INFO (#15907): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:22.183] INFO (#15907): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:22.198] INFO (#15907): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-qyIlar/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:22.199] INFO (#15907): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-qyIlar/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:58:22.200] INFO (#15907): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-bB3EOz/.opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:22.201] INFO (#15907): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-bB3EOz/.opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:58:22.508] INFO (#17062): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-ZdI3E0/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:22.509] INFO (#17062): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-tWDLAY/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:22.509] INFO (#17062): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:22.509] INFO (#17062): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:22.541] INFO (#17062): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-ZdI3E0/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:22.542] INFO (#17062): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-ZdI3E0/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:58:22.543] INFO (#17062): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-tWDLAY/.opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:22.544] INFO (#17062): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-tWDLAY/.opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:58:22.836] INFO (#18214): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-bMEWXg/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:22.837] INFO (#18214): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-MIgczq/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:22.837] INFO (#18214): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:22.837] INFO (#18214): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:22.852] INFO (#18214): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-bMEWXg/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:22.853] INFO (#18214): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-bMEWXg/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:58:22.854] INFO (#18214): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-MIgczq/.opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:22.854] INFO (#18214): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-MIgczq/.opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:58:23.160] INFO (#19365): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-zCcoHg/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:23.160] INFO (#19365): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-Km6cz6/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:23.161] INFO (#19365): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:23.161] INFO (#19365): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:23.177] INFO (#19365): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-zCcoHg/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:23.178] INFO (#19365): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-zCcoHg/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:58:23.179] INFO (#19365): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-Km6cz6/.opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:23.180] INFO (#19365): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-Km6cz6/.opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:58:23.454] INFO (#20520): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-D53RXc/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:23.454] INFO (#20520): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-HAutKN/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:23.454] INFO (#20520): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:23.455] INFO (#20520): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:23.469] INFO (#20520): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-D53RXc/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:23.470] INFO (#20520): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-D53RXc/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:58:23.470] INFO (#20520): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-HAutKN/.opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:23.471] INFO (#20520): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-HAutKN/.opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:58:23.778] INFO (#21661): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-UvjRwA/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:23.779] INFO (#21661): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-fRtawk/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:23.779] INFO (#21661): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:23.779] INFO (#21661): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:23.796] INFO (#21661): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-UvjRwA/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:23.797] INFO (#21661): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-UvjRwA/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:58:23.797] INFO (#21661): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-fRtawk/.opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:23.798] INFO (#21661): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-fRtawk/.opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:58:24.094] INFO (#22818): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-jPsfVW/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:24.094] INFO (#22818): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-0Th17F/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:24.094] INFO (#22818): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:24.095] INFO (#22818): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:24.161] INFO (#22818): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-jPsfVW/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:24.162] INFO (#22818): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-jPsfVW/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:58:24.163] INFO (#22818): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-0Th17F/.opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:24.164] INFO (#22818): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-0Th17F/.opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:58:24.466] INFO (#23965): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-TXyrHE/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:24.466] INFO (#23965): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-oDFtPp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:24.467] INFO (#23965): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:24.467] INFO (#23965): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:24.478] INFO (#23965): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-TXyrHE/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:24.479] INFO (#23965): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-TXyrHE/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:58:24.776] INFO (#25100): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-CFhz7K/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:24.776] INFO (#25100): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-7vGRrq/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:24.777] INFO (#25100): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:24.777] INFO (#25100): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:24.788] INFO (#25100): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-CFhz7K/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:24.789] INFO (#25100): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-CFhz7K/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:58:25.044] INFO (#26231): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-ReY8AY/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:25.044] INFO (#26231): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-qYOqMu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:25.044] INFO (#26231): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:25.044] INFO (#26231): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:25.056] INFO (#26231): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-ReY8AY/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:25.057] INFO (#26231): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-ReY8AY/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:58:25.309] INFO (#27360): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-M9YMbn/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:25.309] INFO (#27360): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-zJWeIn/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:25.309] INFO (#27360): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:25.309] INFO (#27360): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:25.321] INFO (#27360): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-M9YMbn/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:25.322] INFO (#27360): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-M9YMbn/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:58:25.622] INFO (#28495): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-Ewtv7K/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:25.623] INFO (#28495): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-0aL2n7/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:25.623] INFO (#28495): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:25.623] INFO (#28495): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:25.636] INFO (#28495): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-Ewtv7K/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:25.637] INFO (#28495): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-Ewtv7K/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:58:25.899] INFO (#29624): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-CtOpIc/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:25.899] INFO (#29624): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-HKJfop/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:25.899] INFO (#29624): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:25.899] INFO (#29624): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:25.912] INFO (#29624): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-CtOpIc/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:25.912] INFO (#29624): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-CtOpIc/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:58:26.194] INFO (#30763): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-TXsHbl/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:26.194] INFO (#30763): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-b5cvj5/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:26.195] INFO (#30763): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:26.195] INFO (#30763): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:26.207] INFO (#30763): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-TXsHbl/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:26.207] INFO (#30763): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-TXsHbl/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:58:26.477] INFO (#31892): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-45PLTF/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:26.477] INFO (#31892): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-euDNjV/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:26.477] INFO (#31892): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:26.478] INFO (#31892): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:26.489] INFO (#31892): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-45PLTF/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:26.490] INFO (#31892): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-45PLTF/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:58:26.768] INFO (#33026): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-DPP4xV/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:26.768] INFO (#33026): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-gpJZw8/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:26.768] INFO (#33026): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:26.768] INFO (#33026): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:26.780] INFO (#33026): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-DPP4xV/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:26.781] INFO (#33026): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-DPP4xV/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:58:27.033] INFO (#34165): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-YUkrKm/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:27.033] INFO (#34165): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-3YPvMd/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:27.033] INFO (#34165): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:27.034] INFO (#34165): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:27.046] INFO (#34165): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-YUkrKm/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:27.047] INFO (#34165): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-YUkrKm/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:58:27.291] INFO (#35292): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-OZqn4U/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:27.291] INFO (#35292): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-EIfSjn/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:27.291] INFO (#35292): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:27.291] INFO (#35292): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:27.304] INFO (#35292): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-OZqn4U/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:27.304] INFO (#35292): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-OZqn4U/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:58:27.585] INFO (#36423): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-y1Be6y/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:27.585] INFO (#36423): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-TZ8xNX/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:27.585] INFO (#36423): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:27.585] INFO (#36423): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:27.596] INFO (#36423): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-y1Be6y/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:27.597] INFO (#36423): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-y1Be6y/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:58:27.877] INFO (#37550): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-PjAKF9/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:27.878] INFO (#37550): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-bWtvY0/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:27.878] INFO (#37550): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:27.878] INFO (#37550): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:27.889] INFO (#37550): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-PjAKF9/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:27.890] INFO (#37550): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-PjAKF9/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:58:28.091] INFO (#38140): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-PjAKF9/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:28.091] INFO (#38140): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-8eOtWK/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:28.092] INFO (#38140): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:28.092] INFO (#38140): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:28.127] INFO (#38140): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-PjAKF9/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:28.128] INFO (#38140): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-PjAKF9/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:58:28.444] INFO (#39784): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-YOZ99J/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:28.444] INFO (#39784): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-vhtSZN/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:28.444] INFO (#39784): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:28.445] INFO (#39784): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:28.456] INFO (#39784): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-YOZ99J/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:28.457] INFO (#39784): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-YOZ99J/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:58:28.758] INFO (#40920): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-ZDGRja/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:28.759] INFO (#40920): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-CAO11T/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:28.759] INFO (#40920): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:28.759] INFO (#40920): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:28.770] INFO (#40920): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-ZDGRja/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:28.771] INFO (#40920): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-ZDGRja/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:58:29.043] INFO (#42063): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-VDSgHd/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:29.043] INFO (#42063): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-h5LISC/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:29.044] INFO (#42063): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:29.044] INFO (#42063): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:29.055] INFO (#42063): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-VDSgHd/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:29.056] INFO (#42063): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-VDSgHd/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:58:29.363] INFO (#43210): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-a6CIr2/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:29.363] INFO (#43210): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-pRzdfB/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:29.364] INFO (#43210): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:29.364] INFO (#43210): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:29.373] INFO (#43210): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-a6CIr2/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:29.374] INFO (#43210): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-a6CIr2/config/skills",
+  type: "file",
+  ignores: 0,
+}
+
+test/git.test.ts:
+[07:58:30.394] ERROR (#45647): 250 |         ["a-small.txt", "added", 1, 0],
+251 |         ["b-large.txt", "added", lines, 0],
+252 |         ["c-binary.bin", "added", 0, 0],
+253 |       ])
+254 |       // Patch headers are not NUL-delimited; a quoted (octal-escaped) header would orphan this chunk.
+255 |       expect(diffs[0]?.patch).toContain("+caf\u00e9\n")
+      ^
+error: expect(received).toContain(expected)
+
+Expected to contain: "+café\n"
+Received: "Index: a-café.txt\n===================================================================\n--- a-café.txt\t\n+++ a-café.txt\t\n"
+
+      at toContain (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/git.test.ts:255:31
+
+250 |         ["a-small.txt", "added", 1, 0],
+251 |         ["b-large.txt", "added", lines, 0],
+252 |         ["c-binary.bin", "added", 0, 0],
+253 |       ])
+254 |       // Patch headers are not NUL-delimited; a quoted (octal-escaped) header would orphan this chunk.
+255 |       expect(diffs[0]?.patch).toContain("+caf\u00e9\n")
+      ^
+error: expect(received).toContain(expected)
+
+Expected to contain: "+café\n"
+Received: "Index: a-café.txt\n===================================================================\n--- a-café.txt\t\n+++ a-café.txt\t\n"
+
+      at toContain (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/git.test.ts:255:31
+      at ~effect/Effect/successCont (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:1017:28)
+      at runLoop (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:476:88)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:425:23)
+      at runInAsyncScope (node:async_hooks:207:23)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:414:29)
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:836:17
+      at go (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:2364:11)
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:2335:29
+(fail) Git trees > caps batched tree patches, keeps per-file stats past the cap, and matches non-ASCII names [278.23ms]
+[07:58:30.711] ERROR (#45808): 298 |           ["dir/nested/file.txt", "modified", 1, 1],
+299 |           ["first.txt", "added", 1, 0],
+300 |           ["last.txt", "added", 1, 0],
+301 |           ["removed.txt", "deleted", 0, 1],
+302 |         ])
+303 |         expect(diffs[0]?.patch).toContain("-before\n+after\n")
+      ^
+error: expect(received).toContain(expected)
+
+Expected to contain: "-before\n+after\n"
+Received: "Index: changed.txt\n===================================================================\n--- changed.txt\t\n+++ changed.txt\t\n"
+
+      at toContain (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/git.test.ts:303:33
+
+298 |           ["dir/nested/file.txt", "modified", 1, 1],
+299 |           ["first.txt", "added", 1, 0],
+300 |           ["last.txt", "added", 1, 0],
+301 |           ["removed.txt", "deleted", 0, 1],
+302 |         ])
+303 |         expect(diffs[0]?.patch).toContain("-before\n+after\n")
+      ^
+error: expect(received).toContain(expected)
+
+Expected to contain: "-before\n+after\n"
+Received: "Index: changed.txt\n===================================================================\n--- changed.txt\t\n+++ changed.txt\t\n"
+
+      at toContain (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/git.test.ts:303:33
+      at ~effect/Effect/successCont (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:1017:28)
+      at runLoop (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:476:88)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:425:23)
+      at runInAsyncScope (node:async_hooks:207:23)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:414:29)
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:836:17
+      at go (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:2364:11)
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:2335:29
+(fail) Git trees > diffs a path selection longer than any platform command line [317.33ms]
+
+test/instance-vanilla.test.ts:
+[07:58:41.880] INFO (#53448): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-vyMBwx/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:41.881] INFO (#53448): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-EZk4kc/discovery/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:41.881] INFO (#53448): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-EZk4kc/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:41.881] INFO (#53448): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:41.881] INFO (#53448): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:41.894] INFO (#53448): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-vyMBwx/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:41.895] INFO (#53448): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-vyMBwx/config/skills",
+  type: "file",
+  ignores: 0,
+}
+
+test/location-layer.test.ts:
+[07:58:45.431] INFO (#72417): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-QlVZNl/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:45.431] INFO (#72417): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-WF0PTc/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:45.431] INFO (#72417): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:45.431] INFO (#72417): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:45.825] INFO (#76503): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-hbeyRm/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:45.825] INFO (#76503): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-L53Ocw/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:45.825] INFO (#76503): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:45.825] INFO (#76503): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:45.941] INFO (#76503): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-hbeyRm/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:45.948] INFO (#76503): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-hbeyRm/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:58:46.713] INFO (#84171): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-I1kjqH/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:46.713] INFO (#84171): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-fohLeG/workspace-only/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:46.714] INFO (#84171): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-fohLeG/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:46.714] INFO (#84171): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:46.714] INFO (#84171): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:47.017] INFO (#86097): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-9NkEjK/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:47.018] INFO (#86097): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-QVqb4K/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:47.018] INFO (#86097): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:47.018] INFO (#86097): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:47.458] INFO (#90227): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-PPEL56/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:47.458] INFO (#90227): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-CaeybI/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:47.458] INFO (#90227): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:47.458] INFO (#90227): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:47.470] INFO (#90227): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-PPEL56/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:47.471] INFO (#90227): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-PPEL56/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:58:47.736] INFO (#90815): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-PPEL56/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:47.736] INFO (#90815): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-1ip5Kd/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:47.736] INFO (#90815): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:47.736] INFO (#90815): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:47.747] INFO (#90815): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-PPEL56/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:47.747] INFO (#90815): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-PPEL56/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:58:48.095] INFO (#92440): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-sF9fA3/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:48.095] INFO (#92440): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-PRXx4B/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:48.095] INFO (#92440): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:48.096] INFO (#92440): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:48.105] INFO (#92440): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-sF9fA3/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:48.106] INFO (#92440): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-sF9fA3/config/skills",
+  type: "file",
+  ignores: 0,
+}
+
+test/location-retain.test.ts:
+[07:58:48.819] INFO (#100415): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-oxp3RJ/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:48.819] INFO (#100415): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-aT7RLm/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:48.819] INFO (#100415): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:48.819] INFO (#100415): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:58:48.935] INFO (#100415): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-oxp3RJ/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:58:48.965] INFO (#100415): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-oxp3RJ/config/skills",
+  type: "file",
+  ignores: 0,
+}
+
+test/mcp-oauth.test.ts:
+[07:58:50.101] INFO (#104603): mcp oauth authorization started {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "72b26fb9-0a17-473c-98f1-f4e0245e54ee",
+}
+[07:58:50.114] INFO (#104603): mcp oauth client registration selected {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "72b26fb9-0a17-473c-98f1-f4e0245e54ee",
+  registration: "static",
+}
+[mcp-sdk] SEP-2352: stored OAuth credential has no 'issuer' stamp (pre-upgrade storage or provider not round-tripping the value). SEP-2352 isolation is inactive for this read; ensure your provider round-trips the issuer field.
+[07:58:50.118] INFO (#104613): mcp oauth awaiting authorization {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "72b26fb9-0a17-473c-98f1-f4e0245e54ee",
+}
+[mcp-sdk] SEP-2352: stored OAuth credential has no 'issuer' stamp (pre-upgrade storage or provider not round-tripping the value). SEP-2352 isolation is inactive for this read; ensure your provider round-trips the issuer field.
+[07:58:50.123] INFO (#104619): mcp oauth request started {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "72b26fb9-0a17-473c-98f1-f4e0245e54ee",
+  requestID: "77f2d939-6218-4f72-b0a2-bef8c2171208",
+  origin: "http://localhost:44099",
+  method: "POST",
+  operation: "exchange",
+}
+[07:58:50.123] INFO (#104619): mcp oauth request succeeded {
+  status: 200,
+  durationMs: 0,
+} {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "72b26fb9-0a17-473c-98f1-f4e0245e54ee",
+  requestID: "77f2d939-6218-4f72-b0a2-bef8c2171208",
+  origin: "http://localhost:44099",
+  method: "POST",
+  operation: "exchange",
+}
+[07:58:50.125] INFO (#104614): mcp oauth authorization completed {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "72b26fb9-0a17-473c-98f1-f4e0245e54ee",
+  hasRefreshToken: true,
+  expiresIn: 3600,
+} {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "72b26fb9-0a17-473c-98f1-f4e0245e54ee",
+}
+[07:58:50.130] INFO (#104621): mcp oauth authorization started {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "6ce2dde7-9932-4b28-a2e6-97dbca56c2da",
+}
+[07:58:50.144] INFO (#104621): mcp oauth client registration selected {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "6ce2dde7-9932-4b28-a2e6-97dbca56c2da",
+  registration: "static",
+}
+[mcp-sdk] SEP-2352: stored OAuth credential has no 'issuer' stamp (pre-upgrade storage or provider not round-tripping the value). SEP-2352 isolation is inactive for this read; ensure your provider round-trips the issuer field.
+[07:58:50.145] INFO (#104631): mcp oauth awaiting authorization {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "6ce2dde7-9932-4b28-a2e6-97dbca56c2da",
+}
+[mcp-sdk] SEP-2352: stored OAuth credential has no 'issuer' stamp (pre-upgrade storage or provider not round-tripping the value). SEP-2352 isolation is inactive for this read; ensure your provider round-trips the issuer field.
+[07:58:50.148] INFO (#104637): mcp oauth request started {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "6ce2dde7-9932-4b28-a2e6-97dbca56c2da",
+  requestID: "b399cb2f-e89c-4f1a-87d7-0c50d38f81b2",
+  origin: "http://localhost:44597",
+  method: "POST",
+  operation: "exchange",
+}
+[07:58:50.148] INFO (#104637): mcp oauth request succeeded {
+  status: 200,
+  durationMs: 0,
+} {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "6ce2dde7-9932-4b28-a2e6-97dbca56c2da",
+  requestID: "b399cb2f-e89c-4f1a-87d7-0c50d38f81b2",
+  origin: "http://localhost:44597",
+  method: "POST",
+  operation: "exchange",
+}
+[07:58:50.148] INFO (#104632): mcp oauth authorization completed {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "6ce2dde7-9932-4b28-a2e6-97dbca56c2da",
+  hasRefreshToken: true,
+  expiresIn: 3600,
+} {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "6ce2dde7-9932-4b28-a2e6-97dbca56c2da",
+}
+[07:58:50.150] INFO (#104638): mcp oauth authorization started {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "105c4f3c-9eb9-401e-8df2-266e1a0d9005",
+}
+[07:58:50.163] INFO (#104638): mcp oauth client registration selected {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "105c4f3c-9eb9-401e-8df2-266e1a0d9005",
+  registration: "static",
+}
+[mcp-sdk] SEP-2352: stored OAuth credential has no 'issuer' stamp (pre-upgrade storage or provider not round-tripping the value). SEP-2352 isolation is inactive for this read; ensure your provider round-trips the issuer field.
+[07:58:50.164] INFO (#104648): mcp oauth awaiting authorization {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "105c4f3c-9eb9-401e-8df2-266e1a0d9005",
+}
+[07:58:50.165] INFO (#104638): mcp oauth redirect pasted {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "105c4f3c-9eb9-401e-8df2-266e1a0d9005",
+}
+[mcp-sdk] SEP-2352: stored OAuth credential has no 'issuer' stamp (pre-upgrade storage or provider not round-tripping the value). SEP-2352 isolation is inactive for this read; ensure your provider round-trips the issuer field.
+[07:58:50.166] INFO (#104653): mcp oauth request started {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "105c4f3c-9eb9-401e-8df2-266e1a0d9005",
+  requestID: "e87f21af-7917-4d85-8608-93fc565a926e",
+  origin: "http://localhost:44685",
+  method: "POST",
+  operation: "exchange",
+}
+[07:58:50.166] INFO (#104653): mcp oauth request succeeded {
+  status: 200,
+  durationMs: 0,
+} {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "105c4f3c-9eb9-401e-8df2-266e1a0d9005",
+  requestID: "e87f21af-7917-4d85-8608-93fc565a926e",
+  origin: "http://localhost:44685",
+  method: "POST",
+  operation: "exchange",
+}
+[07:58:50.166] INFO (#104649): mcp oauth authorization completed {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "105c4f3c-9eb9-401e-8df2-266e1a0d9005",
+  hasRefreshToken: true,
+  expiresIn: 3600,
+} {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "105c4f3c-9eb9-401e-8df2-266e1a0d9005",
+}
+[07:58:50.167] INFO (#104654): mcp oauth authorization started {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "f74a2e7f-6ced-4e15-a624-de4d60c67e2e",
+}
+[07:58:50.180] INFO (#104654): mcp oauth client registration selected {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "f74a2e7f-6ced-4e15-a624-de4d60c67e2e",
+  registration: "static",
+}
+[mcp-sdk] SEP-2352: stored OAuth credential has no 'issuer' stamp (pre-upgrade storage or provider not round-tripping the value). SEP-2352 isolation is inactive for this read; ensure your provider round-trips the issuer field.
+[07:58:50.181] INFO (#104664): mcp oauth awaiting authorization {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "f74a2e7f-6ced-4e15-a624-de4d60c67e2e",
+}
+[mcp-sdk] SEP-2352: stored OAuth credential has no 'issuer' stamp (pre-upgrade storage or provider not round-tripping the value). SEP-2352 isolation is inactive for this read; ensure your provider round-trips the issuer field.
+[07:58:50.182] INFO (#104670): mcp oauth request started {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "f74a2e7f-6ced-4e15-a624-de4d60c67e2e",
+  requestID: "3e047062-3ce0-49fe-9b67-393a0609a1d2",
+  origin: "http://localhost:45345",
+  method: "POST",
+  operation: "exchange",
+}
+[07:58:50.183] WARN (#104670): mcp oauth request rejected {
+  status: 400,
+  durationMs: 0,
+  error: "invalid_client",
+  message: "bad_client_secret",
+} {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "f74a2e7f-6ced-4e15-a624-de4d60c67e2e",
+  requestID: "3e047062-3ce0-49fe-9b67-393a0609a1d2",
+  origin: "http://localhost:45345",
+  method: "POST",
+  operation: "exchange",
+}
+[mcp-sdk] OAuth "invalid_client" — retrying authorization without discarding the stored client credentials and tokens (provider implements no invalidateCredentials()). Cause: "bad_client_secret"
+[mcp-sdk] SEP-2352: stored OAuth credential has no 'issuer' stamp (pre-upgrade storage or provider not round-tripping the value). SEP-2352 isolation is inactive for this read; ensure your provider round-trips the issuer field.
+[07:58:50.184] INFO (#104674): mcp oauth request started {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "f74a2e7f-6ced-4e15-a624-de4d60c67e2e",
+  requestID: "c387c170-712c-493e-94ad-cc6bd8a61880",
+  origin: "http://localhost:45345",
+  method: "POST",
+  operation: "exchange",
+}
+[07:58:50.185] WARN (#104674): mcp oauth request rejected {
+  status: 400,
+  durationMs: 0,
+  error: "invalid_client",
+  message: "bad_client_secret",
+} {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "f74a2e7f-6ced-4e15-a624-de4d60c67e2e",
+  requestID: "c387c170-712c-493e-94ad-cc6bd8a61880",
+  origin: "http://localhost:45345",
+  method: "POST",
+  operation: "exchange",
+}
+[07:58:50.185] WARN (#104665): mcp oauth authorization failed {
+  errors: [
+    {
+      type: "OAuthError",
+      message: "bad_client_secret",
+      code: "invalid_client",
+      errno: undefined,
+    }
+  ],
+} {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "f74a2e7f-6ced-4e15-a624-de4d60c67e2e",
+}
+[07:58:50.186] INFO (#104675): mcp oauth authorization started {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "8be43581-800d-4caa-b2b1-4c30575b952f",
+}
+[07:58:50.194] INFO (#104675): mcp oauth client registration selected {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "8be43581-800d-4caa-b2b1-4c30575b952f",
+  registration: "static",
+}
+[mcp-sdk] SEP-2352: stored OAuth credential has no 'issuer' stamp (pre-upgrade storage or provider not round-tripping the value). SEP-2352 isolation is inactive for this read; ensure your provider round-trips the issuer field.
+[07:58:50.195] INFO (#104685): mcp oauth awaiting authorization {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "8be43581-800d-4caa-b2b1-4c30575b952f",
+}
+[07:58:50.202] INFO (#104687): mcp oauth authorization started {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "d7988edd-6093-4c45-bc2a-1182efebc113",
+}
+[07:58:50.208] INFO (#104687): mcp oauth client registration selected {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "d7988edd-6093-4c45-bc2a-1182efebc113",
+  registration: "static",
+}
+[mcp-sdk] SEP-2352: stored OAuth credential has no 'issuer' stamp (pre-upgrade storage or provider not round-tripping the value). SEP-2352 isolation is inactive for this read; ensure your provider round-trips the issuer field.
+[07:58:50.209] INFO (#104697): mcp oauth awaiting authorization {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "d7988edd-6093-4c45-bc2a-1182efebc113",
+}
+[07:58:50.209] INFO (#104699): mcp oauth authorization started {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "7d2c9324-262a-4a11-981f-7ee89b682fe8",
+}
+[07:58:50.210] WARN (#104699): mcp oauth authorization setup failed {
+  server: "test",
+  methodID: "oauth",
+  errors: [
+    {
+      type: "TypeError",
+      message: "Invalid URL",
+      code: "ERR_INVALID_URL",
+      errno: undefined,
+    }
+  ],
+}
+[07:58:50.216] INFO (#104700): mcp oauth authorization started {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "3d1f18a3-b07c-419e-88f8-6399470ef666",
+}
+[07:58:50.225] INFO (#104700): mcp oauth client registration selected {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "3d1f18a3-b07c-419e-88f8-6399470ef666",
+  registration: "dcr",
+}
+[07:58:50.228] WARN (#104700): mcp oauth authorization setup failed {
+  server: "test",
+  methodID: "oauth",
+  errors: [
+    {
+      type: "Error",
+      message: "MCP server \"http://localhost:41671/\" returned a file: authorization URL; only http and https are supported",
+      code: undefined,
+      errno: undefined,
+    }
+  ],
+}
+[07:58:50.235] INFO (#104708): mcp oauth authorization started {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "dfa41f4a-9228-4d6a-add2-c826b8cb8032",
+}
+[07:58:50.241] WARN (#104710): mcp http authentication rejected {
+  status: 401,
+  durationMs: 1,
+} {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "dfa41f4a-9228-4d6a-add2-c826b8cb8032",
+  requestID: "4c09b4a7-7d34-4cc5-8679-2bf0c9bce5a6",
+  origin: "http://localhost:39047",
+  method: "POST",
+}
+[07:58:50.243] INFO (#104708): mcp oauth client registration selected {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "dfa41f4a-9228-4d6a-add2-c826b8cb8032",
+  registration: "static",
+}
+[mcp-sdk] SEP-2352: stored OAuth credential has no 'issuer' stamp (pre-upgrade storage or provider not round-tripping the value). SEP-2352 isolation is inactive for this read; ensure your provider round-trips the issuer field.
+[07:58:50.243] INFO (#104714): mcp oauth awaiting authorization {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "dfa41f4a-9228-4d6a-add2-c826b8cb8032",
+}
+[07:58:50.250] INFO (#104716): mcp oauth authorization started {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "a20e0d34-05e0-4531-af96-374d9aed055c",
+}
+[07:58:50.257] INFO (#104716): mcp oauth client registration selected {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "a20e0d34-05e0-4531-af96-374d9aed055c",
+  registration: "static",
+}
+[mcp-sdk] SEP-2352: stored OAuth credential has no 'issuer' stamp (pre-upgrade storage or provider not round-tripping the value). SEP-2352 isolation is inactive for this read; ensure your provider round-trips the issuer field.
+[07:58:50.257] INFO (#104721): mcp oauth awaiting authorization {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "a20e0d34-05e0-4531-af96-374d9aed055c",
+}
+[07:58:50.263] INFO (#104723): mcp oauth authorization started {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "e94450e7-59e0-4bea-98b2-a4c11311ecec",
+}
+[07:58:50.270] INFO (#104723): mcp oauth client registration selected {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "e94450e7-59e0-4bea-98b2-a4c11311ecec",
+  registration: "static",
+}
+[mcp-sdk] SEP-2352: stored OAuth credential has no 'issuer' stamp (pre-upgrade storage or provider not round-tripping the value). SEP-2352 isolation is inactive for this read; ensure your provider round-trips the issuer field.
+[07:58:50.270] INFO (#104730): mcp oauth awaiting authorization {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "e94450e7-59e0-4bea-98b2-a4c11311ecec",
+}
+[07:58:50.272] INFO (#104732): mcp oauth authorization started {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "193ea03f-874f-456f-85f8-e9db25b7af4f",
+}
+[07:58:50.283] INFO (#104732): mcp oauth client registration selected {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "193ea03f-874f-456f-85f8-e9db25b7af4f",
+  registration: "dcr",
+}
+[07:58:50.284] INFO (#104740): mcp oauth awaiting authorization {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "193ea03f-874f-456f-85f8-e9db25b7af4f",
+}
+[07:58:50.285] INFO (#104744): mcp oauth request started {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "193ea03f-874f-456f-85f8-e9db25b7af4f",
+  requestID: "b1ca832b-3172-425a-85d6-826cc44acc1b",
+  origin: "http://localhost:44553",
+  method: "POST",
+  operation: "exchange",
+}
+[07:58:50.286] INFO (#104744): mcp oauth request succeeded {
+  status: 200,
+  durationMs: 1,
+} {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "193ea03f-874f-456f-85f8-e9db25b7af4f",
+  requestID: "b1ca832b-3172-425a-85d6-826cc44acc1b",
+  origin: "http://localhost:44553",
+  method: "POST",
+  operation: "exchange",
+}
+[07:58:50.286] INFO (#104741): mcp oauth authorization completed {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "193ea03f-874f-456f-85f8-e9db25b7af4f",
+  hasRefreshToken: false,
+  expiresIn: undefined,
+} {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "193ea03f-874f-456f-85f8-e9db25b7af4f",
+}
+[07:58:50.294] INFO (#104745): mcp oauth authorization started {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "abdf3100-7ca0-4e77-a219-06fc640b9f9c",
+}
+[07:58:50.301] INFO (#104745): mcp oauth client registration selected {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "abdf3100-7ca0-4e77-a219-06fc640b9f9c",
+  registration: "cimd",
+}
+[07:58:50.301] INFO (#104752): mcp oauth awaiting authorization {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "abdf3100-7ca0-4e77-a219-06fc640b9f9c",
+}
+[07:58:50.303] INFO (#104756): mcp oauth request started {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "abdf3100-7ca0-4e77-a219-06fc640b9f9c",
+  requestID: "d7064b79-3286-4ab9-88a0-73a6d438f860",
+  origin: "http://localhost:41357",
+  method: "POST",
+  operation: "exchange",
+}
+[07:58:50.303] INFO (#104756): mcp oauth request succeeded {
+  status: 200,
+  durationMs: 0,
+} {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "abdf3100-7ca0-4e77-a219-06fc640b9f9c",
+  requestID: "d7064b79-3286-4ab9-88a0-73a6d438f860",
+  origin: "http://localhost:41357",
+  method: "POST",
+  operation: "exchange",
+}
+[07:58:50.303] INFO (#104753): mcp oauth authorization completed {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "abdf3100-7ca0-4e77-a219-06fc640b9f9c",
+  hasRefreshToken: false,
+  expiresIn: undefined,
+} {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "abdf3100-7ca0-4e77-a219-06fc640b9f9c",
+}
+[07:58:50.311] INFO (#104757): mcp oauth authorization started {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "19806128-40bf-48dd-a282-b04ac6d3ef70",
+}
+[07:58:50.317] INFO (#104757): mcp oauth client registration selected {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "19806128-40bf-48dd-a282-b04ac6d3ef70",
+  registration: "dcr",
+}
+[07:58:50.318] INFO (#104765): mcp oauth awaiting authorization {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "19806128-40bf-48dd-a282-b04ac6d3ef70",
+}
+[07:58:50.319] INFO (#104767): mcp oauth authorization started {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "2de8a4b6-18d7-4bd9-9847-25ee2800a5a0",
+}
+[07:58:50.332] INFO (#104767): mcp oauth client registration selected {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "2de8a4b6-18d7-4bd9-9847-25ee2800a5a0",
+  registration: "dcr",
+}
+[07:58:50.333] INFO (#104775): mcp oauth awaiting authorization {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "2de8a4b6-18d7-4bd9-9847-25ee2800a5a0",
+}
+[07:58:50.334] INFO (#104779): mcp oauth request started {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "2de8a4b6-18d7-4bd9-9847-25ee2800a5a0",
+  requestID: "4a39a5b6-ad33-415d-ace3-982e8b38fc21",
+  origin: "http://localhost:37525",
+  method: "POST",
+  operation: "exchange",
+}
+[07:58:50.334] INFO (#104779): mcp oauth request succeeded {
+  status: 200,
+  durationMs: 0,
+} {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "2de8a4b6-18d7-4bd9-9847-25ee2800a5a0",
+  requestID: "4a39a5b6-ad33-415d-ace3-982e8b38fc21",
+  origin: "http://localhost:37525",
+  method: "POST",
+  operation: "exchange",
+}
+[07:58:50.334] INFO (#104776): mcp oauth authorization completed {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "2de8a4b6-18d7-4bd9-9847-25ee2800a5a0",
+  hasRefreshToken: false,
+  expiresIn: undefined,
+} {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "2de8a4b6-18d7-4bd9-9847-25ee2800a5a0",
+}
+[07:58:50.342] INFO (#104780): mcp oauth authorization started {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "69b99c40-ce5b-4230-aad6-1be2a7df3576",
+}
+[07:58:50.349] INFO (#104780): mcp oauth client registration selected {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "69b99c40-ce5b-4230-aad6-1be2a7df3576",
+  registration: "dcr",
+}
+[07:58:50.350] INFO (#104787): mcp oauth awaiting authorization {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "69b99c40-ce5b-4230-aad6-1be2a7df3576",
+}
+[07:58:50.356] INFO (#104789): mcp oauth authorization started {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "087aa5fa-cd83-4382-be8b-4d3e716a0067",
+}
+[07:58:50.368] INFO (#104789): mcp oauth client registration selected {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "087aa5fa-cd83-4382-be8b-4d3e716a0067",
+  registration: "dcr",
+}
+[07:58:50.369] INFO (#104797): mcp oauth awaiting authorization {
+  server: "test",
+  methodID: "oauth",
+  oauthAttemptID: "087aa5fa-cd83-4382-be8b-4d3e716a0067",
+}
+[07:58:50.380] INFO (#104801): database schema bootstrap started {
+  migrations: 59,
+}
+[07:58:50.388] INFO (#104801): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 8,
+}
+[07:58:50.390] INFO (#104799): credential created {
+  credentialID: "cred_test",
+  integrationID: "mcp_test",
+  type: "oauth",
+  active: true,
+}
+[07:58:50.397] WARN (#104818): mcp http authentication rejected {
+  status: 401,
+  durationMs: 0,
+} {
+  server: "test",
+  directory: "/home/ubuntu/zerocode-cli/packages/core/test",
+  requestID: "e81e52bf-cae9-46d3-b49a-21862b23aeb2",
+  origin: "http://localhost:35119",
+  method: "POST",
+}
+[07:58:50.400] INFO (#104830): mcp oauth request started {
+  server: "test",
+  requestID: "e1cc1a94-406b-4d93-b63f-ac96f2371856",
+  origin: "http://localhost:35119",
+  method: "POST",
+  operation: "refresh",
+}
+[07:58:50.400] INFO (#104830): mcp oauth request succeeded {
+  status: 200,
+  durationMs: 0,
+} {
+  server: "test",
+  requestID: "e1cc1a94-406b-4d93-b63f-ac96f2371856",
+  origin: "http://localhost:35119",
+  method: "POST",
+  operation: "refresh",
+}
+[07:58:50.401] INFO (#104820): credential updated {
+  credentialID: "cred_test",
+  integrationID: "mcp_test",
+  valueChanged: true,
+  labelChanged: false,
+}
+[07:58:50.425] INFO (#104885): database schema bootstrap started {
+  migrations: 59,
+}
+[07:58:50.433] INFO (#104885): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 8,
+}
+[07:58:50.434] INFO (#104883): credential created {
+  credentialID: "cred_test",
+  integrationID: "mcp_test",
+  type: "oauth",
+  active: true,
+}
+[07:58:50.438] INFO (#104907): mcp oauth request started {
+  server: "test",
+  requestID: "9d52bf12-57db-4bfb-81d6-6227cbb6c5f9",
+  origin: "http://localhost:35905",
+  method: "POST",
+  operation: "refresh",
+}
+[07:58:50.438] INFO (#104907): mcp oauth request succeeded {
+  status: 200,
+  durationMs: 0,
+} {
+  server: "test",
+  requestID: "9d52bf12-57db-4bfb-81d6-6227cbb6c5f9",
+  origin: "http://localhost:35905",
+  method: "POST",
+  operation: "refresh",
+}
+[07:58:50.439] INFO (#104899): credential updated {
+  credentialID: "cred_test",
+  integrationID: "mcp_test",
+  valueChanged: true,
+  labelChanged: false,
+}
+[07:58:50.456] INFO (#104953): database schema bootstrap started {
+  migrations: 59,
+}
+[07:58:50.464] INFO (#104953): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 8,
+}
+[07:58:50.465] INFO (#104951): credential created {
+  credentialID: "cred_test",
+  integrationID: "mcp_test",
+  type: "oauth",
+  active: true,
+}
+[07:58:50.468] INFO (#104975): mcp oauth request started {
+  server: "test",
+  requestID: "32a91f4c-6807-4e60-99a2-e72bc96cf419",
+  origin: "http://localhost:35581",
+  method: "POST",
+  operation: "refresh",
+}
+[07:58:50.469] WARN (#104975): mcp oauth request rejected {
+  status: 503,
+  durationMs: 1,
+  error: "server_error",
+  message: "Invalid OAuth error response: SyntaxError: JSON Parse error: Unexpected EOF. Raw body: ",
+} {
+  server: "test",
+  requestID: "32a91f4c-6807-4e60-99a2-e72bc96cf419",
+  origin: "http://localhost:35581",
+  method: "POST",
+  operation: "refresh",
+}
+[07:58:50.486] INFO (#105021): database schema bootstrap started {
+  migrations: 59,
+}
+[07:58:50.494] INFO (#105021): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 8,
+}
+[07:58:50.495] INFO (#105019): credential created {
+  credentialID: "cred_test",
+  integrationID: "mcp_test",
+  type: "oauth",
+  active: true,
+}
+[07:58:50.501] INFO (#105052): database schema bootstrap started {
+  migrations: 59,
+}
+[07:58:50.508] INFO (#105052): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 7,
+}
+[07:58:50.509] INFO (#105050): credential created {
+  credentialID: "cred_test",
+  integrationID: "mcp_test",
+  type: "oauth",
+  active: true,
+}
+[07:58:50.515] INFO (#105083): database schema bootstrap started {
+  migrations: 59,
+}
+[07:58:50.522] INFO (#105083): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 7,
+}
+[07:58:50.523] INFO (#105081): credential created {
+  credentialID: "cred_test",
+  integrationID: "mcp_test",
+  type: "oauth",
+  active: true,
+}
+[07:58:50.537] INFO (#105114): database schema bootstrap started {
+  migrations: 59,
+}
+[07:58:50.545] INFO (#105114): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 8,
+}
+[07:58:50.546] INFO (#105112): credential created {
+  credentialID: "cred_test",
+  integrationID: "mcp_test",
+  type: "oauth",
+  active: true,
+}
+[07:58:50.547] INFO (#105127): credential created {
+  credentialID: "cred_1e35db0b30011ZWmLR9R0e9LYN",
+  integrationID: "mcp_test",
+  type: "oauth",
+  active: true,
+}
+[07:58:50.550] INFO (#105140): mcp oauth request started {
+  server: "test",
+  requestID: "8ac74458-fa41-417e-affc-962afa76857c",
+  origin: "http://localhost:37033",
+  method: "POST",
+  operation: "refresh",
+}
+[07:58:50.551] INFO (#105140): mcp oauth request succeeded {
+  status: 200,
+  durationMs: 1,
+} {
+  server: "test",
+  requestID: "8ac74458-fa41-417e-affc-962afa76857c",
+  origin: "http://localhost:37033",
+  method: "POST",
+  operation: "refresh",
+}
+[07:58:50.551] INFO (#105130): credential updated {
+  credentialID: "cred_test",
+  integrationID: "mcp_test",
+  valueChanged: true,
+  labelChanged: false,
+}
+[07:58:50.568] WARN (#105189): mcp http authentication rejected {
+  status: 401,
+  durationMs: 0,
+} {
+  server: "test",
+  directory: "/home/ubuntu/zerocode-cli/packages/core/test",
+  requestID: "012c2956-835d-4ca8-97be-d835a8c4d8c7",
+  origin: "http://localhost:34603",
+  method: "POST",
+}
+[07:58:50.569] WARN (#105190): mcp transport error {
+  server: "test",
+  error: "Unauthorized",
+}
+[07:58:50.580] INFO (#105196): database schema bootstrap started {
+  migrations: 59,
+}
+[07:58:50.588] INFO (#105196): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 8,
+}
+[07:58:50.589] INFO (#105194): credential created {
+  credentialID: "cred_test",
+  integrationID: "mcp_test",
+  type: "oauth",
+  active: true,
+}
+[07:58:50.593] INFO (#105221): mcp oauth request started {
+  server: "test",
+  requestID: "54fc01d2-68f0-4eaa-92df-b08a468dbb7d",
+  origin: "http://localhost:42107",
+  method: "POST",
+  operation: "refresh",
+}
+[07:58:50.593] INFO (#105221): mcp oauth request succeeded {
+  status: 200,
+  durationMs: 1,
+} {
+  server: "test",
+  requestID: "54fc01d2-68f0-4eaa-92df-b08a468dbb7d",
+  origin: "http://localhost:42107",
+  method: "POST",
+  operation: "refresh",
+}
+[07:58:50.594] INFO (#105211): credential updated {
+  credentialID: "cred_test",
+  integrationID: "mcp_test",
+  valueChanged: true,
+  labelChanged: false,
+}
+[07:58:50.608] INFO (#105240): database schema bootstrap started {
+  migrations: 59,
+}
+[07:58:50.616] INFO (#105240): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 8,
+}
+[07:58:50.617] INFO (#105238): credential created {
+  credentialID: "cred_test",
+  integrationID: "mcp_test",
+  type: "oauth",
+  active: true,
+}
+[07:58:50.621] INFO (#105264): mcp oauth request started {
+  server: "test",
+  requestID: "0386e53e-7881-4dbb-9720-b2c74c69b31d",
+  origin: "http://localhost:45243",
+  method: "POST",
+  operation: "refresh",
+}
+[07:58:50.622] INFO (#105264): mcp oauth request succeeded {
+  status: 200,
+  durationMs: 1,
+} {
+  server: "test",
+  requestID: "0386e53e-7881-4dbb-9720-b2c74c69b31d",
+  origin: "http://localhost:45243",
+  method: "POST",
+  operation: "refresh",
+}
+[07:58:50.622] INFO (#105255): credential updated {
+  credentialID: "cred_test",
+  integrationID: "mcp_test",
+  valueChanged: true,
+  labelChanged: false,
+}
+[07:58:50.637] INFO (#105283): database schema bootstrap started {
+  migrations: 59,
+}
+[07:58:50.645] INFO (#105283): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 8,
+}
+[07:58:50.646] INFO (#105281): credential created {
+  credentialID: "cred_test",
+  integrationID: "mcp_test",
+  type: "oauth",
+  active: true,
+}
+[07:58:50.650] INFO (#105307): mcp oauth request started {
+  server: "test",
+  requestID: "13577633-3128-438c-b3fc-bf98d676e408",
+  origin: "http://localhost:35873",
+  method: "POST",
+  operation: "refresh",
+}
+[07:58:50.650] INFO (#105307): mcp oauth request succeeded {
+  status: 200,
+  durationMs: 0,
+} {
+  server: "test",
+  requestID: "13577633-3128-438c-b3fc-bf98d676e408",
+  origin: "http://localhost:35873",
+  method: "POST",
+  operation: "refresh",
+}
+[07:58:50.651] INFO (#105298): credential updated {
+  credentialID: "cred_test",
+  integrationID: "mcp_test",
+  valueChanged: true,
+  labelChanged: false,
+}
+[07:58:50.666] INFO (#105326): database schema bootstrap started {
+  migrations: 59,
+}
+[07:58:50.674] INFO (#105326): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 8,
+}
+[07:58:50.675] INFO (#105324): credential created {
+  credentialID: "cred_test",
+  integrationID: "mcp_test",
+  type: "oauth",
+  active: true,
+}
+[07:58:50.679] INFO (#105350): mcp oauth request started {
+  server: "test",
+  requestID: "7750ba9d-9e4b-4e1e-ae58-399bf87586a6",
+  origin: "http://localhost:34159",
+  method: "POST",
+  operation: "refresh",
+}
+[07:58:50.679] INFO (#105350): mcp oauth request succeeded {
+  status: 200,
+  durationMs: 0,
+} {
+  server: "test",
+  requestID: "7750ba9d-9e4b-4e1e-ae58-399bf87586a6",
+  origin: "http://localhost:34159",
+  method: "POST",
+  operation: "refresh",
+}
+[07:58:50.680] INFO (#105341): credential updated {
+  credentialID: "cred_test",
+  integrationID: "mcp_test",
+  valueChanged: true,
+  labelChanged: false,
+}
+[07:58:50.698] INFO (#105396): database schema bootstrap started {
+  migrations: 59,
+}
+[07:58:50.706] INFO (#105396): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 8,
+}
+[07:58:50.708] INFO (#105394): credential created {
+  credentialID: "cred_test",
+  integrationID: "mcp_test",
+  type: "oauth",
+  active: true,
+}
+[07:58:50.711] INFO (#105419): mcp oauth request started {
+  server: "test",
+  requestID: "b4422a92-15bc-482c-b5d5-38e1089ba255",
+  origin: "http://localhost:44257",
+  method: "POST",
+  operation: "refresh",
+}
+[07:58:50.711] INFO (#105419): mcp oauth request succeeded {
+  status: 200,
+  durationMs: 0,
+} {
+  server: "test",
+  requestID: "b4422a92-15bc-482c-b5d5-38e1089ba255",
+  origin: "http://localhost:44257",
+  method: "POST",
+  operation: "refresh",
+}
+[07:58:50.712] INFO (#105411): credential updated {
+  credentialID: "cred_test",
+  integrationID: "mcp_test",
+  valueChanged: true,
+  labelChanged: false,
+}
+[07:58:50.726] INFO (#105438): database schema bootstrap started {
+  migrations: 59,
+}
+[07:58:50.734] INFO (#105438): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 8,
+}
+[07:58:50.735] INFO (#105436): credential created {
+  credentialID: "cred_test",
+  integrationID: "mcp_test",
+  type: "oauth",
+  active: true,
+}
+[07:58:50.744] INFO (#105478): mcp oauth request started {
+  server: "test",
+  requestID: "d077adb8-a350-4680-b6e7-548532c8e25c",
+  origin: "http://localhost:43679",
+  method: "POST",
+  operation: "refresh",
+}
+[07:58:50.744] INFO (#105478): mcp oauth request succeeded {
+  status: 200,
+  durationMs: 0,
+} {
+  server: "test",
+  requestID: "d077adb8-a350-4680-b6e7-548532c8e25c",
+  origin: "http://localhost:43679",
+  method: "POST",
+  operation: "refresh",
+}
+[07:58:50.746] INFO (#105468): credential updated {
+  credentialID: "cred_test",
+  integrationID: "mcp_test",
+  valueChanged: true,
+  labelChanged: false,
+}
+[07:58:50.853] INFO (#105480): credential refresh skipped {
+  credentialID: "cred_test",
+  reason: "already_refreshed",
+}
+[07:58:50.868] INFO (#105520): database schema bootstrap started {
+  migrations: 59,
+}
+[07:58:50.876] INFO (#105520): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 8,
+}
+[07:58:50.878] INFO (#105518): credential created {
+  credentialID: "cred_test",
+  integrationID: "mcp_test",
+  type: "oauth",
+  active: true,
+}
+[07:58:50.886] INFO (#105560): mcp oauth request started {
+  server: "test",
+  requestID: "cb6b0f29-e56e-4ae0-aa6c-8b238a92d091",
+  origin: "http://localhost:38683",
+  method: "POST",
+  operation: "refresh",
+}
+[07:58:50.886] INFO (#105560): mcp oauth request succeeded {
+  status: 200,
+  durationMs: 0,
+} {
+  server: "test",
+  requestID: "cb6b0f29-e56e-4ae0-aa6c-8b238a92d091",
+  origin: "http://localhost:38683",
+  method: "POST",
+  operation: "refresh",
+}
+[07:58:50.887] INFO (#105550): credential updated {
+  credentialID: "cred_test",
+  integrationID: "mcp_test",
+  valueChanged: true,
+  labelChanged: false,
+}
+[07:58:50.889] INFO (#105563): credential refresh skipped {
+  credentialID: "cred_test",
+  reason: "already_refreshed",
+}
+[07:58:50.903] INFO (#105600): database schema bootstrap started {
+  migrations: 59,
+}
+[07:58:50.911] INFO (#105600): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 8,
+}
+[07:58:50.912] INFO (#105598): credential created {
+  credentialID: "cred_test",
+  integrationID: "mcp_test",
+  type: "oauth",
+  active: true,
+}
+[07:58:50.918] INFO (#105614): credential removed {
+  credentialID: "cred_test",
+  integrationID: "mcp_test",
+  active: true,
+  replacementID: null,
+}
+[07:58:50.930] INFO (#105659): database schema bootstrap started {
+  migrations: 59,
+}
+[07:58:50.938] INFO (#105659): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 8,
+}
+[07:58:50.939] INFO (#105657): credential created {
+  credentialID: "cred_test",
+  integrationID: "mcp_test",
+  type: "oauth",
+  active: true,
+}
+[07:58:50.942] WARN (#105676): mcp http authentication rejected {
+  status: 401,
+  durationMs: 1,
+} {
+  server: "test",
+  directory: "/home/ubuntu/zerocode-cli/packages/core/test",
+  requestID: "b03e6206-2bac-4bcb-8cc6-2b84a63d80f5",
+  origin: "http://localhost:33989",
+  method: "POST",
+}
+[07:58:50.944] INFO (#105688): mcp oauth request started {
+  server: "test",
+  requestID: "4ec4a86f-bb67-447e-abce-de55b77b3e46",
+  origin: "http://localhost:33989",
+  method: "POST",
+  operation: "refresh",
+}
+[07:58:50.945] WARN (#105688): mcp oauth request rejected {
+  status: 503,
+  durationMs: 0,
+  error: "server_error",
+  message: "Invalid OAuth error response: SyntaxError: JSON Parse error: Unexpected identifier \"upstream\". Raw body: upstream unavailable",
+} {
+  server: "test",
+  requestID: "4ec4a86f-bb67-447e-abce-de55b77b3e46",
+  origin: "http://localhost:33989",
+  method: "POST",
+  operation: "refresh",
+}
+[07:58:50.945] WARN (#105690): mcp transport error {
+  server: "test",
+  error: "Could not refresh the OAuth token: HTTP 503 (temporarily_unavailable)",
+}
+[07:58:50.952] WARN (#105713): mcp http authentication rejected {
+  status: 401,
+  durationMs: 0,
+} {
+  server: "test",
+  directory: "/home/ubuntu/zerocode-cli/packages/core/test",
+  requestID: "6cce1839-7b98-4c25-8fb7-daf5979d3dc9",
+  origin: "http://localhost:33989",
+  method: "POST",
+}
+[07:58:50.954] INFO (#105725): mcp oauth request started {
+  server: "test",
+  requestID: "d327db38-2d37-4646-be9a-f66363b4e54c",
+  origin: "http://localhost:33989",
+  method: "POST",
+  operation: "refresh",
+}
+[07:58:50.954] INFO (#105725): mcp oauth request succeeded {
+  status: 200,
+  durationMs: 0,
+} {
+  server: "test",
+  requestID: "d327db38-2d37-4646-be9a-f66363b4e54c",
+  origin: "http://localhost:33989",
+  method: "POST",
+  operation: "refresh",
+}
+[07:58:50.955] INFO (#105715): credential updated {
+  credentialID: "cred_test",
+  integrationID: "mcp_test",
+  valueChanged: true,
+  labelChanged: false,
+}
+[07:58:50.975] INFO (#105767): database schema bootstrap started {
+  migrations: 59,
+}
+[07:58:50.983] INFO (#105767): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 8,
+}
+[07:58:50.984] INFO (#105765): credential created {
+  credentialID: "cred_test",
+  integrationID: "mcp_test",
+  type: "oauth",
+  active: true,
+}
+[07:58:50.987] WARN (#105784): mcp http authentication rejected {
+  status: 401,
+  durationMs: 0,
+} {
+  server: "test",
+  directory: "/home/ubuntu/zerocode-cli/packages/core/test",
+  requestID: "8d805083-656e-4e9b-b780-60977b9ddddd",
+  origin: "http://localhost:39639",
+  method: "POST",
+}
+[07:58:50.990] INFO (#105796): mcp oauth request started {
+  server: "test",
+  requestID: "931c60ee-0f83-469b-8eda-bee6de92138c",
+  origin: "http://localhost:0",
+  method: "POST",
+  operation: "refresh",
+}
+[07:58:50.990] WARN (#105796): mcp http request failed {
+  errors: [
+    {
+      type: "TypeError",
+      message: "ECONNREFUSED: Unable to connect. Is the computer able to access the url?",
+      code: "ECONNREFUSED",
+      errno: 0,
+    }
+  ],
+  durationMs: 0,
+} {
+  server: "test",
+  requestID: "931c60ee-0f83-469b-8eda-bee6de92138c",
+  origin: "http://localhost:0",
+  method: "POST",
+  operation: "refresh",
+}
+[07:58:50.991] WARN (#105798): mcp transport error {
+  server: "test",
+  error: "Could not refresh the OAuth token: ECONNREFUSED: Unable to connect. Is the computer able to access the url? (temporarily_unavailable)",
+}
+[07:58:50.998] WARN (#105821): mcp http authentication rejected {
+  status: 401,
+  durationMs: 0,
+} {
+  server: "test",
+  directory: "/home/ubuntu/zerocode-cli/packages/core/test",
+  requestID: "0cd6944a-014a-4f9c-8704-5c43cc0953c8",
+  origin: "http://localhost:39639",
+  method: "POST",
+}
+[07:58:51.000] INFO (#105833): mcp oauth request started {
+  server: "test",
+  requestID: "ece9159b-b248-490a-aa36-51f3bd2dcf51",
+  origin: "http://localhost:39639",
+  method: "POST",
+  operation: "refresh",
+}
+[07:58:51.001] INFO (#105833): mcp oauth request succeeded {
+  status: 200,
+  durationMs: 1,
+} {
+  server: "test",
+  requestID: "ece9159b-b248-490a-aa36-51f3bd2dcf51",
+  origin: "http://localhost:39639",
+  method: "POST",
+  operation: "refresh",
+}
+[07:58:51.002] INFO (#105823): credential updated {
+  credentialID: "cred_test",
+  integrationID: "mcp_test",
+  valueChanged: true,
+  labelChanged: false,
+}
+[07:58:51.020] INFO (#105874): database schema bootstrap started {
+  migrations: 59,
+}
+[07:58:51.028] INFO (#105874): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 8,
+}
+[07:58:51.030] INFO (#105872): credential created {
+  credentialID: "cred_test",
+  integrationID: "mcp_test",
+  type: "oauth",
+  active: true,
+}
+[07:58:51.032] WARN (#105891): mcp http authentication rejected {
+  status: 401,
+  durationMs: 1,
+} {
+  server: "test",
+  directory: "/home/ubuntu/zerocode-cli/packages/core/test",
+  requestID: "208b0b4b-3c86-40aa-b7ef-c7689f211a8c",
+  origin: "http://localhost:38139",
+  method: "POST",
+}
+[07:58:51.034] INFO (#105903): mcp oauth request started {
+  server: "test",
+  requestID: "5bdfac82-fccf-496d-9a62-5ed114eb66c4",
+  origin: "http://localhost:38139",
+  method: "POST",
+  operation: "refresh",
+}
+[07:58:51.035] WARN (#105903): mcp oauth request rejected {
+  status: 400,
+  durationMs: 1,
+  error: "invalid_grant",
+  message: "invalid_grant",
+} {
+  server: "test",
+  requestID: "5bdfac82-fccf-496d-9a62-5ed114eb66c4",
+  origin: "http://localhost:38139",
+  method: "POST",
+  operation: "refresh",
+}
+[07:58:51.035] WARN (#105898): mcp oauth credential invalidated {
+  credentialID: "cred_test",
+  reason: "invalid_grant",
+}
+[07:58:51.036] INFO (#105898): credential removed {
+  credentialID: "cred_test",
+  integrationID: "mcp_test",
+  active: true,
+  replacementID: null,
+}
+[07:58:51.036] WARN (#105905): mcp transport error {
+  server: "test",
+  error: "MCP server \"http://localhost:38139/mcp\" requires user authorization",
+}
+[07:58:51.056] INFO (#105953): database schema bootstrap started {
+  migrations: 59,
+}
+[07:58:51.064] INFO (#105953): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 8,
+}
+[07:58:51.065] INFO (#105951): credential created {
+  credentialID: "cred_test",
+  integrationID: "mcp_test",
+  type: "oauth",
+  active: true,
+}
+[07:58:51.088] INFO (#106024): database schema bootstrap started {
+  migrations: 59,
+}
+[07:58:51.096] INFO (#106024): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 8,
+}
+[07:58:51.098] INFO (#106022): credential created {
+  credentialID: "cred_test",
+  integrationID: "mcp_test",
+  type: "oauth",
+  active: true,
+}
+[07:58:51.119] INFO (#106093): database schema bootstrap started {
+  migrations: 59,
+}
+[07:58:51.127] INFO (#106093): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 8,
+}
+[07:58:51.128] INFO (#106091): credential created {
+  credentialID: "cred_test",
+  integrationID: "mcp_test",
+  type: "oauth",
+  active: true,
+}
+[07:58:51.139] INFO (#106118): mcp oauth request started {
+  server: "test",
+  requestID: "c5fb0915-63a0-4d15-bafa-7cf41e4c8e63",
+  origin: "http://localhost:42931",
+  method: "POST",
+  operation: "refresh",
+}
+[07:58:51.140] WARN (#106118): mcp oauth request rejected {
+  status: 400,
+  durationMs: 1,
+  error: "server_error",
+  message: "Invalid OAuth error response: SyntaxError: JSON Parse error: Unrecognized token '<'. Raw body: <html>secret echo of the request</html>",
+} {
+  server: "test",
+  requestID: "c5fb0915-63a0-4d15-bafa-7cf41e4c8e63",
+  origin: "http://localhost:42931",
+  method: "POST",
+  operation: "refresh",
+}
+[07:58:51.157] INFO (#106164): database schema bootstrap started {
+  migrations: 59,
+}
+[07:58:51.165] INFO (#106164): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 8,
+}
+[07:58:51.166] INFO (#106162): credential created {
+  credentialID: "cred_test",
+  integrationID: "mcp_test",
+  type: "oauth",
+  active: true,
+}
+[07:58:51.169] WARN (#106184): mcp oauth credential invalidated {
+  credentialID: "cred_test",
+  reason: "no OAuth client information",
+}
+[07:58:51.170] INFO (#106184): credential removed {
+  credentialID: "cred_test",
+  integrationID: "mcp_test",
+  active: true,
+  replacementID: null,
+}
+[07:58:51.187] INFO (#106231): database schema bootstrap started {
+  migrations: 59,
+}
+[07:58:51.195] INFO (#106231): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 8,
+}
+[07:58:51.196] INFO (#106229): credential created {
+  credentialID: "cred_test",
+  integrationID: "mcp_test",
+  type: "oauth",
+  active: true,
+}
+[07:58:51.203] INFO (#106257): mcp oauth request started {
+  server: "test",
+  requestID: "3d8dc7c7-4c5b-45db-90e2-24a1df1b3521",
+  origin: "http://localhost:34329",
+  method: "POST",
+  operation: "refresh",
+}
+[07:58:51.203] INFO (#106257): mcp oauth request succeeded {
+  status: 200,
+  durationMs: 0,
+} {
+  server: "test",
+  requestID: "3d8dc7c7-4c5b-45db-90e2-24a1df1b3521",
+  origin: "http://localhost:34329",
+  method: "POST",
+  operation: "refresh",
+}
+[07:58:51.204] INFO (#106246): credential updated {
+  credentialID: "cred_test",
+  integrationID: "mcp_test",
+  valueChanged: true,
+  labelChanged: false,
+}
+[07:58:51.223] INFO (#106303): database schema bootstrap started {
+  migrations: 59,
+}
+[07:58:51.231] INFO (#106303): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 8,
+}
+[07:58:51.232] INFO (#106301): credential created {
+  credentialID: "cred_test",
+  integrationID: "mcp_test",
+  type: "oauth",
+  active: true,
+}
+[07:58:51.234] WARN (#106320): mcp http authentication rejected {
+  status: 403,
+  durationMs: 0,
+} {
+  server: "test",
+  directory: "/home/ubuntu/zerocode-cli/packages/core/test",
+  requestID: "50b7b9bb-d4bf-4475-b776-b81286436603",
+  origin: "http://localhost:35333",
+  method: "POST",
+}
+[07:58:51.235] WARN (#106321): mcp transport error {
+  server: "test",
+  error: "Insufficient scope: required \"admin\"",
+}
+
+test/mcp.test.ts:
+[07:58:51.846] WARN (#106522): mcp connect failed {
+  server: "resources",
+  status: {
+    status: "failed",
+    error: "Unknown: Environment.spawn: This location has no execution plane: no workspace is attached and the host cannot spawn processes",
+  },
+} {
+  server: "resources",
+  directory: "/home/ubuntu/zerocode-cli/packages/core/test",
+  connectionID: "7a590e04-ad43-488e-9b81-7fd8d8300d1a",
+}
+[07:58:58.141] WARN (#106620): failed to list MCP tools {
+  server: "catalog-timeout",
+  error: "Request timed out",
+}
+[07:58:58.365] WARN (#106649): failed to call MCP tool {
+  server: "execution-timeout",
+  error: "Request timed out",
+}
+[07:58:58.602] WARN (#106678): failed to get MCP prompt {
+  server: "prompt-timeout",
+  error: "Request timed out",
+}
+[07:58:58.837] WARN (#106707): failed to list MCP resources {
+  server: "resource-catalog-timeout",
+  error: "Request timed out",
+}
+[07:58:59.067] WARN (#106736): failed to read MCP resource {
+  server: "resource-read-timeout",
+  error: "Request timed out",
+}
+[07:58:59.357] INFO (#106918): mcp connected {
+  server: "resources",
+  tools: 1,
+} {
+  server: "resources",
+  directory: "/home/ubuntu/zerocode-cli/packages/core/test",
+  connectionID: "98c00131-c5ec-4ec8-b11a-169b937e0748",
+}
+[07:58:59.362] WARN (#106927): mcp transport error {
+  server: "resources",
+  error: "Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32000,\"message\":\"Bad Request: Server not initialized\"},\"id\":null} (HTTP 400)",
+} {
+  server: "resources",
+  directory: "/home/ubuntu/zerocode-cli/packages/core/test",
+  connectionID: "98c00131-c5ec-4ec8-b11a-169b937e0748",
+}
+[07:58:59.362] INFO (#106928): mcp session expired, reconnecting {
+  server: "resources",
+}
+[07:58:59.362] WARN (#106905): failed to call MCP tool {
+  server: "resources",
+  error: "MCP server session expired: resources",
+}
+[07:58:59.366] INFO (#106928): mcp connected {
+  server: "resources",
+  tools: 1,
+} {
+  server: "resources",
+  directory: "/home/ubuntu/zerocode-cli/packages/core/test",
+  connectionID: "cac23ce8-6949-4dad-8348-b503ad992556",
+}
+[07:58:59.425] WARN (#106977): skipping invalid MCP tool {
+  server: "malformed",
+  tool: undefined,
+  reason: "not an object",
+}
+[07:58:59.425] WARN (#106977): skipping invalid MCP tool {
+  server: "malformed",
+  tool: undefined,
+  reason: "not an object",
+}
+[07:58:59.425] WARN (#106977): skipping invalid MCP tool {
+  server: "malformed",
+  tool: undefined,
+  reason: "name is not a non-empty string",
+}
+[07:58:59.425] WARN (#106977): skipping invalid MCP tool {
+  server: "malformed",
+  tool: "no-schema",
+  reason: "inputSchema is not an object",
+}
+[07:58:59.425] WARN (#106977): skipping invalid MCP tool {
+  server: "malformed",
+  tool: "malformed",
+  reason: "inputSchema type is not \"object\"",
+}
+[07:58:59.562] WARN (#107025): skipping invalid MCP tool {
+  server: "malformed",
+  tool: undefined,
+  reason: "not an object",
+}
+[07:58:59.562] WARN (#107025): skipping invalid MCP tool {
+  server: "malformed",
+  tool: undefined,
+  reason: "not an object",
+}
+[07:58:59.562] WARN (#107025): skipping invalid MCP tool {
+  server: "malformed",
+  tool: undefined,
+  reason: "name is not a non-empty string",
+}
+[07:58:59.562] WARN (#107025): skipping invalid MCP tool {
+  server: "malformed",
+  tool: "no-schema",
+  reason: "inputSchema is not an object",
+}
+[07:58:59.562] WARN (#107025): skipping invalid MCP tool {
+  server: "malformed",
+  tool: "malformed",
+  reason: "inputSchema type is not \"object\"",
+}
+[07:58:59.711] INFO (#107101): mcp connected {
+  server: "resources",
+  tools: 1,
+} {
+  server: "resources",
+  directory: "/home/ubuntu/zerocode-cli/packages/core/test",
+  connectionID: "60b171d9-b3c1-403f-9d7e-b67476525655",
+}
+[07:58:59.748] INFO (#107145): mcp connected {
+  server: "resources",
+  tools: 1,
+} {
+  server: "resources",
+  directory: "/home/ubuntu/zerocode-cli/packages/core/test",
+  connectionID: "54e16c1f-2ee7-4ad1-b2ec-1f4b73c11f61",
+}
+[07:58:59.783] INFO (#107195): mcp connected {
+  server: "resources",
+  tools: 1,
+} {
+  server: "resources",
+  directory: "/home/ubuntu/zerocode-cli/packages/core/test",
+  connectionID: "fc42c8ee-90f0-49f2-ad91-ecf6e5c5b7c3",
+}
+[07:58:59.986] WARN (#107196): failed to call MCP tool {
+  server: "resources",
+  error: "Request timed out",
+}
+[07:59:00.020] INFO (#107245): mcp connected {
+  server: "resources",
+  tools: 1,
+} {
+  server: "resources",
+  directory: "/home/ubuntu/zerocode-cli/packages/core/test",
+  connectionID: "f25d6ea2-331a-42f2-806d-a740be8a039c",
+}
+[07:59:00.049] INFO (#107288): mcp connected {
+  server: "resources",
+  tools: 1,
+} {
+  server: "resources",
+  directory: "/home/ubuntu/zerocode-cli/packages/core/test",
+  connectionID: "28536583-ebfe-47d8-bbff-1ea61aff2989",
+}
+[07:59:00.172] INFO (#107476): mcp connected {
+  server: "dynamic",
+  tools: 1,
+} {
+  server: "dynamic",
+  directory: "/home/ubuntu/zerocode-cli/packages/core/test",
+  connectionID: "c06fe48c-959b-4621-afd2-6cb8452c3f0e",
+}
+[07:59:00.178] INFO (#107483): mcp connected {
+  server: "dynamic",
+  tools: 1,
+} {
+  server: "dynamic",
+  directory: "/home/ubuntu/zerocode-cli/packages/core/test",
+  connectionID: "94f34220-fded-4b26-88f3-94176ab90132",
+}
+[07:59:00.184] INFO (#107490): mcp connected {
+  server: "dynamic",
+  tools: 1,
+} {
+  server: "dynamic",
+  directory: "/home/ubuntu/zerocode-cli/packages/core/test",
+  connectionID: "d5e5abbe-156a-456b-ac99-46f4129e8e75",
+}
+[07:59:00.205] INFO (#107527): mcp connected {
+  server: "resources",
+  tools: 1,
+} {
+  server: "resources",
+  directory: "/home/ubuntu/zerocode-cli/packages/core/test",
+  connectionID: "03e3c52c-9266-4387-9320-8b6869b436a8",
+}
+[07:59:00.212] WARN (#107532): mcp connect failed {
+  server: "broken",
+  status: {
+    status: "failed",
+    error: "Invalid MCP server URL: not a url",
+  },
+} {
+  server: "broken",
+  directory: "/home/ubuntu/zerocode-cli/packages/core/test",
+  connectionID: "bcc26278-80f0-40cc-bd73-f0c00f0e81ad",
+}
+[07:59:00.215] INFO (#107533): mcp connected {
+  server: "broken",
+  tools: 1,
+} {
+  server: "broken",
+  directory: "/home/ubuntu/zerocode-cli/packages/core/test",
+  connectionID: "b3260202-4e69-4598-9829-09ecef24db20",
+}
+[07:59:00.293] INFO (#107737): mcp connected {
+  server: "resources",
+  tools: 1,
+} {
+  server: "resources",
+  directory: "/home/ubuntu/zerocode-cli/packages/core/test",
+  connectionID: "7716d1e4-dca9-4742-bf3f-13e8c393a9fa",
+}
+[07:59:00.345] INFO (#107807): mcp connected {
+  server: "resources",
+  tools: 1,
+} {
+  server: "resources",
+  directory: "/home/ubuntu/zerocode-cli/packages/core/test",
+  connectionID: "985ef271-752e-499a-9090-1642eb83eb4a",
+}
+[07:59:00.356] WARN (#107826): mcp transport error {
+  server: "resources",
+  error: "Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32001,\"message\":\"Session not found\"},\"id\":null} (HTTP 404)",
+} {
+  server: "resources",
+  directory: "/home/ubuntu/zerocode-cli/packages/core/test",
+  connectionID: "535ba735-8506-48bc-95d6-78a3af3bc0c4",
+}
+[07:59:00.357] WARN (#107819): mcp connect failed {
+  server: "resources",
+  status: {
+    status: "failed",
+    error: "Error POSTing to endpoint: {\"jsonrpc\":\"2.0\",\"error\":{\"code\":-32001,\"message\":\"Session not found\"},\"id\":null} (HTTP 404)",
+  },
+} {
+  server: "resources",
+  directory: "/home/ubuntu/zerocode-cli/packages/core/test",
+  connectionID: "535ba735-8506-48bc-95d6-78a3af3bc0c4",
+}
+[07:59:00.612] INFO (#108385): mcp connected {
+  server: "resources",
+  tools: 1,
+} {
+  server: "resources",
+  directory: "/home/ubuntu/zerocode-cli/packages/core/test",
+  connectionID: "e041e0c6-ea5d-4720-91fc-86d0271621aa",
+}
+[07:59:00.615] INFO (#108387): mcp connected {
+  server: "resources",
+  tools: 1,
+} {
+  server: "resources",
+  directory: "/home/ubuntu/zerocode-cli/packages/core/test",
+  connectionID: "9ee26ef3-3d24-45f0-98ea-810d3abd3239",
+}
+[07:59:00.619] INFO (#108391): mcp connected {
+  server: "resources",
+  tools: 1,
+} {
+  server: "resources",
+  directory: "/home/ubuntu/zerocode-cli/packages/core/test",
+  connectionID: "e31938b8-6df8-41a4-8677-dd8c3b40f4cb",
+}
+[07:59:00.626] INFO (#108406): mcp connected {
+  server: "resources",
+  tools: 1,
+} {
+  server: "resources",
+  directory: "/home/ubuntu/zerocode-cli/packages/core/test",
+  connectionID: "d50ab330-843e-4af2-b2c4-a6fc355e4a05",
+}
+
+test/plugin.test.ts:
+[00:02:00.000] INFO (#133156): credential updated {
+  credentialID: "cred_1e35e0540001usErdO4ZS8iGYr",
+  integrationID: "refresh-fixture",
+  valueChanged: true,
+  labelChanged: false,
+}
+[07:59:12.229] INFO (#133568): credential activated {
+  integrationID: "activate-fixture",
+  credentialID: "cred_1e35e0560001jfGaeJD22iHvzc",
+}
+
+test/session-create.test.ts:
+[07:59:19.852] INFO (#168028): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:19.852] INFO (#168028): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-LY4D1r/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:19.853] INFO (#168028): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:19.853] INFO (#168028): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:19.864] INFO (#168028): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:59:19.865] INFO (#168028): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:59:20.520] INFO (#171349): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:20.520] INFO (#171349): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-VRz03t/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:20.520] INFO (#171349): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:20.520] INFO (#171349): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:20.531] INFO (#171349): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:59:20.532] INFO (#171349): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:59:20.895] INFO (#172585): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:20.895] INFO (#172585): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-k3tniH/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:20.896] INFO (#172585): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:20.896] INFO (#172585): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:20.906] INFO (#172585): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:59:20.907] INFO (#172585): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+
+test/session-diff.test.ts:
+[07:59:21.553] INFO (#175451): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-hkOw3h/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:21.554] INFO (#175451): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-ZSJkC1/project/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:21.554] INFO (#175451): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-ZSJkC1/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:21.554] INFO (#175451): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:21.554] INFO (#175451): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:21.567] INFO (#175451): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-hkOw3h/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:59:21.568] INFO (#175451): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-hkOw3h/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:59:21.936] ERROR (#174908): 150 |             ["manual.txt", "modified", 1, 1],
+151 |             ["second.txt", "modified", 1, 1],
+152 |             ["third.txt", "added", 1, 0],
+153 |           ])
+154 |           const full = yield* sessions.diff({ sessionID: created.id, from: first })
+155 |           expect(full[0]?.patch).toContain("-first\n+first edited\n")
+      ^
+error: expect(received).toContain(expected)
+
+Expected to contain: "-first\n+first edited\n"
+Received: "Index: first.txt\n===================================================================\n--- first.txt\t\n+++ first.txt\t\n"
+
+      at toContain (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/session-diff.test.ts:155:34
+
+150 |             ["manual.txt", "modified", 1, 1],
+151 |             ["second.txt", "modified", 1, 1],
+152 |             ["third.txt", "added", 1, 0],
+153 |           ])
+154 |           const full = yield* sessions.diff({ sessionID: created.id, from: first })
+155 |           expect(full[0]?.patch).toContain("-first\n+first edited\n")
+      ^
+error: expect(received).toContain(expected)
+
+Expected to contain: "-first\n+first edited\n"
+Received: "Index: first.txt\n===================================================================\n--- first.txt\t\n+++ first.txt\t\n"
+
+      at toContain (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/session-diff.test.ts:155:34
+      at ~effect/Effect/successCont (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:1017:28)
+      at runLoop (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:476:88)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:425:23)
+      at runInAsyncScope (node:async_hooks:207:23)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:414:29)
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:836:17
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:2338:17
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:446:19)
+(fail) Session.diff > diffs the busy period containing a user message and ranges across later turns [586.10ms]
+
+test/session-model-transport-live.test.ts:
+[07:59:24.291] WARN (#191796): session websocket connect failed; using http {
+  sessionTransport: "websocket",
+  phase: "connect",
+  delivery: "not-sent",
+  code: undefined,
+}
+
+test/session-model-transport.test.ts:
+[00:00:15.000] WARN (#191928): session websocket connect failed; using http {
+  sessionTransport: "websocket",
+  phase: "connect",
+  delivery: "not-sent",
+  code: "connect-timeout",
+}
+[07:59:24.340] WARN (#191957): session websocket connect failed; using http {
+  sessionTransport: "websocket",
+  phase: "connect",
+  delivery: "not-sent",
+  code: undefined,
+}
+[07:59:24.345] WARN (#191977): session websocket failed repeatedly; using http {
+  sessionTransport: "websocket",
+  failures: 5,
+}
+[07:59:24.348] WARN (#191981): session websocket request too large; using http {
+  sessionTransport: "websocket",
+  phase: "close",
+  delivery: "rejected",
+  code: "1009",
+}
+
+test/session-move.test.ts:
+[07:59:24.679] INFO (#193652): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-2gQGaS/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:24.679] INFO (#193652): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-inWqHi/destination/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:24.679] INFO (#193652): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-inWqHi/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:24.680] INFO (#193652): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:24.680] INFO (#193652): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:24.859] INFO (#193652): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-2gQGaS/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:59:24.873] INFO (#193652): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-2gQGaS/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:59:24.947] INFO (#194204): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-2gQGaS/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:24.947] INFO (#194204): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-inWqHi/source/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:24.948] INFO (#194204): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-inWqHi/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:24.948] INFO (#194204): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:24.948] INFO (#194204): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:24.958] INFO (#194204): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-2gQGaS/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:59:24.959] INFO (#194204): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-2gQGaS/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:59:25.328] INFO (#196003): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-hwl2Hl/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:25.328] INFO (#196003): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-O8YiUZ/destination/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:25.328] INFO (#196003): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-O8YiUZ/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:25.329] INFO (#196003): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:25.329] INFO (#196003): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:25.451] INFO (#196003): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-hwl2Hl/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:59:25.453] INFO (#196003): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-hwl2Hl/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:59:25.543] INFO (#196556): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-hwl2Hl/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:25.543] INFO (#196556): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-O8YiUZ/source/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:25.543] INFO (#196556): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-O8YiUZ/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:25.543] INFO (#196556): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:25.543] INFO (#196556): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:25.556] INFO (#196556): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-hwl2Hl/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:59:25.557] INFO (#196556): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-hwl2Hl/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:59:27.441] INFO (#210682): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:27.442] INFO (#210682): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-zrcfcS/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:27.442] INFO (#210682): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:27.442] INFO (#210682): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:27.521] INFO (#210682): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:59:27.582] INFO (#210682): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:59:27.675] INFO (#211232): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:27.675] INFO (#211232): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-zrcfcS/source/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:27.675] INFO (#211232): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-zrcfcS/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:27.675] INFO (#211232): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:27.676] INFO (#211232): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+
+test/session-revert.test.ts:
+[07:59:31.083] INFO (#227608): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-8xgGwV/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:31.083] INFO (#227608): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-6lZkvK/project/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:31.083] INFO (#227608): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-6lZkvK/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:31.084] INFO (#227608): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:31.084] INFO (#227608): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:31.095] INFO (#227608): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-8xgGwV/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:59:31.096] INFO (#227608): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-8xgGwV/config/skills",
+  type: "file",
+  ignores: 0,
+}
+
+test/session-shell.test.ts:
+[07:59:50.237] INFO (#401853): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:50.237] INFO (#401853): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-VV9OhL/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:50.237] INFO (#401853): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:50.238] INFO (#401853): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:50.248] INFO (#401853): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:59:50.249] INFO (#401853): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:59:50.648] INFO (#403116): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:50.648] INFO (#403116): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-tiPhT1/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:50.648] INFO (#403116): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:50.648] INFO (#403116): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:50.658] INFO (#403116): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:59:50.658] INFO (#403116): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:59:51.040] INFO (#404370): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:51.041] INFO (#404370): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-9uRAjy/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:51.041] INFO (#404370): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:51.041] INFO (#404370): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:51.052] INFO (#404370): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:59:51.053] INFO (#404370): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:59:51.447] INFO (#405634): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:51.447] INFO (#405634): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-oylQuH/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:51.447] INFO (#405634): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:51.448] INFO (#405634): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:51.456] INFO (#405634): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:59:51.457] INFO (#405634): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:59:51.797] INFO (#406872): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:51.797] INFO (#406872): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-ktIXuK/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:51.797] INFO (#406872): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:51.798] INFO (#406872): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:51.807] INFO (#406872): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:59:51.808] INFO (#406872): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:59:52.196] INFO (#408125): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:52.197] INFO (#408125): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-cmg4a1/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:52.197] INFO (#408125): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:52.197] INFO (#408125): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:52.206] INFO (#408125): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:59:52.207] INFO (#408125): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:59:52.598] INFO (#409384): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:52.598] INFO (#409384): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-hETkaO/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:52.598] INFO (#409384): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:52.598] INFO (#409384): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:52.607] INFO (#409384): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:59:52.608] INFO (#409384): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:59:52.970] INFO (#410656): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:52.970] INFO (#410656): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-GD49Lv/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:52.970] INFO (#410656): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:52.971] INFO (#410656): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:52.981] INFO (#410656): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:59:52.982] INFO (#410656): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:59:53.389] INFO (#411924): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:53.389] INFO (#411924): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-nXifTG/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:53.389] INFO (#411924): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:53.389] INFO (#411924): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:53.398] INFO (#411924): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:59:53.399] INFO (#411924): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+[07:59:53.855] INFO (#413170): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:53.855] INFO (#413170): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-mMfkmI/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:53.855] INFO (#413170): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:53.856] INFO (#413170): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[07:59:53.867] INFO (#413170): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[07:59:53.868] INFO (#413170): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+
+test/shell-parse.test.ts:
+159 | 
+160 |     if (process.platform !== "win32") {
+161 |       const rootHome = await Effect.runPromise(
+162 |         ShellParse.scan("cd ~root/secret && cd '~root'", "/bin/bash", "/workspace"),
+163 |       )
+164 |       expect(rootHome.directories).toEqual([
+                                         ^
+error: expect(received).toEqual(expected)
+
+  [
+-   "/root/secret",
++   "/tmp/oc-EO0xHu/secret",
+    "~root",
+  ]
+
+- Expected  - 1
++ Received  + 1
+
+      at <anonymous> (/home/ubuntu/zerocode-cli/packages/core/test/shell-parse.test.ts:164:36)
+(fail) ShellParse > extracts static directory targets across escapes, end-of-options, literal dollars, and precommands [1.20ms]
+
+test/snapshot.test.ts:
+[08:00:04.029] ERROR (#462894): 333 |             paths: names.map((name) => RelativePath.make(name)),
+334 |           })
+335 |           expect(diffs.map((diff) => diff.file).toSorted()).toEqual(names.toSorted())
+336 |           expect(
+337 |             diffs.every((diff) => diff.additions === 1 && diff.deletions === 1 && diff.patch.includes("+two")),
+338 |           ).toBe(true)
+      ^
+error: expect(received).toBe(expected)
+
+Expected: true
+Received: false
+
+      at toBe (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/snapshot.test.ts:338:13
+
+333 |             paths: names.map((name) => RelativePath.make(name)),
+334 |           })
+335 |           expect(diffs.map((diff) => diff.file).toSorted()).toEqual(names.toSorted())
+336 |           expect(
+337 |             diffs.every((diff) => diff.additions === 1 && diff.deletions === 1 && diff.patch.includes("+two")),
+338 |           ).toBe(true)
+      ^
+error: expect(received).toBe(expected)
+
+Expected: true
+Received: false
+
+      at toBe (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/snapshot.test.ts:338:13
+      at ~effect/Effect/successCont (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:1017:28)
+      at runLoop (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:476:88)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:425:23)
+      at runInAsyncScope (node:async_hooks:207:23)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:414:29)
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:836:17
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:2338:17
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:446:19)
+(fail) Snapshot > restores and diffs a selection too long for one command line [139.57ms]
+
+test/sqlite-workerd.test.ts:
+[08:00:04.765] INFO (#464913): database schema bootstrap started {
+  migrations: 59,
+}
+[08:00:04.774] INFO (#464913): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 9,
+}
+
+test/tool-shell.test.ts:
+[08:00:20.578] INFO (#530172): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-ly4JIY/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:00:20.578] INFO (#530172): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-1UEXAj/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:00:20.578] INFO (#530172): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:00:20.578] INFO (#530172): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:00:20.590] INFO (#530172): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-ly4JIY/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:00:20.591] INFO (#530172): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-ly4JIY/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:00:20.924] INFO (#531421): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-g98ICL/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:00:20.924] INFO (#531421): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-vN3AFo/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:00:20.924] INFO (#531421): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:00:20.925] INFO (#531421): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:00:20.935] INFO (#531421): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-g98ICL/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:00:20.936] INFO (#531421): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-g98ICL/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:00:21.289] INFO (#532664): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-YM8fYT/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:00:21.290] INFO (#532664): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-Atd4cG/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:00:21.290] INFO (#532664): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:00:21.290] INFO (#532664): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:00:21.308] INFO (#532664): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-YM8fYT/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:00:21.309] INFO (#532664): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-YM8fYT/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:00:21.645] INFO (#533907): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-TthHAB/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:00:21.645] INFO (#533907): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-tdzASY/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:00:21.645] INFO (#533907): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:00:21.646] INFO (#533907): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:00:21.656] INFO (#533907): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-TthHAB/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:00:21.657] INFO (#533907): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-TthHAB/config/skills",
+  type: "file",
+  ignores: 0,
+}
+
+test/tool-subagent.test.ts:
+[08:00:40.319] INFO (#600076): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-sD9lD4/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:00:40.319] INFO (#600076): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-I2cosp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:00:40.320] INFO (#600076): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:00:40.320] INFO (#600076): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:00:40.331] INFO (#600076): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-sD9lD4/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:00:40.332] INFO (#600076): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-sD9lD4/config/skills",
+  type: "file",
+  ignores: 0,
+}
+
+test/v1-migration.test.ts:
+[08:00:44.349] INFO (#614436): database schema bootstrap started {
+  migrations: 59,
+}
+[08:00:44.356] INFO (#614436): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 7,
+}
+[08:00:44.363] INFO (#614471): database schema bootstrap started {
+  migrations: 59,
+}
+[08:00:44.369] INFO (#614471): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 6,
+}
+[08:00:44.388] INFO (#614507): database schema bootstrap started {
+  migrations: 59,
+}
+[08:00:44.394] INFO (#614507): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 6,
+}
+[08:00:44.401] WARN (#614507): Reassigned previous V2 session with missing project {
+  sessionID: "ses_orphan",
+  projectID: "missing-project",
+}
+[08:00:44.410] INFO (#614542): database schema bootstrap started {
+  migrations: 59,
+}
+[08:00:44.417] INFO (#614542): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 7,
+}
+[08:00:44.424] INFO (#614577): database schema bootstrap started {
+  migrations: 59,
+}
+[08:00:44.430] INFO (#614577): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 6,
+}
+[08:00:44.434] INFO (#614612): database schema bootstrap started {
+  migrations: 59,
+}
+[08:00:44.440] INFO (#614612): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 6,
+}
+[08:00:44.444] WARN (#614612): Replaced relative V1 session directory {
+  sessionID: "ses_test",
+  directory: ".",
+  resolved: "/repo",
+}
+[08:00:44.447] INFO (#614647): database schema bootstrap started {
+  migrations: 59,
+}
+[08:00:44.453] INFO (#614647): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 6,
+}
+[08:00:44.456] WARN (#614647): Replaced relative V1 session directory {
+  sessionID: "ses_test",
+  directory: "src",
+  resolved: "/repo",
+}
+[08:00:44.459] INFO (#614682): database schema bootstrap started {
+  migrations: 59,
+}
+[08:00:44.465] INFO (#614682): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 6,
+}
+[08:00:44.468] WARN (#614682): Replaced relative V1 session directory {
+  sessionID: "ses_test",
+  directory: ".",
+  resolved: "C:/repo",
+}
+[08:00:44.471] INFO (#614717): database schema bootstrap started {
+  migrations: 59,
+}
+[08:00:44.477] INFO (#614717): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 6,
+}
+[08:00:44.480] WARN (#614717): Replaced relative V1 session directory {
+  sessionID: "ses_test",
+  directory: ".",
+  resolved: "//server/share/repo",
+}
+[08:00:44.482] INFO (#614752): database schema bootstrap started {
+  migrations: 59,
+}
+[08:00:44.489] INFO (#614752): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 7,
+}
+[08:00:44.494] INFO (#614787): database schema bootstrap started {
+  migrations: 59,
+}
+[08:00:44.501] INFO (#614787): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 7,
+}
+[08:00:44.506] INFO (#614822): database schema bootstrap started {
+  migrations: 59,
+}
+[08:00:44.513] INFO (#614822): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 7,
+}
+[08:00:44.518] INFO (#614857): database schema bootstrap started {
+  migrations: 59,
+}
+[08:00:44.524] INFO (#614857): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 6,
+}
+[08:00:44.527] WARN (#614857): Replaced relative V1 session directory {
+  sessionID: "ses_test",
+  directory: ".",
+  resolved: "",
+}
+[08:00:44.530] INFO (#614892): database schema bootstrap started {
+  migrations: 59,
+}
+[08:00:44.536] INFO (#614892): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 6,
+}
+[08:00:44.541] WARN (#614892): Reassigned V1 session with missing project {
+  sessionID: "ses_orphan",
+  projectID: "missing-project",
+}
+[08:00:44.543] INFO (#614930): database schema bootstrap started {
+  migrations: 59,
+}
+[08:00:44.549] INFO (#614930): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 6,
+}
+[08:00:44.552] WARN (#614930): Reassigned V1 session with missing project {
+  sessionID: "ses_orphan",
+  projectID: "missing-project",
+}
+[08:00:44.552] WARN (#614930): Replaced relative V1 session directory {
+  sessionID: "ses_orphan",
+  directory: ".",
+  resolved: "/",
+}
+[08:00:44.563] INFO (#614965): database schema bootstrap started {
+  migrations: 59,
+}
+[08:00:44.569] INFO (#614965): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 6,
+}
+[08:00:44.586] WARN (#614965): Reassigned V1 session with missing project {
+  sessionID: "ses_orphan",
+  projectID: "missing-project",
+}
+[08:00:44.599] INFO (#615080): database schema bootstrap started {
+  migrations: 59,
+}
+[08:00:44.606] INFO (#615080): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 7,
+}
+[08:00:44.614] INFO (#615120): database schema bootstrap started {
+  migrations: 59,
+}
+[08:00:44.621] INFO (#615120): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 7,
+}
+[08:00:44.629] ERROR (#615138): V1 migration failed {
+  cause: {
+    _id: "Cause",
+    reasons: [
+      [Object ...]
+    ],
+  },
+}
+[08:00:44.648] INFO (#615165): database schema bootstrap started {
+  migrations: 59,
+}
+[08:00:44.655] INFO (#615165): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 7,
+}
+[08:00:44.668] INFO (#615208): database schema bootstrap started {
+  migrations: 59,
+}
+[08:00:44.674] INFO (#615208): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 6,
+}
+
+test/vcs.test.ts:
+[08:00:45.257] ERROR (#616307): 634 |           ),
+635 |         )
+636 | 
+637 |         const diff = yield* vcs.diff("working")
+638 |         const status = yield* vcs.status()
+639 |         expect(spawned).toBeLessThan(count)
+      ^
+error: expect(received).toBeLessThan(expected)
+
+Expected: < 40
+Received: 58
+
+      at toBeLessThan (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/vcs.test.ts:639:25
+
+634 |           ),
+635 |         )
+636 | 
+637 |         const diff = yield* vcs.diff("working")
+638 |         const status = yield* vcs.status()
+639 |         expect(spawned).toBeLessThan(count)
+      ^
+error: expect(received).toBeLessThan(expected)
+
+Expected: < 40
+Received: 58
+
+      at toBeLessThan (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/vcs.test.ts:639:25
+      at ~effect/Effect/successCont (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:1017:28)
+      at runLoop (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:476:88)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:425:23)
+      at runInAsyncScope (node:async_hooks:207:23)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:414:29)
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:836:17
+(fail) Vcs > batches untracked files without spawning Git per file or touching the index [186.28ms]
+[08:00:48.202] ERROR (#617049): 711 |         expect(folder.diff).toHaveLength(53)
+712 |         expect(folder.diff.find((row) => row.file === "research/7.md")).toMatchObject({
+713 |           status: "added",
+714 |           additions: 1,
+715 |         })
+716 |         expect(folder.diff.find((row) => row.file === "research/7.md")?.patch).toContain("+line 7")
+      ^
+error: expect(received).toContain(expected)
+
+Expected to contain: "+line 7"
+Received: "\u001B[1mdiff --git a/research/7.md b/research/7.md\u001B[m\n\u001B[1mnew file mode 100644\u001B[m\n\u001B[1mindex 0000000..b022db6\u001B[m\n\u001B[1m--- /dev/null\u001B[m\n\u001B[1m+++ b/research/7.md\u001B[m\n\u001B[36m@@ -0,0 +1 @@\u001B[m\n\u001B[32m+\u001B[m\u001B[32mline 7\u001B[m\n"
+
+      at toContain (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/vcs.test.ts:716:80
+
+711 |         expect(folder.diff).toHaveLength(53)
+712 |         expect(folder.diff.find((row) => row.file === "research/7.md")).toMatchObject({
+713 |           status: "added",
+714 |           additions: 1,
+715 |         })
+716 |         expect(folder.diff.find((row) => row.file === "research/7.md")?.patch).toContain("+line 7")
+      ^
+error: expect(received).toContain(expected)
+
+Expected to contain: "+line 7"
+Received: "\u001B[1mdiff --git a/research/7.md b/research/7.md\u001B[m\n\u001B[1mnew file mode 100644\u001B[m\n\u001B[1mindex 0000000..b022db6\u001B[m\n\u001B[1m--- /dev/null\u001B[m\n\u001B[1m+++ b/research/7.md\u001B[m\n\u001B[36m@@ -0,0 +1 @@\u001B[m\n\u001B[32m+\u001B[m\u001B[32mline 7\u001B[m\n"
+
+      at toContain (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/vcs.test.ts:716:80
+      at ~effect/Effect/successCont (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:1017:28)
+      at runLoop (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:476:88)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:425:23)
+      at runInAsyncScope (node:async_hooks:207:23)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:414:29)
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:836:17
+(fail) Vcs > lists an untracked folder as one entry and its entries from inside it when asked for folders [2944.99ms]
+[08:00:48.901] ERROR (#632086): 822 |         expect(diff.map((item) => ({ file: item.file, status: item.status }))).toEqual([
+823 |           { file: "keep.txt", status: "modified" },
+824 |           { file: "spaced name.txt", status: "added" },
+825 |         ])
+826 |         expect(diff[0].patch).toContain("-two")
+827 |         expect(diff[0].patch).toContain("+three")
+      ^
+error: expect(received).toContain(expected)
+
+Expected to contain: "+three"
+Received: "\u001B[1mdiff --git a/keep.txt b/keep.txt\u001B[m\n\u001B[1mindex 814f4a4..4c7442b 100644\u001B[m\n\u001B[1m--- a/keep.txt\u001B[m\n\u001B[1m+++ b/keep.txt\u001B[m\n\u001B[36m@@ -1,2 +1,2 @@\u001B[m\n one\u001B[m\n\u001B[31m-two\u001B[m\n\u001B[32m+\u001B[m\u001B[32mthree\u001B[m\n"
+
+      at toContain (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/vcs.test.ts:827:31
+
+822 |         expect(diff.map((item) => ({ file: item.file, status: item.status }))).toEqual([
+823 |           { file: "keep.txt", status: "modified" },
+824 |           { file: "spaced name.txt", status: "added" },
+825 |         ])
+826 |         expect(diff[0].patch).toContain("-two")
+827 |         expect(diff[0].patch).toContain("+three")
+      ^
+error: expect(received).toContain(expected)
+
+Expected to contain: "+three"
+Received: "\u001B[1mdiff --git a/keep.txt b/keep.txt\u001B[m\n\u001B[1mindex 814f4a4..4c7442b 100644\u001B[m\n\u001B[1m--- a/keep.txt\u001B[m\n\u001B[1m+++ b/keep.txt\u001B[m\n\u001B[36m@@ -1,2 +1,2 @@\u001B[m\n one\u001B[m\n\u001B[31m-two\u001B[m\n\u001B[32m+\u001B[m\u001B[32mthree\u001B[m\n"
+
+      at toContain (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/vcs.test.ts:827:31
+      at ~effect/Effect/successCont (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:1017:28)
+      at runLoop (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:476:88)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:425:23)
+      at runInAsyncScope (node:async_hooks:207:23)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:414:29)
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:836:17
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:2338:17
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:446:19)
+(fail) Vcs > diffs the working copy against HEAD with patches [44.03ms]
+[08:00:48.989] ERROR (#632507): 861 |         })
+862 |         const vcs = yield* Vcs.Service
+863 |         expect(yield* vcs.status()).toEqual([{ file: "new.txt", additions: 1, deletions: 0, status: "added" }])
+864 |         const diff = yield* vcs.diff("working")
+865 |         expect(diff).toHaveLength(1)
+866 |         expect(diff[0].patch).toContain("+hello")
+      ^
+error: expect(received).toContain(expected)
+
+Expected to contain: "+hello"
+Received: "\u001B[1mdiff --git a/new.txt b/new.txt\u001B[m\n\u001B[1mnew file mode 100644\u001B[m\n\u001B[1mindex 0000000..ce01362\u001B[m\n\u001B[1m--- /dev/null\u001B[m\n\u001B[1m+++ b/new.txt\u001B[m\n\u001B[36m@@ -0,0 +1 @@\u001B[m\n\u001B[32m+\u001B[m\u001B[32mhello\u001B[m\n"
+
+      at toContain (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/vcs.test.ts:866:31
+
+861 |         })
+862 |         const vcs = yield* Vcs.Service
+863 |         expect(yield* vcs.status()).toEqual([{ file: "new.txt", additions: 1, deletions: 0, status: "added" }])
+864 |         const diff = yield* vcs.diff("working")
+865 |         expect(diff).toHaveLength(1)
+866 |         expect(diff[0].patch).toContain("+hello")
+      ^
+error: expect(received).toContain(expected)
+
+Expected to contain: "+hello"
+Received: "\u001B[1mdiff --git a/new.txt b/new.txt\u001B[m\n\u001B[1mnew file mode 100644\u001B[m\n\u001B[1mindex 0000000..ce01362\u001B[m\n\u001B[1m--- /dev/null\u001B[m\n\u001B[1m+++ b/new.txt\u001B[m\n\u001B[36m@@ -0,0 +1 @@\u001B[m\n\u001B[32m+\u001B[m\u001B[32mhello\u001B[m\n"
+
+      at toContain (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/vcs.test.ts:866:31
+      at ~effect/Effect/successCont (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:1017:28)
+      at runLoop (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:476:88)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:425:23)
+      at runInAsyncScope (node:async_hooks:207:23)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:414:29)
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:836:17
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:2338:17
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:446:19)
+(fail) Vcs > diffs before the first commit [38.06ms]
+[08:00:49.076] ERROR (#632678): 888 |         })
+889 |         const diff = yield* vcs.diff("branch")
+890 |         expect(diff.map((item) => ({ file: item.file, status: item.status }))).toEqual([
+891 |           { file: "file.txt", status: "modified" },
+892 |         ])
+893 |         expect(diff[0].patch).toContain("+two")
+      ^
+error: expect(received).toContain(expected)
+
+Expected to contain: "+two"
+Received: "\u001B[1mdiff --git a/file.txt b/file.txt\u001B[m\n\u001B[1mindex 5626abf..814f4a4 100644\u001B[m\n\u001B[1m--- a/file.txt\u001B[m\n\u001B[1m+++ b/file.txt\u001B[m\n\u001B[36m@@ -1 +1,2 @@\u001B[m\n one\u001B[m\n\u001B[32m+\u001B[m\u001B[32mtwo\u001B[m\n"
+
+      at toContain (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/vcs.test.ts:893:31
+
+888 |         })
+889 |         const diff = yield* vcs.diff("branch")
+890 |         expect(diff.map((item) => ({ file: item.file, status: item.status }))).toEqual([
+891 |           { file: "file.txt", status: "modified" },
+892 |         ])
+893 |         expect(diff[0].patch).toContain("+two")
+      ^
+error: expect(received).toContain(expected)
+
+Expected to contain: "+two"
+Received: "\u001B[1mdiff --git a/file.txt b/file.txt\u001B[m\n\u001B[1mindex 5626abf..814f4a4 100644\u001B[m\n\u001B[1m--- a/file.txt\u001B[m\n\u001B[1m+++ b/file.txt\u001B[m\n\u001B[36m@@ -1 +1,2 @@\u001B[m\n one\u001B[m\n\u001B[32m+\u001B[m\u001B[32mtwo\u001B[m\n"
+
+      at toContain (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/vcs.test.ts:893:31
+      at ~effect/Effect/successCont (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:1017:28)
+      at runLoop (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:476:88)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:425:23)
+      at runInAsyncScope (node:async_hooks:207:23)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:414:29)
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:836:17
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:2338:17
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:446:19)
+(fail) Vcs > diffs a feature branch against the default branch [86.95ms]
+[08:00:49.137] ERROR (#633010): 910 |           await fs.writeFile(path.join(directory, "untracked.txt"), "untracked\n")
+911 |         })
+912 |         const vcs = yield* Vcs.Service
+913 |         const committed = yield* vcs.diff("committed")
+914 |         expect(committed.map((row) => row.file)).toEqual(["file.txt"])
+915 |         expect(committed[0].patch).toContain("-base\n+committed")
+      ^
+error: expect(received).toContain(expected)
+
+Expected to contain: "-base\n+committed"
+Received: "\u001B[1mdiff --git a/file.txt b/file.txt\u001B[m\n\u001B[1mindex df967b9..d0fe822 100644\u001B[m\n\u001B[1m--- a/file.txt\u001B[m\n\u001B[1m+++ b/file.txt\u001B[m\n\u001B[36m@@ -1 +1 @@\u001B[m\n\u001B[31m-base\u001B[m\n\u001B[32m+\u001B[m\u001B[32mcommitted\u001B[m\n"
+
+      at toContain (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/vcs.test.ts:915:36
+
+910 |           await fs.writeFile(path.join(directory, "untracked.txt"), "untracked\n")
+911 |         })
+912 |         const vcs = yield* Vcs.Service
+913 |         const committed = yield* vcs.diff("committed")
+914 |         expect(committed.map((row) => row.file)).toEqual(["file.txt"])
+915 |         expect(committed[0].patch).toContain("-base\n+committed")
+      ^
+error: expect(received).toContain(expected)
+
+Expected to contain: "-base\n+committed"
+Received: "\u001B[1mdiff --git a/file.txt b/file.txt\u001B[m\n\u001B[1mindex df967b9..d0fe822 100644\u001B[m\n\u001B[1m--- a/file.txt\u001B[m\n\u001B[1m+++ b/file.txt\u001B[m\n\u001B[36m@@ -1 +1 @@\u001B[m\n\u001B[31m-base\u001B[m\n\u001B[32m+\u001B[m\u001B[32mcommitted\u001B[m\n"
+
+      at toContain (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/vcs.test.ts:915:36
+      at ~effect/Effect/successCont (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:1017:28)
+      at runLoop (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:476:88)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:425:23)
+      at runInAsyncScope (node:async_hooks:207:23)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:414:29)
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:836:17
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:2338:17
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:446:19)
+(fail) Vcs > separates committed, combined, and staged/unstaged/untracked working changes [61.07ms]
+[08:00:49.210] ERROR (#633218): 935 |           await commitAll(directory, "feature")
+936 |           await fs.writeFile(path.join(directory, "file.txt"), "base\n")
+937 |         })
+938 |         const vcs = yield* Vcs.Service
+939 |         expect(yield* vcs.diff("branch")).toEqual([])
+940 |         expect((yield* vcs.diff("committed"))[0].patch).toContain("-base\n+committed")
+      ^
+error: expect(received).toContain(expected)
+
+Expected to contain: "-base\n+committed"
+Received: "\u001B[1mdiff --git a/file.txt b/file.txt\u001B[m\n\u001B[1mindex df967b9..d0fe822 100644\u001B[m\n\u001B[1m--- a/file.txt\u001B[m\n\u001B[1m+++ b/file.txt\u001B[m\n\u001B[36m@@ -1 +1 @@\u001B[m\n\u001B[31m-base\u001B[m\n\u001B[32m+\u001B[m\u001B[32mcommitted\u001B[m\n"
+
+      at toContain (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/vcs.test.ts:940:57
+
+935 |           await commitAll(directory, "feature")
+936 |           await fs.writeFile(path.join(directory, "file.txt"), "base\n")
+937 |         })
+938 |         const vcs = yield* Vcs.Service
+939 |         expect(yield* vcs.diff("branch")).toEqual([])
+940 |         expect((yield* vcs.diff("committed"))[0].patch).toContain("-base\n+committed")
+      ^
+error: expect(received).toContain(expected)
+
+Expected to contain: "-base\n+committed"
+Received: "\u001B[1mdiff --git a/file.txt b/file.txt\u001B[m\n\u001B[1mindex df967b9..d0fe822 100644\u001B[m\n\u001B[1m--- a/file.txt\u001B[m\n\u001B[1m+++ b/file.txt\u001B[m\n\u001B[36m@@ -1 +1 @@\u001B[m\n\u001B[31m-base\u001B[m\n\u001B[32m+\u001B[m\u001B[32mcommitted\u001B[m\n"
+
+      at toContain (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/vcs.test.ts:940:57
+      at ~effect/Effect/successCont (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:1017:28)
+      at runLoop (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:476:88)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:425:23)
+      at runInAsyncScope (node:async_hooks:207:23)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:414:29)
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:836:17
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:2338:17
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:446:19)
+(fail) Vcs > keeps a locally undone commit visible only in committed and working modes [72.55ms]
+[08:00:49.459] ERROR (#634027): 973 |           await fs.writeFile(path.join(directory, "file.txt"), "dirty\n")
+974 |         })
+975 |         const vcs = yield* Vcs.Service
+976 |         const base = yield* vcs.base()
+977 |         expect(base).toEqual({ name: "main", ref: "refs/remotes/origin/main", source: "default" })
+978 |         expect((yield* vcs.diff("committed", { base: base?.ref }))[0].patch).toContain("-base\n+committed")
+      ^
+error: expect(received).toContain(expected)
+
+Expected to contain: "-base\n+committed"
+Received: "\u001B[1mdiff --git a/file.txt b/file.txt\u001B[m\n\u001B[1mindex df967b9..d0fe822 100644\u001B[m\n\u001B[1m--- a/file.txt\u001B[m\n\u001B[1m+++ b/file.txt\u001B[m\n\u001B[36m@@ -1 +1 @@\u001B[m\n\u001B[31m-base\u001B[m\n\u001B[32m+\u001B[m\u001B[32mcommitted\u001B[m\n"
+
+      at toContain (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/vcs.test.ts:978:78
+
+973 |           await fs.writeFile(path.join(directory, "file.txt"), "dirty\n")
+974 |         })
+975 |         const vcs = yield* Vcs.Service
+976 |         const base = yield* vcs.base()
+977 |         expect(base).toEqual({ name: "main", ref: "refs/remotes/origin/main", source: "default" })
+978 |         expect((yield* vcs.diff("committed", { base: base?.ref }))[0].patch).toContain("-base\n+committed")
+      ^
+error: expect(received).toContain(expected)
+
+Expected to contain: "-base\n+committed"
+Received: "\u001B[1mdiff --git a/file.txt b/file.txt\u001B[m\n\u001B[1mindex df967b9..d0fe822 100644\u001B[m\n\u001B[1m--- a/file.txt\u001B[m\n\u001B[1m+++ b/file.txt\u001B[m\n\u001B[36m@@ -1 +1 @@\u001B[m\n\u001B[31m-base\u001B[m\n\u001B[32m+\u001B[m\u001B[32mcommitted\u001B[m\n"
+
+      at toContain (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/vcs.test.ts:978:78
+      at ~effect/Effect/successCont (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:1017:28)
+      at runLoop (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:476:88)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:425:23)
+      at runInAsyncScope (node:async_hooks:207:23)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:414:29)
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:836:17
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:2338:17
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:446:19)
+(fail) Vcs > keeps unpushed default-branch commits in the resolved review [154.02ms]
+[08:00:49.545] ERROR (#634283): 1008 |             { file: "nested/old.txt", status: "deleted" },
+1009 |           ])
+1010 |           expect(committed[0].patch).toContain("-delete me")
+1011 |           expect(committed[1]).toMatchObject({ additions: 0, deletions: 0 })
+1012 |           expect(committed[1].patch).toContain("Binary files")
+1013 |           expect(committed[2].patch).toContain("+rename me")
+       ^
+error: expect(received).toContain(expected)
+
+Expected to contain: "+rename me"
+Received: "\u001B[1mdiff --git a/nested/new.txt b/nested/new.txt\u001B[m\n\u001B[1mnew file mode 100644\u001B[m\n\u001B[1mindex 0000000..43372ed\u001B[m\n\u001B[1m--- /dev/null\u001B[m\n\u001B[1m+++ b/nested/new.txt\u001B[m\n\u001B[36m@@ -0,0 +1 @@\u001B[m\n\u001B[32m+\u001B[m\u001B[32mrename me\u001B[m\n"
+
+      at toContain (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/vcs.test.ts:1013:38
+
+1008 |             { file: "nested/old.txt", status: "deleted" },
+1009 |           ])
+1010 |           expect(committed[0].patch).toContain("-delete me")
+1011 |           expect(committed[1]).toMatchObject({ additions: 0, deletions: 0 })
+1012 |           expect(committed[1].patch).toContain("Binary files")
+1013 |           expect(committed[2].patch).toContain("+rename me")
+       ^
+error: expect(received).toContain(expected)
+
+Expected to contain: "+rename me"
+Received: "\u001B[1mdiff --git a/nested/new.txt b/nested/new.txt\u001B[m\n\u001B[1mnew file mode 100644\u001B[m\n\u001B[1mindex 0000000..43372ed\u001B[m\n\u001B[1m--- /dev/null\u001B[m\n\u001B[1m+++ b/nested/new.txt\u001B[m\n\u001B[36m@@ -0,0 +1 @@\u001B[m\n\u001B[32m+\u001B[m\u001B[32mrename me\u001B[m\n"
+
+      at toContain (unknown:1:1)
+      at /home/ubuntu/zerocode-cli/packages/core/test/vcs.test.ts:1013:38
+      at ~effect/Effect/successCont (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:1017:28)
+      at runLoop (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:476:88)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:425:23)
+      at runInAsyncScope (node:async_hooks:207:23)
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:414:29)
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:836:17
+      at /home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:2338:17
+      at evaluate (/home/ubuntu/zerocode-cli/node_modules/.bun/effect@4.1.0/node_modules/effect/dist/internal/effect.js:446:19)
+(fail) Vcs > scopes committed diffs to nested paths and retains binary, rename, and deletion metadata [86.01ms]
+
+test/plugin/module.test.ts:
+[08:01:20.103] INFO (#728718): setup log from plugin
+
+test/plugin/supervisor-reload.test.ts:
+[08:01:40.727] INFO (#888835): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-8zc91m/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:40.727] INFO (#888835): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-fYOHeV/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:40.727] INFO (#888835): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:40.727] INFO (#888835): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:40.742] INFO (#888835): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-8zc91m/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:01:40.743] INFO (#888835): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-8zc91m/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:01:40.744] INFO (#888835): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-fYOHeV/.opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:01:40.745] INFO (#888835): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-fYOHeV/.opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:01:40.934] INFO (#888835): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-8zc91m/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:40.935] INFO (#888835): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-fYOHeV/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:40.935] INFO (#888835): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:40.935] INFO (#888835): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:40.946] INFO (#888835): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-8zc91m/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:01:40.947] INFO (#888835): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-8zc91m/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:01:40.947] INFO (#888835): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-fYOHeV/.opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:01:40.948] INFO (#888835): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-fYOHeV/.opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:01:41.255] INFO (#888835): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-8zc91m/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:41.255] INFO (#888835): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-fYOHeV/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:41.255] INFO (#888835): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:41.255] INFO (#888835): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:41.266] INFO (#888835): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-8zc91m/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:01:41.267] INFO (#888835): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-8zc91m/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:01:41.267] INFO (#888835): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-fYOHeV/.opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:01:41.268] INFO (#888835): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-fYOHeV/.opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:01:41.599] INFO (#890091): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-fZJdS7/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:41.599] INFO (#890091): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-Vt0fuf/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:41.599] INFO (#890091): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:41.600] INFO (#890091): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:41.613] INFO (#890091): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-fZJdS7/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:01:41.614] INFO (#890091): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-fZJdS7/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:01:41.615] INFO (#890091): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-Vt0fuf/.opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:01:41.615] INFO (#890091): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-Vt0fuf/.opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:01:41.805] INFO (#890091): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-fZJdS7/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:41.805] INFO (#890091): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-Vt0fuf/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:41.805] INFO (#890091): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:41.805] INFO (#890091): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:41.816] INFO (#890091): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-fZJdS7/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:01:41.817] INFO (#890091): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-fZJdS7/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:01:41.817] INFO (#890091): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-Vt0fuf/.opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:01:41.818] INFO (#890091): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-Vt0fuf/.opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:01:42.116] INFO (#890091): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-fZJdS7/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:42.117] INFO (#890091): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-Vt0fuf/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:42.117] INFO (#890091): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:42.117] INFO (#890091): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:42.129] INFO (#890091): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-fZJdS7/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:01:42.130] INFO (#890091): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-fZJdS7/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:01:42.130] INFO (#890091): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-Vt0fuf/.opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:01:42.131] INFO (#890091): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-Vt0fuf/.opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:01:42.432] INFO (#891341): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-sDKPu7/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:42.432] INFO (#891341): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-RIZd6S/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:42.432] INFO (#891341): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:42.432] INFO (#891341): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:42.445] INFO (#891341): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-sDKPu7/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:01:42.446] INFO (#891341): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-sDKPu7/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:01:42.446] INFO (#891341): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-RIZd6S/.opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:01:42.447] INFO (#891341): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-RIZd6S/.opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:01:42.629] INFO (#891341): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-sDKPu7/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:42.629] INFO (#891341): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-RIZd6S/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:42.629] INFO (#891341): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:42.629] INFO (#891341): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:42.643] INFO (#891341): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-sDKPu7/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:01:42.644] INFO (#891341): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-sDKPu7/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:01:42.644] INFO (#891341): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-RIZd6S/.opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:01:42.645] INFO (#891341): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-RIZd6S/.opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:01:42.880] INFO (#891341): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-sDKPu7/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:42.880] INFO (#891341): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-RIZd6S/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:42.880] INFO (#891341): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:42.880] INFO (#891341): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:42.891] INFO (#891341): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-sDKPu7/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:01:42.892] INFO (#891341): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-sDKPu7/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:01:42.893] INFO (#891341): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-RIZd6S/.opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:01:42.893] INFO (#891341): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-RIZd6S/.opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:01:43.194] INFO (#892591): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-3AUQgI/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:43.194] INFO (#892591): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-Fr9P5u/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:43.194] INFO (#892591): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:43.194] INFO (#892591): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:43.207] INFO (#892591): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-3AUQgI/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:01:43.209] INFO (#892591): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-3AUQgI/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:01:43.209] INFO (#892591): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-Fr9P5u/.opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:01:43.210] INFO (#892591): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-Fr9P5u/.opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:01:43.290] INFO (#892591): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-3AUQgI/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:43.291] INFO (#892591): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-Fr9P5u/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:43.291] INFO (#892591): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:43.291] INFO (#892591): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:43.302] INFO (#892591): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-3AUQgI/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:01:43.303] INFO (#892591): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-3AUQgI/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:01:43.304] INFO (#892591): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-Fr9P5u/.opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:01:43.305] INFO (#892591): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-Fr9P5u/.opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:01:43.665] INFO (#893782): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-MQJ7KM/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:43.666] INFO (#893782): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-xWsnRS/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:43.666] INFO (#893782): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:43.666] INFO (#893782): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:43.680] INFO (#893782): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-MQJ7KM/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:01:43.682] INFO (#893782): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-MQJ7KM/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:01:43.683] INFO (#893782): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-xWsnRS/.opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:01:43.684] INFO (#893782): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-xWsnRS/.opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:01:43.768] INFO (#893782): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-MQJ7KM/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:43.768] INFO (#893782): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-xWsnRS/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:43.768] INFO (#893782): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:43.768] INFO (#893782): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:43.780] INFO (#893782): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-MQJ7KM/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:01:43.781] INFO (#893782): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-MQJ7KM/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:01:43.782] INFO (#893782): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-xWsnRS/.opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:01:43.783] INFO (#893782): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-xWsnRS/.opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:01:44.081] INFO (#894976): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-MvpJfG/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:44.082] INFO (#894976): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-mntFT6/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:44.082] INFO (#894976): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:44.082] INFO (#894976): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:44.094] INFO (#894976): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-MvpJfG/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:01:44.094] INFO (#894976): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-MvpJfG/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:01:44.095] INFO (#894976): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-mntFT6/.opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:01:44.096] INFO (#894976): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-mntFT6/.opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:01:44.317] INFO (#895162): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-MvpJfG/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:01:44.318] INFO (#895162): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-MvpJfG/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:01:44.319] INFO (#895162): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-mntFT6/.opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:01:44.320] INFO (#895162): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-mntFT6/.opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:01:44.709] INFO (#896117): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-LgDhk5/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:44.709] INFO (#896117): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-WKNm3V/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:44.709] INFO (#896117): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:44.709] INFO (#896117): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:44.724] INFO (#896117): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-LgDhk5/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:01:44.724] INFO (#896117): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-LgDhk5/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:01:44.725] INFO (#896117): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-WKNm3V/.opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:01:44.726] INFO (#896117): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-WKNm3V/.opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:01:44.947] INFO (#896302): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-LgDhk5/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:01:44.954] INFO (#896302): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-LgDhk5/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:01:44.956] INFO (#896302): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-WKNm3V/.opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:01:44.957] INFO (#896302): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-WKNm3V/.opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:01:45.980] INFO (#897626): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-LMn9Cr/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:45.980] INFO (#897626): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-xwP0Ck/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:45.981] INFO (#897626): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:45.981] INFO (#897626): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:45.992] INFO (#897626): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-LMn9Cr/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:01:45.993] INFO (#897626): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-LMn9Cr/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:01:45.994] INFO (#897626): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-xwP0Ck/.opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:01:45.995] INFO (#897626): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-xwP0Ck/.opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:01:46.319] INFO (#897811): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-LMn9Cr/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:01:46.322] INFO (#897811): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-LMn9Cr/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:01:46.323] INFO (#897811): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-xwP0Ck/.opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:01:46.324] INFO (#897811): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-xwP0Ck/.opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:01:46.430] INFO (#897626): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-LMn9Cr/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:46.430] INFO (#897626): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-xwP0Ck/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:46.431] INFO (#897626): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:46.431] INFO (#897626): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:46.532] INFO (#897626): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-LMn9Cr/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:01:46.533] INFO (#897626): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-LMn9Cr/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:01:46.534] INFO (#897626): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-xwP0Ck/.opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:01:46.535] INFO (#897626): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-xwP0Ck/.opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:01:46.642] INFO (#897626): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-LMn9Cr/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:46.657] INFO (#897626): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-xwP0Ck/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:46.657] INFO (#897626): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:46.658] INFO (#897626): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:46.669] INFO (#897626): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-LMn9Cr/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:01:46.670] INFO (#897626): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-LMn9Cr/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:01:46.671] INFO (#897626): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-xwP0Ck/.opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:01:46.672] INFO (#897626): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-xwP0Ck/.opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:01:46.892] INFO (#897972): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-LMn9Cr/config/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:01:46.895] INFO (#897972): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-LMn9Cr/config/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:01:46.895] INFO (#897972): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-xwP0Ck/.opencode/skill",
+  type: "file",
+  ignores: 0,
+}
+[08:01:46.896] INFO (#897972): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-xwP0Ck/.opencode/skills",
+  type: "file",
+  ignores: 0,
+}
+[08:01:47.001] INFO (#897626): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-LMn9Cr/config/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:47.001] INFO (#897626): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-xwP0Ck/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:47.001] INFO (#897626): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:01:47.002] INFO (#897626): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+
+test/effect/layer-node/node-build.test.ts:
+[08:02:08.567] INFO (#915845): database schema bootstrap started {
+  migrations: 59,
+}
+[08:02:08.576] INFO (#915845): database schema bootstrap completed {
+  migrations: 59,
+  durationMs: 9,
+}
+[08:02:08.582] INFO (#915914): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode",
+  type: "directory",
+  ignores: 6,
+}
+[08:02:08.583] INFO (#915918): watcher subscribe {
+  path: "/etc",
+  type: "entries",
+  ignores: 0,
+}
+[08:02:08.583] INFO (#915919): watcher started {
+  path: "/etc",
+  type: "entries",
+  backend: "node",
+  ignores: 0,
+}
+[08:02:08.583] INFO (#915920): watcher subscribe {
+  path: "/",
+  type: "entries",
+  ignores: 0,
+}
+[08:02:08.583] INFO (#915921): watcher started {
+  path: "/",
+  type: "entries",
+  backend: "node",
+  ignores: 0,
+}
+[08:02:08.583] INFO (#915922): watcher subscribe {
+  path: "/tmp",
+  type: "entries",
+  ignores: 0,
+}
+[08:02:08.584] INFO (#915923): watcher started {
+  path: "/tmp",
+  type: "entries",
+  backend: "node",
+  ignores: 0,
+}
+[08:02:08.584] INFO (#915924): watcher subscribe {
+  path: "/tmp/oc-EO0xHu",
+  type: "entries",
+  ignores: 0,
+}
+[08:02:08.584] INFO (#915925): watcher started {
+  path: "/tmp/oc-EO0xHu",
+  type: "entries",
+  backend: "node",
+  ignores: 0,
+}
+[08:02:08.584] INFO (#915926): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp",
+  type: "entries",
+  ignores: 0,
+}
+[08:02:08.584] INFO (#915927): watcher started {
+  path: "/tmp/oc-EO0xHu/tmp",
+  type: "entries",
+  backend: "node",
+  ignores: 0,
+}
+[08:02:08.584] INFO (#915928): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-j4cfpF",
+  type: "entries",
+  ignores: 0,
+}
+[08:02:08.585] INFO (#915929): watcher started {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-j4cfpF",
+  type: "entries",
+  backend: "node",
+  ignores: 0,
+}
+[08:02:08.599] INFO (#915915): watcher started {
+  path: "/tmp/oc-EO0xHu/.config/opencode",
+  type: "directory",
+  backend: "inotify",
+  ignores: 6,
+}
+[08:02:08.604] INFO (#915840): location services booted {
+  directory: "/tmp/oc-EO0xHu/tmp/opencode-core-test-j4cfpF",
+  workspaceID: undefined,
+  durationMs: 40,
+}
+[08:02:08.614] INFO (#915918): watcher stopped {
+  path: "/etc",
+  type: "entries",
+}
+[08:02:08.614] INFO (#915920): watcher stopped {
+  path: "/",
+  type: "entries",
+}
+[08:02:08.614] INFO (#915922): watcher stopped {
+  path: "/tmp",
+  type: "entries",
+}
+[08:02:08.614] INFO (#915924): watcher stopped {
+  path: "/tmp/oc-EO0xHu",
+  type: "entries",
+}
+[08:02:08.614] INFO (#915926): watcher stopped {
+  path: "/tmp/oc-EO0xHu/tmp",
+  type: "entries",
+}
+[08:02:08.614] INFO (#915928): watcher stopped {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-j4cfpF",
+  type: "entries",
+}
+[08:02:08.615] INFO (#915914): watcher stopped {
+  path: "/tmp/oc-EO0xHu/.config/opencode",
+  type: "directory",
+}
+
+test/plugin/provider/claude-agent/plugin.test.ts:
+[08:02:09.594] INFO (#922223): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/.config/opencode/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:02:09.594] INFO (#922223): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/opencode-core-test-oD86Kk/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:02:09.594] INFO (#922223): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/tmp/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+[08:02:09.595] INFO (#922223): watcher subscribe {
+  path: "/tmp/oc-EO0xHu/AGENTS.md",
+  type: "file",
+  ignores: 0,
+}
+
+ 7108 pass
+ 350 skip
+ 14 fail
+ 97051 expect() calls
+Ran 7472 tests across 322 files. [240.22s]
+error: script "test" exited with code 1
+
+EXIT_CODE=1
